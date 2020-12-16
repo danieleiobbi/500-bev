@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-8 mx-auto text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero soluta ab neque dicta, rerum, doloremque perspiciatis sed sint facere eum illo at numquam reprehenderit omnis cum saepe cumque iste iusto.
+                {!! _i("Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sint excepturi in veniam reprehenderit perspiciatis, nulla assumenda optio est eius minima, similique autem repellat cumque provident aperiam quae, ratione tempore.") !!}
             </div>
         </div>
     </div>
@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-8 mx-auto text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero soluta ab neque dicta, rerum, doloremque perspiciatis sed sint facere eum illo at numquam reprehenderit omnis cum saepe cumque iste iusto.
+                {!! _i("Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sint excepturi in veniam reprehenderit perspiciatis, nulla assumenda optio est eius minima, similique autem repellat cumque provident aperiam quae, ratione tempore.") !!}
             </div>
         </div>
     </div>
