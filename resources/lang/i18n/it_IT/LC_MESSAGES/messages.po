@@ -1,0 +1,1627 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MultilanguageLaravelApplication\n"
+"POT-Creation-Date: 2020-04-30 12:16+0200\n"
+"PO-Revision-Date: 2020-04-30 12:54+0200\n"
+"Last-Translator: James Translator <james@translations.colm>\n"
+"Language-Team: James Translator <james@translations.colm>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: _;__;_i;_s;gettext;_n:1,2;ngettext:1,2;dgettext:2\n"
+"X-Poedit-Basepath: ../../../../../app\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: Http\n"
+"X-Poedit-SearchPath-1: ../resources/views\n"
+"X-Poedit-SearchPath-2: Console\n"
+"X-Poedit-SearchPath-3: ../storage/framework/messages\n"
+
+#: ../storage/framework/messages/2057801ad42d168535e2c3db82e41e2a04258114.php.php:10
+msgid "Ducato"
+msgstr ""
+
+#: ../storage/framework/messages/3621a063f706b98e07ca521a64d739a24fbf8864.php.php:32
+#: Http/Controllers/MainController.php:32
+msgid "4DOOR"
+msgstr ""
+
+#: ../storage/framework/messages/3621a063f706b98e07ca521a64d739a24fbf8864.php.php:33
+#: Http/Controllers/MainController.php:33
+msgid "5DOOR"
+msgstr ""
+
+#: ../storage/framework/messages/3621a063f706b98e07ca521a64d739a24fbf8864.php.php:34
+#: Http/Controllers/MainController.php:34
+msgid "SW"
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:9
+msgid "MORE THAN WORK"
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:10
+msgid "GOOD TRANSPORTS"
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:25
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:53
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:65
+msgid "MORE THAN RANGE"
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:26
+msgid "IT’S THE RIGHT FIT."
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:27
+msgid ""
+"With over 10000 different combinations and versions of Ducato, the right\n"
+"                        work vehicle is closer than you think, and that’s "
+"not the only reason it’s the right fit. Ducato\n"
+"                        is perfect for every worker or company no matter the "
+"size because it was made with one goal in\n"
+"                        mind: help you do your job better."
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:34
+msgid ""
+"This versatility is the driving force behind every workforce, and no one "
+"knows that\n"
+"                        better than Fiat Professional who has created a "
+"series of vehicles that are comfortable, capable\n"
+"                        and adapt to all of the challenges in a constantly "
+"evolving world. Equipped with all the space,\n"
+"                        configurations and efficiency you need, the 2020 "
+"Ducato is offering the vehicle you need to put\n"
+"                        you on the road to success."
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:54
+msgid "IT’S YOUR CANVAS."
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:55
+msgid ""
+"It’s time to have the space you need to do what you want. Designed to\n"
+"                        adapt to every job, Ducato offers a load compartment "
+"featuring doors that open up to 270°, a\n"
+"                        load volume from 8 to 17m³, and a lowered load "
+"platform. All of this, together with an unrivaled\n"
+"                        range of powertrain options, you will be ready to "
+"take your show on the road."
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:66
+msgid "A MOVE IN THE RIGHT DIRECTION."
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:67
+msgid ""
+"Need to tip? Ducato can do it in three different directions. The tipper\n"
+"                        truck is available in 4 wheelbases and 2 cab types, "
+"single and double. Its steel load surface\n"
+"                        ranges from 5.1 to 6.8 m² and includes a secure "
+"toolbox, so you have everything you need,\n"
+"                        exactly where you need it. Ducato Truck and its box "
+"are designed in house by Fiat and equipped\n"
+"                        with the comforts and capabilities that every worker "
+"looks for."
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:84
+msgid "EXPLORE OUR WHOLE DUCATO RANGE!"
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:85
+msgid ""
+"All our vehicles are available here below to select,<br>compare and build\n"
+"                    the best Ducato for you!"
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:94
+msgid "Ducato Van"
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:101
+msgid "Ducato Truck"
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:116
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:122
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:129
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:134
+msgid " #"
+msgstr ""
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:118
+msgid "Car Configurator"
+msgstr "Configura la tua auto"
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:123
+msgid "Get a Quote"
+msgstr "Fai un Preventivo"
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:130
+msgid "Test Drive"
+msgstr "Prenota un Test Drive"
+
+#: ../storage/framework/messages/5957fc855e15cd47b208b18ed728662433f2b4ad.php.php:136
+msgid "Dealer Locator"
+msgstr "Trova un dealer"
+
+#: ../storage/framework/messages/bab8123fd89b0f40921ca5c8662d671034bbeba3.php.php:10
+#, fuzzy
+#| msgid "https://www.fiat.com/footer-privacy"
+msgid "//www.fiat.com/footer-privacy"
+msgstr "https://www.fiat.it/privacy"
+
+#: ../storage/framework/messages/bab8123fd89b0f40921ca5c8662d671034bbeba3.php.php:10
+msgid "Privacy"
+msgstr "Privacy"
+
+#: ../storage/framework/messages/bab8123fd89b0f40921ca5c8662d671034bbeba3.php.php:14
+#, fuzzy
+#| msgid "https://www.fiat.com/legal-notes"
+msgid "//www.fiat.com/legal-notes"
+msgstr "https://www.fiat.it/note-legali"
+
+#: ../storage/framework/messages/bab8123fd89b0f40921ca5c8662d671034bbeba3.php.php:14
+msgid "Legal Notes"
+msgstr "Note Legali"
+
+#: ../storage/framework/messages/bab8123fd89b0f40921ca5c8662d671034bbeba3.php.php:18
+#, fuzzy
+#| msgid "https://www.fcabankgroup.com/en"
+msgid "//www.fcabankgroup.com/en"
+msgstr "https://fcabank.it"
+
+#: ../storage/framework/messages/bab8123fd89b0f40921ca5c8662d671034bbeba3.php.php:18
+msgid "Leasys"
+msgstr "Leasys"
+
+#: ../storage/framework/messages/bab8123fd89b0f40921ca5c8662d671034bbeba3.php.php:22
+msgid "Cookies"
+msgstr "Cookies"
+
+#: ../storage/framework/messages/bab8123fd89b0f40921ca5c8662d671034bbeba3.php.php:26
+#, fuzzy
+#| msgid ""
+#| "FCA Italy S.p.A. Corso G. Agnelli 200, 10135 Turin, Italy Turin Companies "
+#| "Register / Tax code no. 07973780013 Company capital 800.000.000 Euros, "
+#| "fully paid up A single shareholder company"
+msgid ""
+"FCA Italy S.p.A. Corso G. Agnelli 200, 10135 Turin, Italy<br>Turin Companies "
+"Register / Tax code no. 07973780013 Company capital 800.000.000 Euros, fully "
+"paid up A single shareholder company"
+msgstr ""
+"FCA Italy S.p.A. Corso G. Agnelli 200, 10135 Torino, Italia. Registro "
+"Imprese Torino / Codice Fiscale n. 07973780013.\n"
+"Capitale Sociale Euro 800.000.000 i.v. Società a unico socio."
+
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:17
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:22
+msgid "SHARE"
+msgstr "SHARE"
+
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:21
+msgid "TWEET"
+msgstr "TWEET"
+
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:31
+msgid "CONNECTIVITY"
+msgstr "CONNETTIVITA'"
+
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:34
+msgid "SAFETY"
+msgstr "SICUREZZA"
+
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:37
+msgid "ENGINES"
+msgstr "MOTORI"
+
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:40
+msgid "RANGE"
+msgstr "GAMMA"
+
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:42
+msgid "MY TRIM 1"
+msgstr ""
+
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:43
+msgid "MY TRIM 2"
+msgstr ""
+
+#: ../storage/framework/messages/de3a881053327c9e381f88aa22129f786f632117.php.php:44
+msgid "MY TRIM 3"
+msgstr ""
+
+#~ msgid "500X<br>LOUNGE"
+#~ msgstr "500X<br>LOUNGE"
+
+#~ msgid ""
+#~ "The 500X Lounge is truly a metro-chic: stylish and well-equipped, it’s "
+#~ "the perfect car for the city. With its rear and front parking sensors, "
+#~ "the front armrest as standard, and the quality and attention to details, "
+#~ "every street you take, even the most anonymous, immediately acquires an "
+#~ "unmistakable allure"
+#~ msgstr ""
+#~ "500X Lounge è veramente metro-chic: elegante e funzionale, è l’auto "
+#~ "perfetta per vivere la città. Con i sensori di parcheggio anteriori e "
+#~ "posteriori, il bracciolo anteriore di serie, il suo stile e la qualità "
+#~ "dei dettagli, ogni strada che imbocchi, anche la più anonima, diventa "
+#~ "unica e indimenticabile."
+
+#~ msgid "MAIN STANDARD<br>EQUIPMENT"
+#~ msgstr "PRINCIPALI DOTAZIONI<br> DI SERIE"
+
+#~ msgid "EXTERIOR"
+#~ msgstr "ESTERNI"
+
+#~ msgid ""
+#~ "DRL (day running light) with LED technology to improve visibility and "
+#~ "efficiency"
+#~ msgstr "Luci diurne a LED"
+
+#~ msgid "16” alloy wheels"
+#~ msgstr "Cerchi in lega da 16''"
+
+#~ msgid "Body colour external mirror caps"
+#~ msgstr "Calotte specchi esterni in tinta carrozzeria"
+
+#~ msgid "Door handles and chrome external details"
+#~ msgstr "Maniglie e dettagli con finitura cromo-satinata"
+
+#~ msgid "INTERIOR"
+#~ msgstr "INTERNI"
+
+#~ msgid "Body color dashboard"
+#~ msgstr "Fascia plancia in tinta carrozzeria"
+
+#~ msgid "Techno-leather steering wheel with audio controls"
+#~ msgstr "Volante in tecno-pelle con comandi audio"
+
+#~ msgid "Height adjustable driver seat"
+#~ msgstr "Sedile guidatore regolabile in altezza"
+
+#~ msgid "Manual air conditioning system"
+#~ msgstr "Climatizzatore manuale"
+
+#~ msgid "Front armrest"
+#~ msgstr "Appoggiabraccio anteriore"
+
+#~ msgid "TECHNOLOGY AND SAFETY"
+#~ msgstr "TECNOLOGIA E SICUREZZA"
+
+#~ msgid ""
+#~ "Uconnect™ 7” HD LIVE touchscreen radio with Apple CarPlay®/Android Auto™ "
+#~ "integration with 6 speakers"
+#~ msgstr ""
+#~ "Radio Uconnect™ 7” HD LIVE con integrazione Apple CarPlay® e "
+#~ "compatibilità Android Auto™ e 6 altoparlanti"
+
+#~ msgid "Cluster with 3,5” TFT digital display"
+#~ msgstr "Quadro strumenti con display TFT da 3,5”"
+
+#~ msgid "Front and rear parking sensors"
+#~ msgstr "Sensori di parcheggio anteriori e posteriori"
+
+#~ msgid "Dusk and rain sensors"
+#~ msgstr "Sensore pioggia crepuscolare"
+
+#~ msgid "Traffic sign recognition and Speed Advisor"
+#~ msgstr "Traffica sign recognition"
+
+#~ msgid "Electric parking brake"
+#~ msgstr "Freno di stazionamento elettrico"
+
+#~ msgid "Lane assist"
+#~ msgstr "Lane assist"
+
+#~ msgid "Cruise Control with Speed limiter"
+#~ msgstr "Cruise Control con limitatore di velocità"
+
+#~ msgid ""
+#~ "Black/Copper revisited pinstripe fabric, black grained eco-leather head "
+#~ "restraints and upper-part with embroidered 500 logo and Saffiano vinyl "
+#~ "piping in metallic Copper colour"
+#~ msgstr ""
+#~ "Tessuto gessato rivisitato color nero/rame, poggiatesta in ecopelle "
+#~ "granulata color nero, parte superiore con logo 500 ricamato e bordini in "
+#~ "vinile Saffiano color rame metallizzato"
+
+#~ msgid ""
+#~ "Punched black leather, with techno-leather inserts, upper-part with 500 "
+#~ "embroidered logo and ivory piping<br>optional"
+#~ msgstr ""
+#~ "Pelle nera punzonata, con inserti in tecno-pelle, parte superiore con "
+#~ "logo ricamato 500 e bordini color avorio<br>optional"
+
+#~ msgid ""
+#~ "Punched Corniola leather, with techno-leather inserts, upper-part with "
+#~ "500 embroidered logo and grey piping<br>optional"
+#~ msgstr ""
+#~ "Pelle color Corniola punzonata, con inserti in tecno-pelle, parte "
+#~ "superiore con logo ricamato 500 e bordini color grigio<br>optional"
+
+#~ msgid "16” <br>Black alloy wheels"
+#~ msgstr "Cerchi in lega neri"
+
+#~ msgid "17”<br>Glossy silver alloy wheels<br>optional"
+#~ msgstr "Cerchi in lega color argento lucido da 17''<br>optional"
+
+#~ msgid "18”<br>Matt silver alloy wheel<br>optional"
+#~ msgstr "Pneumatico estivo 215/55 R17 da 18''<br>optional"
+
+#~ msgid "19”<br>Black machined alloy wheels<br>optional"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 19''<br>optional"
+
+#~ msgid "AUGMENTED<br><span>STYLE</span>"
+#~ msgstr "AUGMENTED<br><span>STYLE</span>"
+
+#~ msgid "Gelato White | 16” Glossy silver alloy wheels"
+#~ msgstr "Bianco Gelato cerchi in lega color argento lucido da 16''"
+
+#~ msgid "16” Black alloy wheels"
+#~ msgstr "Cerchi in lega neri da 16''"
+
+#~ msgid "17” Glossy silver alloy wheels"
+#~ msgstr "Cerchi in lega color argento lucido da 17''"
+
+#~ msgid "18” Matt silver alloy wheel"
+#~ msgstr "Pneumatico estivo 215/55 R17 da 18''"
+
+#~ msgid "19” Black machined alloy wheels"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 19''"
+
+#~ msgid "Gelato White"
+#~ msgstr "Bianco Gelato"
+
+#~ msgid "Gelato White black roof"
+#~ msgstr "Bianco Gelato con tetto nero"
+
+#~ msgid "Jeans Blue Matt"
+#~ msgstr "Blu Jeans opaco"
+
+#~ msgid "Amore Red TN"
+#~ msgstr "Rosso Amore con tetto nero"
+
+#~ msgid "Amore Red"
+#~ msgstr "Rosso Amore"
+
+#~ msgid "Venezia Blue black roof"
+#~ msgstr "Blu Venezia con tetto nero"
+
+#~ msgid "Venezia Blue"
+#~ msgstr "Blu Venezia"
+
+#~ msgid "Jeans Blue black roof"
+#~ msgstr "Blu Jeans con tetto nero"
+
+#~ msgid "Jeans Blue"
+#~ msgstr "Blu Jeans"
+
+#~ msgid "Moda Grey black roof"
+#~ msgstr "Grigio Moda con tetto nero"
+
+#~ msgid "Moda Grey"
+#~ msgstr "Grigio Moda"
+
+#~ msgid "Cinema Black"
+#~ msgstr "Nero Cinema"
+
+#~ msgid "Argento Grey"
+#~ msgstr "Grigio Argento"
+
+#~ msgid "Argento Grey TN"
+#~ msgstr "Grigio Argente con tetto nero"
+
+#~ msgid "assione Red"
+#~ msgstr "Rosso Passione"
+
+#~ msgid "Passione Red black roof"
+#~ msgstr "Rosso Passione con tetto nero"
+
+#~ msgid "Cappuccino Beige"
+#~ msgstr "Beige Cappuccino"
+
+#~ msgid "Cappuccino Beige TN"
+#~ msgstr "Beige Cappuccino con tetto nero"
+
+#~ msgid "Alpi Green"
+#~ msgstr "Verde Alpi"
+
+#~ msgid "Perla White"
+#~ msgstr "Bianco perla"
+
+#~ msgid "Perla White black roof"
+#~ msgstr "Bianco Perca con tetto nero"
+
+#~ msgid "Italia Blue"
+#~ msgstr "Blu Italia"
+
+#~ msgid "Italia Blue black roof"
+#~ msgstr "Blu Italia con tetto nero"
+
+#~ msgid "Techno Green"
+#~ msgstr "Verde Techno"
+
+#~ msgid "Techno Green black roof"
+#~ msgstr "Verde Techno con tetto nero"
+
+#~ msgid "METALLIC"
+#~ msgstr "METALLIZZATI"
+
+#~ msgid "TRICOAT"
+#~ msgstr "TRISTRATO"
+
+#~ msgid "MATT METALLIC"
+#~ msgstr "METALIZZATO OPACO"
+
+#~ msgid "PASTEL"
+#~ msgstr "PASTELLO"
+
+#~ msgid "WHEEL"
+#~ msgstr "CERCHI"
+
+#~ msgid "TECHNOLOGY<br>AND SAFETY"
+#~ msgstr "TECNOLOGIA <br>E SICUREZZA"
+
+#~ msgid ""
+#~ "Enjoy your adventures in <strong>complete safety</strong>.Equipped with "
+#~ "the most innovative driving technologies,<br>with 500X you are prepared "
+#~ "to take on the road in all conditions."
+#~ msgstr ""
+#~ "Goditi le tue avventure in <strong>completa sicurezza</strong>. Dotata "
+#~ "delle più innovative tecnologie di guida, <br>500X ti permette di "
+#~ "intraprendere ogni strada in qualsiasi condizione."
+
+#~ msgid "TRAFFIC SIGN RECOGNITION<br>AND SPEED ADVISOR"
+#~ msgstr "TRAFFIC SIGN RECOGNITION<br>AND SPEED ADVISOR"
+
+#~ msgid "AUTONOMOUS<br>EMERGENCY BRAKE"
+#~ msgstr "AUTONOMOUS<br>EMERGENCY BRAKE"
+
+#~ msgid "LANE <br>ASSIST"
+#~ msgstr "LANE <br>ASSIST"
+
+#~ msgid "SAFETY<br>DISTANCE MANAGER (ACC)"
+#~ msgstr "SAFETY<br>DISTANCE MANAGER (ACC)"
+
+#~ msgid "ADAPTIVE<br>HIGH-BEAM"
+#~ msgstr "ADAPTIVE<br>HIGH-BEAM"
+
+#~ msgid "REAR CROSS<br>PATH DETECTION"
+#~ msgstr "REAR CROSS<br>PATH DETECTION"
+
+#~ msgid "REAR<br> VIEW CAMERA"
+#~ msgstr "TELECAMERA POSTERIORE"
+
+#~ msgid "BLIND<br>SPOT ALERT"
+#~ msgstr "BLIND<br>SPOT ALERT"
+
+#~ msgid "FRONT AND REAR<br>PARKING SENSOR"
+#~ msgstr "SENSORI DI PARCHEGGIO ANTERIORI E POSTERIORI"
+
+#~ msgid ""
+#~ "The system detects and recognizes traffic signs and displays them on the "
+#~ "TFT cluster. With speed limiter active it’s also possible to limit the "
+#~ "car’s speed to the maximum allowed level read by the Traffic Sign "
+#~ "Recognition system."
+#~ msgstr ""
+#~ "Il sistema rileva e riconosce i segnali stradali principali e i limiti di "
+#~ "velocità visualizzandoli sul display TFT nel quadro strumenti. Attivando "
+#~ "il limitatore di velocità, è inoltre possibile adattare la velocità della "
+#~ "vettura al limite consentito letto dal sistema Traffic Sign Recognition."
+
+#~ msgid "View video"
+#~ msgstr "Guarda il video"
+
+#~ msgid ""
+#~ "The system detects the speed of the vehicle in front in relation to the "
+#~ "Fiat 500X and will advise the driver if they are approaching too fast and "
+#~ "therefore there is a risk of collision. Should the driver not intervene, "
+#~ "the system automatically activates braking to avoid the impact or "
+#~ "mitigate its effects. The brake control operates down to 7km/h and "
+#~ "provides audible and visible warnings."
+#~ msgstr ""
+#~ "Il sistema rileva la differenza di velocità tra la 500X e il veicolo che "
+#~ "la precede e segnala al conducente che la velocità di avvicinamento è "
+#~ "eccessiva e che sussiste il rischio di collisioni. Nel caso in cui il "
+#~ "conducente non intervenga, il sistema attiva automaticamente la frenata "
+#~ "per evitare l’impatto o limitarne le conseguenze. Il sistema Brake "
+#~ "Control interviene fino a una velocità minima di 7 km/h e avverte il "
+#~ "guidatore mediante segnali acustici, visivi e sobbalzi durante la frenata."
+
+#~ msgid "LANE ASSIST"
+#~ msgstr "LANE ASSIST"
+
+#~ msgid ""
+#~ "It continually monitors the presence of vehicles in 'blind spots’ and "
+#~ "advises the driver through a light signal on the door mirrors."
+#~ msgstr ""
+#~ "Monitora continuamente l’eventuale presenza di vetture nei “punti ciechi” "
+#~ "e avvisa il conducente mediante un segnale luminoso sugli specchi "
+#~ "retrovisori."
+
+#~ msgid ""
+#~ "The front and rear parking sensor’s acoustic signal warns you when you’re "
+#~ "approaching a hidden obstacle during  parking and reversing manoeuvres."
+#~ msgstr ""
+#~ "Il segnale acustico dei sensori di parcheggio avvisa il conducente quando "
+#~ "si sta avvicinando ad un ostacolo non visibile durante la fase di "
+#~ "parcheggio e la retromarcia."
+
+#~ msgid "ADAPTIVE HIGH-BEAM"
+#~ msgstr "ADAPTIVE HIGH-BEAM"
+
+#~ msgid ""
+#~ "Makes nighttime driving safer by providing the maximum amount of light "
+#~ "possible for any driving scenario. This system switches headlamps from "
+#~ "high to low-beam when incoming headlamps or forward lighting elements are "
+#~ "sensed and back again from low- to high-beam when those conditions expire."
+#~ msgstr ""
+#~ "Rende più sicuro viaggiare di notte garantendo la massima illuminazione "
+#~ "possibile in qualsiasi condizione di guida. Quando rileva fari in "
+#~ "avvicinamento o elementi luminosi davanti alla vettura, il sistema "
+#~ "disattiva gli abbaglianti e attiva gli anabbaglianti, riaccendendo quindi "
+#~ "gli abbaglianti quando queste condizioni vengono meno."
+
+#~ msgid "REAR CROSS PATH DETECTION"
+#~ msgstr "REAR CROSS PATH DETECTION"
+
+#~ msgid ""
+#~ "                                            Helps to monitor vehicles and "
+#~ "objects in blind areas whilst the Fiat 500X is in reverse gear. If a "
+#~ "vehicle is approaching from the side, it provides feedback to the driver "
+#~ "via audible chimes and a light signal on the door mirror."
+#~ msgstr ""
+#~ "Aiuta a monitorare la presenza di veicoli e di oggetti nei “punti ciechi” "
+#~ "quando la Fiat 500X procede in retromarcia, intercettando la presenza di "
+#~ "un veicolo in avvicinamento laterale. Fornisce un feedback al guidatore "
+#~ "mediante avviso acustico e segnalazione luminosa sugli specchietti "
+#~ "retrovisori esterni."
+
+#~ msgid "REAR VIEW CAMERA"
+#~ msgstr "TELECAMERA POSTERIORE"
+
+#~ msgid ""
+#~ "The rear camera helps to park the car and to manage difficult operations. "
+#~ "The image is projected with dynamic grid lines and a center line graphic "
+#~ "that adjusts guide paths as the steering wheel is turned."
+#~ msgstr ""
+#~ "La telecamera posteriore genera un’immagine ad alta risoluzione con un "
+#~ "livello elevato di nitidezza e definizione che aiuta a parcheggiare la "
+#~ "vettura e a gestire le operazioni più difficili. Sull’immagine viene "
+#~ "visualizzata una griglia dinamica e una linea centrale che adatta il "
+#~ "percorso di manovra in base alla posizione del volante."
+
+#~ msgid "BLIND SPOT ALERT"
+#~ msgstr "BLIND SPOT ALERT"
+
+#~ msgid ""
+#~ "It continually monitors the presence of vehicles in 'blind spots’ and "
+#~ "advises the driver through a light signal on the door mirrors"
+#~ msgstr ""
+#~ "Monitora continuamente l’eventuale presenza di vetture nei “punti ciechi” "
+#~ "e avvisa il conducente mediante un segnale luminoso sugli specchi "
+#~ "retrovisori."
+
+#~ msgid "FRONT AND REAR PARKING SENSOR"
+#~ msgstr "SENSORI DI PARCHEGGIO ANTERIORI E POSTERIORI"
+
+#~ msgid ""
+#~ "The front and rear parking sensor’s acoustic signal warns you when you’re "
+#~ "approaching a hidden obstacle during parking and reversing manoeuvres."
+#~ msgstr ""
+#~ "Il segnale acustico dei sensori di parcheggio avvisa il conducente quando "
+#~ "si sta avvicinando ad un ostacolo non visibile durante la fase di "
+#~ "parcheggio e la retromarcia."
+
+#~ msgid "TRAFFIC SIGN RECOGNITION AND SPEED ADVISOR"
+#~ msgstr "TRAFFIC SIGN RECOGNITION AND SPEED ADVISOR"
+
+#~ msgid ""
+#~ "The system detects and recognizes traffic signs and displays them on the "
+#~ "TFT cluster. With speed limiter active it’s also possible to limit the "
+#~ "car’s speed to the maximum allowed level read by the Traffic Sign "
+#~ "Recognition system"
+#~ msgstr ""
+#~ "Il sistema rileva e riconosce i segnali stradali principali e i limiti di "
+#~ "velocità visualizzandoli sul display TFT nel quadro strumenti. Attivando "
+#~ "il limitatore di velocità, è inoltre possibile adattare la velocità della "
+#~ "vettura al limite consentito letto dal sistema Traffic Sign Recognition."
+
+#~ msgid "AUTONOMOUS EMERGENCY BRAKE"
+#~ msgstr "AUTONOMOUS EMERGENCY BRAKE"
+
+#~ msgid ""
+#~ "The front and rear parking sensor’s acoustic signal warns  you when "
+#~ "you’re approaching a hidden obstacle during  parking and reversing "
+#~ "manoeuvres."
+#~ msgstr ""
+#~ "Il segnale acustico dei sensori di parcheggio avvisa il conducente quando "
+#~ "si sta avvicinando ad un ostacolo non visibile durante la fase di "
+#~ "parcheggio e la retromarcia."
+
+#~ msgid ""
+#~ "Utilizes a camera-based machine vision sensor to detect and measure the "
+#~ "position of the vehicle within lane boundaries. During an unintentional "
+#~ "lane drift with no turn signal applied, the system will provide a visual "
+#~ "indication on the instrument panel accompanied by greater resistance of "
+#~ "the steering in order to bring the car back into lane limits."
+#~ msgstr ""
+#~ "Utilizza un sensore di visione basato su telecamere che rileva e misura "
+#~ "la posizione del veicolo all’interno dei limiti della corsia. In caso di "
+#~ "deviazione accidentale dalla corsia senza attivazione dell’indicatore di "
+#~ "direzione, il sistema fornisce un’indicazione visiva sul quadro strumenti "
+#~ "e aumenta la resistenza offerta dal volante per riportare la macchina "
+#~ "entro i limiti della corsia."
+
+#~ msgid ""
+#~ "Helps to monitor vehicles and objects in blind areas whilst the Fiat 500X "
+#~ "is in reverse gear. If a vehicle is approaching from the side, it "
+#~ "provides feedback to the driver via audible chimes and a light signal on "
+#~ "the door mirror."
+#~ msgstr ""
+#~ "Aiuta a monitorare la presenza di veicoli e di oggetti nei “punti ciechi” "
+#~ "quando la Fiat 500X procede in retromarcia, intercettando la presenza di "
+#~ "un veicolo in avvicinamento laterale. Fornisce un feedback al guidatore "
+#~ "mediante avviso acustico e segnalazione luminosa sugli specchietti "
+#~ "retrovisori esterni."
+
+#~ msgid "SAFETY DISTANCE MANAGER (ACC)"
+#~ msgstr "SAFETY DISTANCE MANAGER (ACC)"
+
+#~ msgid ""
+#~ "Using a radar sensor, the system detects vehicles in its path and "
+#~ "maintains the vehicle at a set speed. It operates from 30-km/h. If slower "
+#~ "traffic is detected, the system will automatically adjust to a safe "
+#~ "distance, pre-selected by the driver."
+#~ msgstr ""
+#~ "Grazie a un sensore a radar, il sistema rileva oggetti sul percorso e "
+#~ "mantiene la vettura alla velocità impostata. Interviene a partire da 30 "
+#~ "km/h. Se rileva un traffico più lento, il sistema mantiene "
+#~ "automaticamente una distanza di sicurezza preselezionata dal conducente."
+
+#~ msgid "ADVANCED CONNECTIVITY SYSTEM<br>AND INFOTAINMENT"
+#~ msgstr "SISTEMI AVANZATI DI CONNETTIVITA'<br> E INFOTAINMENT"
+
+#~ msgid "UCONNECT™ HD NAV LIVE DAB"
+#~ msgstr "UCONNECT™ HD NAV LIVE DAB"
+
+#~ msgid ""
+#~ "The Uconnect™ 7” HD Nav LIVE system is equipped with TomTom, to be "
+#~ "constantly updated on traffic and weather conditions and detects in real "
+#~ "time the presence of speed cameras or accidents on your way. With Apple "
+#~ "CarPlay® e Android Auto™ integration and function DAB (Digital Audio "
+#~ "Broadcasting)."
+#~ msgstr ""
+#~ "Il sistema Uconnect™ 7” HD Nav LIVE è dotato di mappe TomTom, per essere "
+#~ "aggiornati sul traffico e sulle condizioni meteo e per sapere se sono "
+#~ "installati autovelox o sono presenti incidenti sul percorso. Integrato "
+#~ "con Apple CarPlay® e Android Auto™ e con funzionalità DAB (Digital Audio "
+#~ "Broadcasting)."
+
+#~ msgid "UCONNECT™ HD LIVE DAB"
+#~ msgstr "UCONNECT™ HD LIVE DAB"
+
+#~ msgid ""
+#~ "The 7” Uconnect™ System, with Apple CarPlay® and Android Auto™ "
+#~ "integration, is equipped with a 7” high resolution touchscreen display "
+#~ "with capacitive technology. Available Uconnect™ LIVE services (TuneIn, "
+#~ "Reuters, Twitter, Facebook, Deezer, my:Car e eco:Drive) and two "
+#~ "additional speakers."
+#~ msgstr ""
+#~ "Il sistema Uconnect™ 7”, integrato con Apple CarPlay® e Android Auto™, è "
+#~ "dotato di monitor touchscreen ad alta risoluzione da 7” con tecnologia "
+#~ "capacitiva. Disponibili Servizi Uconnect™ LIVE (TuneIn, Reuters, Twitter, "
+#~ "Facebook, Deezer, my:Car e eco:Drive) e due speaker aggiuntivi."
+
+#~ msgid "BEATS AUDIO HI-FI SYSTEM"
+#~ msgstr "BEATS AUDIO HI-FI SYSTEM"
+
+#~ msgid ""
+#~ "On board the Fiat 500X it’s easy to enhance your mood and enjoy your "
+#~ "favourite music wherever you’re going with the Beats Audio Hi-Fi system. "
+#~ "Thanks to its 9 speakers and amplifier with more than 500 watts of power, "
+#~ "it offers clean and high-fidelity audio response at any volume."
+#~ msgstr ""
+#~ "A bordo di 500X è facile liberare le proprie emozioni e poi tradurle in "
+#~ "musica con il sistema Beats Audio Hi-Fi. Grazie ai 9 altoparlanti e ad un "
+#~ "amplificatore con oltre 500 Watt, offre una resa sonora corposa ma allo "
+#~ "stesso tempo pulita e fedele."
+
+#~ msgid "FIAT - X500"
+#~ msgstr "FIAT -500X"
+
+#~ msgid "FIAT 500X"
+#~ msgstr "FIAT 500X"
+
+#~ msgid "STYLE"
+#~ msgstr "STILE"
+
+#~ msgid "INTERIORS"
+#~ msgstr "INTERNI"
+
+#~ msgid "500X URBAN"
+#~ msgstr "500X URBAN"
+
+#~ msgid "500X LOUNGE"
+#~ msgstr "500X LOUNGE"
+
+#~ msgid "500X CITY CROSS"
+#~ msgstr "500X CITY CROSS"
+
+#~ msgid "500X CROSS"
+#~ msgstr "500X CROSS"
+
+#~ msgid "500X SPORT"
+#~ msgstr "500X SPORT"
+
+#~ msgid "500X<br>CROSS"
+#~ msgstr "500X<br>CROSS"
+
+#~ msgid ""
+#~ "With its distinctive look and bold personality, the 500X Cross is the "
+#~ "ideal SUV for anyone who loves to make a stylish escape from city life. "
+#~ "Well equipped with the new 19” alloy wheels that give the car even more "
+#~ "character"
+#~ msgstr ""
+#~ "Con il suo look unico e la personalità audace, la nuova 500X Cross è il "
+#~ "SUV perfetto per chi desidera fuggire dalla frenesia della vita cittadina "
+#~ "al volante di una 500X top di gamma. Equipaggiata con i nuovi cerchi in "
+#~ "lega da 17”, la nuova 500X Cross ha ancora più personalità."
+
+#~ msgid "Front and rear bumpers with integrated skid plates"
+#~ msgstr "Skid plate integrata"
+
+#~ msgid "Roof rails"
+#~ msgstr "Barre longitudinali"
+
+#~ msgid ""
+#~ "DRL (day running light) and rear projectors with LED technology to "
+#~ "improve visibility and efficiency"
+#~ msgstr "Luci diurne a LED"
+
+#~ msgid "Fog lights"
+#~ msgstr "Fari fendinebbia"
+
+#~ msgid "Body colour external mirror"
+#~ msgstr "Calotte specchi esterni in tinta carrozzeria"
+
+#~ msgid "Satin chrome door handles and external details"
+#~ msgstr "Maniglie e dettagli con finitura cromo-satinata"
+
+#~ msgid "19” high efficiency alloy wheels"
+#~ msgstr "Cerchi in lega da 17''"
+
+#~ msgid "Two dedicated upholsteries"
+#~ msgstr "2 interni dedicati"
+
+#~ msgid "Techno-leather steering wheelwith audio controls"
+#~ msgstr "Volante in tecno-pelle con comandi audio"
+
+#~ msgid "Automatic air conditioning"
+#~ msgstr "Climatizzatore automatico bizona"
+
+#~ msgid "eight adjustable driver seat"
+#~ msgstr "Sedile guidatore regolabile in altezza"
+
+#~ msgid "Courtesy lights on sun visors"
+#~ msgstr "Luci di cortesia su alette parasole"
+
+#~ msgid "Rear view camera"
+#~ msgstr "Telecamera posteriore"
+
+#~ msgid "Rear Parking sensors"
+#~ msgstr "Sensori di parcheggio posteriori"
+
+#~ msgid "Dusk Sensors"
+#~ msgstr "Sensore crepuscolare"
+
+#~ msgid ""
+#~ "Grey Canvas fabric 3D quilted, black grained techno-leather head "
+#~ "restraints and upper-part with 500 logo insert and piping in ivory vinyl"
+#~ msgstr ""
+#~ "Tessuto 3D tela grigio quilt, poggiatesta in tecno-pelle granulata color "
+#~ "avorio, parte superiore con inserto logo 500 e bordini in vinile color "
+#~ "grigio e avorio"
+
+#~ msgid "19”<br> Black machined alloy wheels"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 19'"
+
+#~ msgid "18”<br>Black machined alloy wheels<br>optional"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 18''<br>optional"
+
+#~ msgid "17”<br>Black machined alloy wheels<br>optional"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 17''<br>optional"
+
+#~ msgid "Gelato White | 19” Black machined alloy wheels"
+#~ msgstr "Bianco Gelato cerchi in lega con lavorazione color nero da 19''"
+
+#~ msgid "18” Black machined alloy wheels"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 18''"
+
+#~ msgid "17” Black machined alloy wheels"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 17''"
+
+#~ msgid "Amore Red black roof"
+#~ msgstr "Rosso Amore con tetto nero"
+
+#~ msgid "Argento Grey black roof"
+#~ msgstr "Grigio Argento con tetto nero"
+
+#~ msgid "Passione Red"
+#~ msgstr "Rosso Passione"
+
+#~ msgid "Cappuccino Beige black roof"
+#~ msgstr "Beige Cappuccino con tetto nero"
+
+#~ msgid "DISCOVER NOW<br/>YOUR NEW 500X"
+#~ msgstr "SCOPRI ORA <br/> LA TUA NUOVA 500X"
+
+#~ msgid "500X<br>URBAN"
+#~ msgstr "500X<br>URBAN"
+
+#~ msgid "500X<br>CITY<br>CROSS"
+#~ msgstr "500X<br>CITY<br>CROSS"
+
+#~ msgid "500X<br>SPORT"
+#~ msgstr "500X<br>SPORT"
+
+#~ msgid "https://www.fiat.co.uk/fiat-500x"
+#~ msgstr "https://www.fiat.it/fiat-500x"
+
+#~ msgid "New engines for satisfying your needs"
+#~ msgstr "Nuovi motori per soddisfare le tue necessità"
+
+#~ msgid "DIESEL"
+#~ msgstr "DIESEL"
+
+#~ msgid "GASOLINE"
+#~ msgstr "BENZINA"
+
+#~ msgid "New FireFly Turbo 1,0<br>120 HP (B*)"
+#~ msgstr "New FireFly Turbo 1,0<br>120 CV (B*)"
+
+#~ msgid "New FireFly Turbo 1,3<br>150 HP DCT (B*)"
+#~ msgstr "New FireFly Turbo 1,3<br>150 CV DCT (B*)"
+
+#~ msgid "1.3 Multijet II<br>95 HP (B*)"
+#~ msgstr "1.3 Multijet II<br>95 CV (B*)"
+
+#~ msgid "1.6 Multijet II<br>120 HP (B*)"
+#~ msgstr "1.6 Multijet II<br>120 CV (B*)"
+
+#~ msgid ""
+#~ "The New FireFly Turbo 1,0 is dedicated to urban use, with an instant "
+#~ "torque for high responsiveness, enjoyable feeling of acceleration and "
+#~ "acoustic comfort."
+#~ msgstr ""
+#~ "Il nuovo 1.0 Turbo da 120 CV, può vantare la migliore coppia nel segmento "
+#~ "e offre una reattività elevata, piacevoli sensazioni in accelerazione e "
+#~ "comfort acustico."
+
+#~ msgid "Displacement (cm3)<br><small>999</small>"
+#~ msgstr "Cilindrata (cm3)<br><small>999</small>"
+
+#~ msgid "Max. power kW (HP) at rpm<br><small>88 kW (120) @ 5750</small>"
+#~ msgstr ""
+#~ "Potenza max CE kW (CV) a giri/min<br><small>88 kW (120) @ 5750</small>"
+
+#~ msgid "Max. torque Nm (kgm) at rpm<br><small>190 Nm @ 1750</small>"
+#~ msgstr "Coppia max CE kW (CV) a giri/min<br><small> 190 Nm @ 1750</small>"
+
+#~ msgid "Transmission<br><small>6 speed manual</small>"
+#~ msgstr "Trasmissione<br><small> manuale a 6 marce</small>"
+
+#~ msgid "Drive<br><small>front wheel drive</small>"
+#~ msgstr "Trazione<br><small> trazione anteriore</small>"
+
+#~ msgid "Acceleration 0-100 km/h (s)<br><small>10.9</small>"
+#~ msgstr "Accelerazione 0-100 km/h (s)<br><small>10.9</small>"
+
+#~ msgid "Top speed (km/h)<br><small>188</small>"
+#~ msgstr "Velocità massima(km/h)<br><small>188</small>"
+
+#~ msgid "Supply<br><small>gasoline, direct injection</small>"
+#~ msgstr "Alimentazione<br><small>benzina, iniezione diretta</small>"
+
+#~ msgid ""
+#~ "Ignition<br><small>electronic, static, integrated with injection</small>"
+#~ msgstr ""
+#~ "Accensione<br><small>elettronica, statica, integrata con iniezione</small>"
+
+#~ msgid "Start&Stop System<br><small>yes</small>"
+#~ msgstr "Sistema Start&Stop<br><small>si</small>"
+
+#~ msgid ""
+#~ "Urban cycle consumption<br><small>(litres/100 km) max/min<br>6.8/6.3</"
+#~ "small>"
+#~ msgstr ""
+#~ "Consumi ciclo urbano<br><small>(litri/100km)max/min<br>6.8/6.3</small>"
+
+#~ msgid ""
+#~ "Extra-urban cycle consumption<br><small>(litres/100 km) max/"
+#~ "min<br>5.1/4.7</small>"
+#~ msgstr ""
+#~ "Consumi ciclo extra-urbano<br><small>(litri/100km)max/min<br>5.1/4.7</"
+#~ "small>"
+
+#~ msgid ""
+#~ "Combined cycle consumption<br><small>(litres/100 km) max/min<br>5.8/5.4</"
+#~ "small>"
+#~ msgstr ""
+#~ "Consumi ciclo combinato<br><small>(litri/100km)max/min<br>5.8/5.4</small>"
+
+#~ msgid "CO2 emissions(g/km) max/min<br><small>132/122</small>"
+#~ msgstr "Emissioni di CO2(g/km)max/min<br><small>132/122</small>"
+
+#~ msgid "Ecology Level<small>Euro 6d-TEMP</small>"
+#~ msgstr "Classe ambientale<small>Euro 6d-TEMP</small>"
+
+#~ msgid ""
+#~ "The New FireFly Turbo 1,3 DCT, dedicated to those who seek excellent "
+#~ "performance."
+#~ msgstr ""
+#~ "Il nuovo 1.3 Turbo DCT è dedicato a chi cerca l'eccellenza delle "
+#~ "prestazioni."
+
+#~ msgid "Displacement (cm3)<br><small>1332</small>"
+#~ msgstr "Cilindrata (cm3)<br><small>1332</small>"
+
+#~ msgid "Max. power kW (HP) at rpm<br><small>110 kW (150) @ 5500</small>"
+#~ msgstr ""
+#~ "Potenza max CE kW (CV) a giri/min<br><small>110 kW (150) @ 5500</small>"
+
+#~ msgid "Max. torque Nm (kgm) at rpm<br><small>270 Nm @ 1850</small>"
+#~ msgstr "Coppia max CE kW (CV) a giri/min<br><small> 270 Nm @ 1850</small>"
+
+#~ msgid "Transmission<br><small>6 speed automatic dual clutch</small>"
+#~ msgstr ""
+#~ "Trasmissione<br><small>automatica, a doppia frizione, 6 marce</small>"
+
+#~ msgid "Drive<br>small>front wheel drive</small>"
+#~ msgstr "Trazione<br><small> trazione anteriore</small>"
+
+#~ msgid "Acceleration 0-100 km/h (s)<br><small>9.1</small>"
+#~ msgstr "Accelerazione 0-100 km/h (s)<br><small>9.1</small>"
+
+#~ msgid "Top speed (km/h)<br><small>200</small>"
+#~ msgstr "Velocità massima(km/h)<br><small>200</small>"
+
+#~ msgid ""
+#~ "Ignition<br><small>electronic, static, integrated<br>with injection</"
+#~ "small>"
+#~ msgstr ""
+#~ "Accensione<br><small>elettronica, statica, integrata<br> con iniezione</"
+#~ "small>"
+
+#~ msgid ""
+#~ "Urban cycle consumption<br><small>(litres/100 km) max/min<br>7.5/6.9</"
+#~ "small>"
+#~ msgstr ""
+#~ "Consumi ciclo urbano<br><small>(litres/100 km) max/min<br>7.5/6.9</small>"
+
+#~ msgid ""
+#~ "Extra-urban cycle consumption<br><small>(litres/100 km) max/"
+#~ "min<br>5.2/4.9</small>"
+#~ msgstr ""
+#~ "Consumi ciclo extra-urbano<br><small>(litri/100km)max/min<br>5.2/4.9</"
+#~ "small>"
+
+#~ msgid ""
+#~ "Combined cycle consumption<br><small>(litres/100 km) max/min<br>5.7/5.6</"
+#~ "small>"
+#~ msgstr ""
+#~ "Consumi ciclo combinato<br><small>(litri/100km)max/min<br>5.7/5.6</small>"
+
+#~ msgid "CO2 emissions(g/km) max/min<br><small>138/128</small>"
+#~ msgstr "Emissioni di CO2(g/km)max/min<br><small>138/128</small>"
+
+#~ msgid "Ecology Level<br><small>Euro 6d-TEMP</small>"
+#~ msgstr "Classe ambientale<small>Euro 6d-TEMP</small>"
+
+#~ msgid ""
+#~ "Greener, quieter and more efficient, 120HP 1.6 DCT comes with manual or "
+#~ "automatic dual clutch transmission."
+#~ msgstr ""
+#~ "Meno inquinante, più silenzioso, più efficiente, il motore 1.6 DCT 120 CV "
+#~ "è disponibile con trasmissione manuale o automatica a doppia frizione."
+
+#~ msgid "Displacement (cm3)<br><small>1598</small>"
+#~ msgstr "Cilindrata (cm3)<br><small>1598</small>"
+
+#~ msgid "Max. power kW (HP) at rpm<br><small>88 kW (120) @ 3750</small>"
+#~ msgstr ""
+#~ "Potenza max CE kW (CV) a giri/min<br><small>88 kW (120) @ 3750</small>"
+
+#~ msgid "Max. torque Nm (kgm) at rpm<br><small>320 Nm @ 1750</small>"
+#~ msgstr "Coppia max CE kW (CV) a giri/min<br><small> 320 Nm @ 1750</small>"
+
+#~ msgid "Acceleration 0-100 km/h (s)<br><small>10.7</small>"
+#~ msgstr "Accelerazione 0-100 km/h (s)<br><small>10.7</small>"
+
+#~ msgid "Top speed (km/h)<br><small>186</small>"
+#~ msgstr "Velocità massima(km/h)<br><small>186</small>"
+
+#~ msgid ""
+#~ "Supply<br><small>Diesel, direct injection<br>Common-Rail with MultiJet II "
+#~ "system,<br>turbocharger and intercooler</small>"
+#~ msgstr ""
+#~ "Alimentazione<br><small>Diesel, iniezione diretta <br>Common-Rail con "
+#~ "sistema MultiJet II, <br>turbocompressore e intercooler</small>"
+
+#~ msgid "Ignition<br><small>by Compression</small>"
+#~ msgstr "Accensione<br><small>per Compressione</small>"
+
+#~ msgid ""
+#~ "Urban cycle consumption<br><small>(litres/100 km) max/min<br>5.4</small>"
+#~ msgstr ""
+#~ "Consumi ciclo urbano<br><small>(litres/100 km) max/min<br>5.4</small>"
+
+#~ msgid ""
+#~ "Extra-urban cycle consumption<br><small>(litres/100 km) max/"
+#~ "min<br>4.4/3.8</small>"
+#~ msgstr ""
+#~ "Consumi ciclo extra-urbano<br><small>(litri/100km)max/min<br>4.4/3.8</"
+#~ "small>"
+
+#~ msgid ""
+#~ "Combined cycle consumption<br><small>(litres/100 km) max/min<br>4.7/4.4</"
+#~ "small>"
+#~ msgstr ""
+#~ "Consumi ciclo combinato<br><small>(litri/100km)max/min<br>4.7/4.4</small>"
+
+#~ msgid "CO2 emissions(g/km) max/min<br><small>124/116</small>"
+#~ msgstr "Emissioni di CO2(g/km)max/min<br><small>124/116</small>"
+
+#~ msgid ""
+#~ "Thanks to the adoption of the SCR integrated in the DPF, diesel engines "
+#~ "become cleaner and keep on offering excellent performance."
+#~ msgstr ""
+#~ "Grazie all’adozione dell’SCR integrato nel DPF, i motori diesel diventano "
+#~ "più amici dell'ambiente, continuando ad includere performance eccellenti."
+
+#~ msgid ""
+#~ "Urban cycle consumption<br><small>(litres/100 km) max/min<br>5.1/4.9</"
+#~ "small>"
+#~ msgstr ""
+#~ "Consumi ciclo urbano<br><small>(litres/100 km) max/min<br>5.1/4.9</small>"
+
+#~ msgid ""
+#~ "Extra-urban cycle consumption<br><small>(litres/100 km) max/"
+#~ "min<br>3.7/3.5</small>"
+#~ msgstr ""
+#~ "Consumi ciclo extra-urbano<br><small>(litri/100km)max/min<br>3.7/3.5</"
+#~ "small>"
+
+#~ msgid ""
+#~ "Combined cycle consumption<br><small>(litres/100 km) max/min<br>4.3/4.0</"
+#~ "small>"
+#~ msgstr ""
+#~ "Consumi ciclo combinato<br><small>(litri/100km)max/min<br>4.3/4.0</small>"
+
+#~ msgid "CO2 emissions(g/km) max/min<br><small>111/106</small>"
+#~ msgstr "Emissioni di CO2(g/km)max/min<br><small>111/106</small>"
+
+#~ msgid ""
+#~ "1.3 MultiJet II 95 HP is the first consolidated engine of the MultiJet "
+#~ "diesel engine family and it is designed to set balance between iving "
+#~ "performance and economy."
+#~ msgstr ""
+#~ "Il 1.3 MultiJet II 95 CV è il primo consolidato motore della famiglia "
+#~ "diesel Multijet ed è progettato per garantire l'equilibrio fra la "
+#~ "performance di guida e l'economia dei consumi"
+
+#~ msgid "Displacement (cm3)<br><small>1248</small>"
+#~ msgstr "Cilindrata (cm3)<br><small>1248</small>"
+
+#~ msgid "Max. power kW (HP) at rpm<br><small>70 kW (95) @ 3750</small>"
+#~ msgstr ""
+#~ "Potenza max CE kW (CV) a giri/min<br><small>70 kW (95) @ 3750</small>"
+
+#~ msgid "Max. torque Nm (kgm) at rpm<br><small>200 Nm @ 1500</small>"
+#~ msgstr "Coppia max CE kW (CV) a giri/min<br><small> 200 Nm @ 1500</small>"
+
+#~ msgid "Transmission<br><small>5 speed manual</small>"
+#~ msgstr "Trasmissione<br><small>manuale a 5 marce</small>"
+
+#~ msgid "Acceleration 0-100 km/h (s)<br><small>13.5</small>"
+#~ msgstr "Accelerazione 0-100 km/h (s)<br><small>13.5</small>"
+
+#~ msgid "Top speed (km/h)<br><small>172</small>"
+#~ msgstr "Velocità massima(km/h)<br><small>172</small>"
+
+#~ msgid "500X<br>City CROSS"
+#~ msgstr "500X <br>City CROSS"
+
+#~ msgid ""
+#~ "Combining a spirit of adventure with a love for the city, the 500X City "
+#~ "Cross is the ideal car for anyone wishing to show off their outdoor style "
+#~ "as they cruise the urban streets"
+#~ msgstr ""
+#~ "Combinando uno spirito avventuroso e l’amore per la città, la nuova 500X "
+#~ "City Cross è l’auto ideale per chiunque desideri sfoggiare uno stile "
+#~ "outdoor anche sfrecciando lungo i percorsi urbani."
+
+#~ msgid ""
+#~ "DRL (day running light) and rearprojectors with LED technologyto improve "
+#~ "visibility and efficiency"
+#~ msgstr "Luci diurne a LED"
+
+#~ msgid " Manual air conditioning system"
+#~ msgstr "Climatizzatore manuale"
+
+#~ msgid ""
+#~ "Grey Canvas fabric 3D quilted, ivory grained techno-leather head "
+#~ "restraints and upper-part with 500 logo insert in grey vinyl and ivory "
+#~ "piping"
+#~ msgstr ""
+#~ "Tessuto 3D tela grigio quilt, poggiatesta in tecno-pelle granulata color "
+#~ "avorio, parte superiore con inserto logo 500 e bordini in vinile color "
+#~ "grigio e avorio"
+
+#~ msgid "16” <br>Glossy silver alloy wheels"
+#~ msgstr "Cerchi in lega color argento lucido da 16''"
+
+#~ msgid "17” <br>Black machined alloy wheels<br>optional"
+#~ msgstr ""
+#~ "Cerchi in lega argento con lavorazione nero opaco da 17''<br>optional"
+
+#~ msgid "18”<br> Black machined alloy wheels<br>optional"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 18''<br>optional"
+
+#~ msgid "19”<br> Black machined alloy wheels<br>optional"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 19''<br>optional"
+
+#~ msgid "16” Glossy silver alloy wheels"
+#~ msgstr "Cerchi in lega da 16''"
+
+#~ msgid ""
+#~ "Even at the center of a crowded city, the new 500X can get noticed thanks "
+#~ "to its new features that make its style even more 500."
+#~ msgstr ""
+#~ "La nuova 500X sorprende con nuovi tocchi di stile “ancora più 500”. I "
+#~ "particolari perfetti per non passare inosservati anche nel bel mezzo del "
+#~ "traffico cittadino."
+
+#~ msgid ""
+#~ "Even at the center of a crowded city, the new 500X can get noticed thanks "
+#~ "to its new features that make its style even more 500"
+#~ msgstr ""
+#~ "La nuova 500X sorprende con nuovi tocchi di stile “ancora più 500”. I "
+#~ "particolari perfetti per non passare inosservati anche nel bel mezzo del "
+#~ "traffico cittadino."
+
+#~ msgid "16” steel wheels"
+#~ msgstr "Cerchi in acciaio da 16''"
+
+#~ msgid "External heated door mirrors black glossy painted"
+#~ msgstr "Specchi retrovisori esterni in tinta nero lucido"
+
+#~ msgid "Dedicated upholstery"
+#~ msgstr "Nuovi interni esclusivi"
+
+#~ msgid "Steering wheel with audio controls"
+#~ msgstr "Comandi audio al volante"
+
+#~ msgid "Uconnect™ 7” Radio DAB with Bluetooth® and USB with 4 speakers"
+#~ msgstr "Radio Uconnect™ DAB con Bluetooth® e USB con 4 altoparlanti"
+
+#~ msgid ""
+#~ "Black denim fabric, black techno-leather head restraints and upper-part "
+#~ "with 500 logo insert and piping in vinyl with black/light grey stripes"
+#~ msgstr ""
+#~ "Tessuto denim nero, poggiatesta in tecno-pelle nera, parte superiore con "
+#~ "inserto logo 500 e bordini in vinile con strisce color grigio chiaro/nero"
+
+#~ msgid "16”<br>Glossy silver hub cup"
+#~ msgstr "Coprimozzo color argento lucido da 16''"
+
+#~ msgid "16”<br>Glossy silver alloy wheel<br>optional"
+#~ msgstr "Cerchi in lega color argento lucido da 16''<br>optional"
+
+#~ msgid "Gelato White | 16” Glossy silver hub cup"
+#~ msgstr "Bianco Gelato Coprimozzo argento lucido da 16''"
+
+#~ msgid "16” Glossy silver hub cup"
+#~ msgstr "Coprimozzo color argento lucido da 16''"
+
+#~ msgid "16” Glossy silver alloy wheel"
+#~ msgstr "Cerchi in lega color argento lucido da 16''"
+
+#~ msgid "Venezia Blue TN"
+#~ msgstr "Blu Venezia con tetto nero"
+
+#~ msgid "Jeans Blue TN"
+#~ msgstr "Blu Jeans con tetto nero"
+
+#~ msgid "Moda Grey TN"
+#~ msgstr "Grigio Moda con tetto nero"
+
+#~ msgid "Passione Red TN"
+#~ msgstr "Rosso Passione con tetto nero"
+
+#~ msgid "White Pearl"
+#~ msgstr "Bianco Perla"
+
+#~ msgid ""
+#~ "The lowered ride height of 13 mm, the 19” alloy wheels with performance "
+#~ "tires combined with specific suspension and steering wheel tuning (only "
+#~ "on 1.3 FireFly T4 engine): all these characteristics give the 500X an "
+#~ "exceptional grip and optimal handling on the street, an improved safety, "
+#~ "a maximun fun to drive combined with a sporty look"
+#~ msgstr ""
+#~ "Assetto ribassato di 13 mm, cerchi in lega da 19” con pneumatici ad alte "
+#~ "prestazioni abbinati a sospensioni performanti e set-up volante (solo su "
+#~ "motore 1.3 FireFly T4): sono questi i dettagli che regalano a 500X Sport "
+#~ "una tenuta di strada impareggiabile, ottima manovrabilità, maggiore "
+#~ "sicurezza e grande divertimento di guida. Il tutto abbinato ad un "
+#~ "inconfondibile look sportivo."
+
+#~ msgid "Full LED Headlights"
+#~ msgstr "Fari full LED"
+
+#~ msgid "Full LED Fog lamps"
+#~ msgstr "Fendinebbia full LED"
+
+#~ msgid "Specific lowered ride height"
+#~ msgstr "Altezza da terra ribassata"
+
+#~ msgid "Specific front and rear bumpers with Titanium finished inserts"
+#~ msgstr ""
+#~ "Nuovi paraurti SPORT anteriori e posteriori, con inserti grigi in titanio"
+
+#~ msgid "Body colour side skirts and wheel arch moldings"
+#~ msgstr "Minigonne e modanature in colore carrozzeria"
+
+#~ msgid "18” sporty alloy wheels"
+#~ msgstr "Cerchi in lega specifici da 18''"
+
+#~ msgid "Dual chrome exhaust"
+#~ msgstr "Terminale di scarico doppia cromatura"
+
+#~ msgid "Privacy glass"
+#~ msgstr "Vetri privacy oscurati"
+
+#~ msgid ""
+#~ "Titanium finished details on front bumper, front molding and door handles"
+#~ msgstr "Paraurti anteriori, stampi e maniglie con inserti grigi in titanio"
+
+#~ msgid "Titanium finished mirror caps"
+#~ msgstr "Calotte specchi grigio titanio"
+
+#~ msgid "“Sport” badge on fender"
+#~ msgstr "Badge Sport"
+
+#~ msgid "Dedicated sporty dark upholstery"
+#~ msgstr "Tappezzeria con tessuti dedicati"
+
+#~ msgid "Titanium finished dashboard with 500 Myron logo"
+#~ msgstr "Plancia grigio titanio con logo 500 Myron"
+
+#~ msgid ""
+#~ "Specific techno-leather steering wheel with audio controls and Myron "
+#~ "details"
+#~ msgstr "Volante sportivo"
+
+#~ msgid "Dark headliner and pillars"
+#~ msgstr "Headliner e pillar scuri"
+
+#~ msgid "Specific aluminum shift knob on manual gearbox"
+#~ msgstr "Specific aluminum shift knob on manual gearbox ????"
+
+#~ msgid "Specific cluster with 3,5” TFT digital coloured display"
+#~ msgstr "Nuovo display a colori SPORT TFT 3.5''"
+
+#~ msgid ""
+#~ "<strong>LOWERED RIDE HEIGHT</strong><br><br>-13 mm ride height vs. Urban "
+#~ "and Cross body"
+#~ msgstr ""
+#~ "<strong>ALTEZZA DA TERRA RIBASSATA</strong><br><br>: altezza da 13 mm "
+#~ "inferiore vs. versioni Urban e Cross"
+
+#~ msgid ""
+#~ "<strong>NEW 19” TIRES</strong><br><br>Dedicated 19” tires 225/40 R19 with "
+#~ "Sporty performances (OPT)"
+#~ msgstr ""
+#~ "<strong>NUOVI PNEUMATICI DA 19”</strong><br><br> Pneumatici dedicati da "
+#~ "19” 225/40 R19 con performance sportive (OPT)"
+
+#~ msgid ""
+#~ "<strong>SPECIFIC SUSPENSION</strong><br><br>New front and rear springs. "
+#~ "Dedicated shock absorber tuning (only on 1,3 FireFly Turbo 150hp DCT)"
+#~ msgstr ""
+#~ "<strong>SOSPENSIONI SPECIFICHE </strong><br><br>Nuove molle anteriori e "
+#~ "posteriori Regolazione ammortizzatore dedicato (solo su motore 1.3 "
+#~ "FireFly T4 150 CV DCT)"
+
+#~ msgid ""
+#~ "<strong>STEERING WHEEL SET-UP</strong><br><br>(only on 1,3 FireFly Turbo "
+#~ "150hp DCT)"
+#~ msgstr ""
+#~ "<strong>IMPOSTAZIONE VOLANTE </strong><br><br>(solo su motore 1.3 FireFly "
+#~ "T4 150 CV DCT)"
+
+#~ msgid ""
+#~ "Greater agility in curve entry and improved cornering "
+#~ "grip*<br><br><small>On 500X Sport 1,3 FireFly Turbo 150hp DCT with 19” "
+#~ "alloy wheels with performance tyres</small>"
+#~ msgstr "Migliore performance di entrata e tenuta in curva"
+
+#~ msgid ""
+#~ "Black arrow fabric seats with techno-leather inserts, 500 silver logo and "
+#~ "piping in Red/Grey"
+#~ msgstr ""
+#~ "Seduta tessuto “Black Arrow” con inserti in tecno-pelle, logo 500 in "
+#~ "argento e cadenino rosso/grigio"
+
+#~ msgid ""
+#~ "Punched black leather, with techno-leather inserts,upper-part with 500 "
+#~ "embroidered logo and grey piping<br>optional"
+#~ msgstr ""
+#~ "Pelle nera punzonata, con inserti in tecno-pelle, parte superiore con "
+#~ "logo ricamato 500 e bordini color grigio"
+
+#~ msgid "18” <br>Black machined alloy wheels"
+#~ msgstr "Cerchi in lega con lavorazione color nero da 18''"
+
+#~ msgid "Gelato White | 18” Black machined alloy wheels"
+#~ msgstr "Bianco Gelato Cerchi in lega con lavorazione color nero da 18''"
+
+#~ msgid "Seduzione Red"
+#~ msgstr "Rosso Seduzione"
+
+#~ msgid "Seduzione Red black roof"
+#~ msgstr "Rosso Seduzione con tetto nero"
+
+#~ msgid "A TASTE OF <span>TOMORROW</span>, TODAY."
+#~ msgstr "A TASTE OF <span>TOMORROW</span>, TODAY."
+
+#~ msgid "THE<br>AUGMENTED"
+#~ msgstr "THE<br>AUGMENTED"
+
+#~ msgid "SUV"
+#~ msgstr "SUV"
+
+#~ msgid "THE NEW 500X."
+#~ msgstr "NUOVA 500X."
+
+#~ msgid ""
+#~ "WHAT WILL THE TECHNOLOGY OF TOMORROW BE LIKE? IT WILL BE CAPABLE OF "
+#~ "IMPROVING AND ENHANCING YOUR EVERY EXPERIENCE. OF OPTIMISING YOUR "
+#~ "CAPABILITIES. OF AMPLIFYING YOUR SENSATIONS. OF TRANSFORMING THE ENTIRE "
+#~ "WORLD AND BOOSTING SAFETY, ENJOYMENT AND BEAUTY. 500X TECHNOLOGY IS "
+#~ "ALREADY CAPABLE OF DELIVERING ALL OF THIS TO GIVE YOU A TASTE OF "
+#~ "TOMORROW, TODAY."
+#~ msgstr ""
+#~ "COME SARÀ LA TECNOLOGIA DI DOMANI? SARÀ CAPACE DI MIGLIORARE E RENDERE "
+#~ "PIÙ VIVIDA OGNI TUA ESPERIENZA. DI OTTIMIZZARE LE TUE CAPACITÀ. DI "
+#~ "AMPLIFICARE OGNI SENSAZIONE. DI TRASFORMARE IL MONDO INTERO E OFFRIRE PIÙ "
+#~ "SICUREZZA, DIVERTIMENTO E BELLEZZA. LA TECNOLOGIA DELLA 500X È GIÀ IN "
+#~ "GRADO DI DARTI TUTTO QUESTO: UN ASSAGGIO DEL DOMANI, OGGI."
+
+#~ msgid "https://www.fiat.co.uk/quote-request"
+#~ msgstr "https://www.fiat.it/preventivo-auto"
+
+#~ msgid "augmented"
+#~ msgstr "augmented"
+
+#~ msgid "city"
+#~ msgstr "city"
+
+#~ msgid "NEW FIAT 500X LOUNGE"
+#~ msgstr "NUOVA 500X LOUNGE."
+
+#~ msgid ""
+#~ "Experience the city of today with the technology of tomorrow on board the "
+#~ "New Fiat 500X Lounge and Urban."
+#~ msgstr ""
+#~ "Vivi la città di oggi con la tecnologia di domani a bordo della nuova "
+#~ "500X Lounge."
+
+#~ msgid "500X Lounge"
+#~ msgstr "500X Lounge"
+
+#~ msgid "500X Urban"
+#~ msgstr "500X Urban"
+
+#~ msgid "nature"
+#~ msgstr "nature"
+
+#~ msgid "THE NEW FIAT 500X CROSS"
+#~ msgstr "NUOVA 500X CROSS."
+
+#~ msgid ""
+#~ "Escape from the city and let technology take care of your safety with "
+#~ "latest driver-assistance system. Available in the Cross and City Cross "
+#~ "versions."
+#~ msgstr ""
+#~ "Fuggi dalla città e lascia che la tecnologia si prenda cura della tua "
+#~ "sicurezza con l'ultimo sistema di driver-assistance. Disponibile nelle "
+#~ "versioni Cross e City Cross."
+
+#~ msgid "500X Cross"
+#~ msgstr "500X Cross"
+
+#~ msgid "500X City Cross"
+#~ msgstr "500X City Cross"
+
+#~ msgid "pleasure"
+#~ msgstr "pleasure"
+
+#~ msgid "NEW FIAT 500X SPORT"
+#~ msgstr "NUOVA 500X SPORT."
+
+#~ msgid ""
+#~ "It’s love at first ride. Curve after curve, the New 500X Sport seduces "
+#~ "the road."
+#~ msgstr ""
+#~ "E' amore al primo viaggio. Curva dopo curva, la Nuova 500X Sport seduce "
+#~ "la strada."
+
+#~ msgid "500X Sport"
+#~ msgstr "500X Sport"
+
+#~ msgid "THE AUGMENTED"
+#~ msgstr "THE AUGMENTED"
+
+#~ msgid "THE NEW 500X"
+#~ msgstr "NUOVA 500X"
+
+#~ msgid "AUGMENTED<br><span>BEAUTY</span>"
+#~ msgstr "AUGMENTED<br><span>BEAUTY</span>"
+
+#~ msgid "NEW FULL LED<br>PROJECTORS"
+#~ msgstr "NUOVI PROIETTORI<br> FULL LED"
+
+#~ msgid "NEW FULL LED PROJECTORS"
+#~ msgstr "NUOVI PROIETTORI FULL LED"
+
+#~ msgid ""
+#~ "As you might expect from a 500X, this model delivers augmented design "
+#~ "with new Full LED Projectors and new rear LED ensuring better visibility, "
+#~ "new bumper for better stance, and irresistible new colours."
+#~ msgstr ""
+#~ "Naturalmente una 500X di carattere non può che avere un design superiore, "
+#~ "con nuovi proiettori full LED per una migliore visibilità, nuovi "
+#~ "paraurti, assetto potenziato e nuovi irresistibili colori."
+
+#~ msgid "NEW DESIGN"
+#~ msgstr "NUOVO DESIGN"
+
+#~ msgid ""
+#~ "Check out the <strong>new design of the vehicle interiors</strong>, "
+#~ "featuring a new sport cluster and new steering wheel, with alcantara "
+#~ "upholstery, that offer unique sporty driving sensations."
+#~ msgstr ""
+#~ "Scopri il <strong>nuovo design degli interni</strong>, il nuovo quadro "
+#~ "strumenti sport e il nuovo volante, con inserti in Alcantara®, in grado "
+#~ "di offrire un comfort di guida ancora più elevato."
+
+#~ msgid "Find out which SUV is right for you."
+#~ msgstr "Scopri qual è il SUV adatto a te."
+
+#~ msgid "https://www.fiat.co.uk/configurator"
+#~ msgstr "https://www.fiat.it/car-configurator"
+
+#~ msgid ""
+#~ "Check out the new design of the vehicle interiors, featuring a new sport "
+#~ "cluster and new steering wheel, with alcantara upholstery, that offer "
+#~ "unique sporty driving sensations."
+#~ msgstr ""
+#~ "Scopri il nuovo design degli interni, la nuova plancia sport e il nuovo "
+#~ "volante con inserti in Alcantara®., in grado di offrire un comfort di "
+#~ "guida ancora più elevato. "
+
+#~ msgid "AUGMENTED<br/><span>INTELLIGENCE</span>"
+#~ msgstr "AUGMENTED<br/><span>INTELLIGENCE</span>"
+
+#~ msgid "NEW DRIVING TECHNOLOGY"
+#~ msgstr "NUOVI DISPOSITIVI DI ASSISTENZA ALLA GUIDA."
+
+#~ msgid ""
+#~ "The 500X features advanced driver assistance systems ensuring that "
+#~ "everything is under control at all times. For instance, it can recognise "
+#~ "the main road signs, such as speed limits, and notify the driver – all in "
+#~ "real time."
+#~ msgstr ""
+#~ "La nuova 500X è dotata di un sistema avanzato di assistenza alla guida "
+#~ "per mantenere tutto sotto controllo, in ogni momento. Per esempio, è in "
+#~ "grado di riconoscere i principali segnali stradali, come i limiti di "
+#~ "velocità, e di avvisare il conducente in tempo reale."
+
+#~ msgid "AUGMENTED<br/><span>EFFICIENCY</span>"
+#~ msgstr "AUGMENTED<br/><span>EFFICIENCY</span>"
+
+#~ msgid "NEW EFFICIENT PETROL<br/>TURBO ENGINE"
+#~ msgstr "MOTORI TURBO A BENZINA DI NUOVA GENERAZIONE."
+
+#~ msgid ""
+#~ "The 500X is focused on a more sustainable future. That’s why we’re "
+#~ "already offering a wide range of hi-tech engines. A stand-out engine type "
+#~ "currently available offer lower consumption, better performance, higher "
+#~ "acceleration and driving comfort benchmark in its class"
+#~ msgstr ""
+#~ "500X è orientata ad un futuro più sostenibile. Per questo offriamo già "
+#~ "una vasta gamma di motori hi-tech. Il nuovo motore benzina garantisce "
+#~ "consumi ridotti, prestazioni più elevate oltre ad un comfort di guida "
+#~ "eccellente."
+
+#~ msgid "Read more"
+#~ msgstr "Per saperne di più"
+
+#~ msgid "BOOK NOW<br/>YOUR TEST DRIVE"
+#~ msgstr "PRENOTA ORA <br/>IL TUO TEST DRIVE"
+
+#~ msgid "https://www.fiat.co.uk/test-drive"
+#~ msgstr "https://www.fiat.it/test-drive"
+
+#~ msgid "AUGMENTED<br/><span>CONNECTIVITY</span>"
+#~ msgstr "AUGMENTED<br/><span>CONNECTIVITY</span>"
+
+#~ msgid ""
+#~ "Boost your connectivity and ensure you stay at the centre of the action "
+#~ "with Apple CarPlay® Integration. By linking your iPhone to your new 500X, "
+#~ "you’ll simplify your driving experience thanks to the Uconnect™ 7” HD "
+#~ "LIVE touchscreen, now available across all trim levels."
+#~ msgstr ""
+#~ "Potenzia la tua connettività mettendoti sempre al centro dell’azione con "
+#~ "l'integrazione Apple CarPlay®. Collegando l'iPhone alla tua nuova 500X, "
+#~ "semplificherai l’esperienza di guida grazie al sistema Uconnect™ 7\" con "
+#~ "display touchscreen HD LIVE, ora disponibile in tutte le versioni."
+
+#~ msgid ""
+#~ "Boost your connectivity and ensure you stay at the centre of the action "
+#~ "with Android Auto™* Integration. By linking your Smartphone to your new "
+#~ "500X, you’ll simplify your driving experience thanks to the Uconnect™ 7” "
+#~ "HD LIVE touchscreen, now available across all trim levels."
+#~ msgstr ""
+#~ "Potenzia la tua connettività mettendoti sempre al centro dell’azione con "
+#~ "l'integrazione Android Auto™*. Collegando lo smartphone alla tua nuova "
+#~ "500X, semplificherai l’esperienza di guida grazie al sistema Uconnect™ "
+#~ "7\" con display touchscreen HD LIVE, ora disponibile in tutte le versioni."
+
+#~ msgid ""
+#~ "To enjoy Apple CarPlay* connect your iPhone to the specific USB portin "
+#~ "your car."
+#~ msgstr ""
+#~ "Per utilizzare Apple CarPlay* connetti il tuo iPhone alla porta USB "
+#~ "dedicata della tua auto."
+
+#~ msgid ""
+#~ "* Apple CarPlay® is a trademark of Apple Inc. Use of the Apple CarPlay® "
+#~ "logo means that a vehicle user interface meets Apple performance "
+#~ "standards. Apple is not responsible for the operation of this vehicle or "
+#~ "its compliance with safety and regulatory standards. Please note that the "
+#~ "use of this product with iPhone, iPod, or iPad may affect wireless "
+#~ "performance."
+#~ msgstr ""
+#~ "* Apple CarPlay® è un marchio di Apple Inc. L’uso del logo Apple CarPlay® "
+#~ "indica che l’interfaccia utente del veicolo ottempera agli standard sulle "
+#~ "prestazioni Apple. Apple non è responsabile del funzionamento del "
+#~ "presente veicolo o della sua ottemperanza agli standard normativi o sulla "
+#~ "sicurezza. Nota: l’utilizzo del presente prodotto con iPhone, iPod o iPad "
+#~ "può ripercuotersi sulle prestazioni wireless."
+
+#~ msgid ""
+#~ "To use Android Auto™* on your phone screen, you’ll need an Android phone "
+#~ "running 5.0 (Lollipop) or higher and the Android Auto™"
+#~ msgstr ""
+#~ "Per utilizzare Android Auto™* sullo schermo del telefono, è necessario un "
+#~ "telefono con sistema Android 5.0 (Lollipop) o superiore e Android Auto™."
+
+#~ msgid "* Android and Android Auto are trademarks of Google LLC."
+#~ msgstr "* Android e Android Auto sono marchi di Google LLC."
+
+#~ msgid "AUGMENTED<br/><span>CONNECTIVITY"
+#~ msgstr "AUGMENTED<br/><span>CONNECTIVITY"
+
+#~ msgid "Welcome"
+#~ msgstr "Benvenuto"
+
+#~ msgid "hello"
+#~ msgstr "ciao"

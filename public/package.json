@@ -1,0 +1,21 @@
+{
+    "name": "template-digital-catalog",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "keywords": [],
+    "author": "Daniele Iobbi",
+    "license": "ISC",
+    "devDependencies": {
+        "ts-loader": "^8.0.1",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "gsap": "^3.5.1"
+    }
+}

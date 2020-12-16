@@ -1,0 +1,42 @@
+// @font-face {
+//     font-family: "Futura";
+//     src: url("#{$fontPath}Futura/FuturaStd-Condensed.otf");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: "Futura";
+//     src: url("#{$fontPath}Futura/FuturaStd-CondensedBold.otf");
+//     font-weight: bold;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: "Futura light";
+//     src: url("#{$fontPath}Futura/FuturaStd-CondensedLight.otf");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+@font-face {
+    font-family: "Roboto";
+    src: url("#{$fontPath}Roboto/Roboto-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("#{$fontPath}Roboto/Roboto-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "my-icons";
+    src: url("#{$fontPath}icons/icons-x500.eot?1lcuxl");
+    src: url("#{$fontPath}icons/icons-x500.eot?1lcuxl#iefix")
+            format("embedded-opentype"),
+        url("#{$fontPath}icons/icons-x500.ttf?1lcuxl") format("truetype"),
+        url("#{$fontPath}icons/icons-x500.woff?1lcuxl") format("woff"),
+        url("#{$fontPath}icons/icons-x500.svg?1lcuxl#icons-x500") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

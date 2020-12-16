@@ -1,0 +1,114 @@
+/**
+ * General
+ *
+ */
+
+html {
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: $white;
+}
+
+a {
+    color: inherit;
+
+    &:hover {
+        color: inherit;
+        text-decoration: unset;
+    }
+
+    &:focus {
+        outline: none !important;
+    }
+}
+.anchor {
+    display: block;
+    position: relative;
+    top: 8rem;
+    visibility: hidden;
+    &.a-16 {
+        top: 16rem;
+    }
+}
+
+#preloader {
+    background-color: $black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.primary {
+    color: $primary;
+}
+
+.scrollSequenceFadeIn {
+    min-height: 100vh;
+    .sequence-wrap {
+        position: relative;
+        img.anime {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+main {
+    overflow-x: hidden;
+    section {
+        position: relative;
+        box-sizing: border-box;
+        &#home {
+            height: 100vh;
+        }
+        &#DUMMY {
+            min-height: 100vh;
+        }
+    }
+}
+
+// Large devices (desktops, less than 1440px)
+@media (max-width: 1440px) {
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1200px) {
+}
+
+// Ipad Pro landscape
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 992px) {
+}
+
+// Ipad Landscape
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) {
+}
+
+// iPhoneX Landscape
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+}

@@ -1,0 +1,29 @@
+/**
+ * font
+ *
+ */
+$fontPath: "../../fonts/";
+$font-family-base: "Roboto";
+$h1-font-size: $font-size-base * 3.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.5;
+/**
+ * color
+ *
+ */
+$primary: #b50339;
+$navbar-link-color: $white;
+$navbar-link-hover-color: $primary;
+
+/**
+ * size
+ *
+ */
+$navbar-brand-height: 62px;
+$custom-border: 6px;
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1470px,
+);

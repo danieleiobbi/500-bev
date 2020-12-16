@@ -1,0 +1,32 @@
+footer {
+    padding: 30px 0;
+    //font-family: '';
+    background-color: $black;
+    color: $white;
+    font-size: $font-size-sm;
+    border-top: 8px solid $primary;
+    img {
+        max-width: 100px;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0;
+    }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) {
+    footer {
+        img {
+            width: 15vw;
+        }
+        font-size: $font-size-sm/1.2;
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            padding: 0;
+        }
+    }
+}
