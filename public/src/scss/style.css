@@ -8016,20 +8016,31 @@ a.text-dark:hover, a.text-dark:focus {
   content: "\e90d";
 }
 
+.navbar h3 {
+  font-size: 1rem;
+}
+
 .navbar .navbar-brand img {
   width: 200px;
 }
 
 .navbar .hamburger {
-  border: unset;
+  border: 1px solid #fff;
+  border-radius: 25px;
   z-index: 2;
   outline: unset;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar .hamburger.navbar-toggler {
+  padding: 0.5rem;
 }
 
 .navbar .hamburger .line {
-  width: 30px;
-  height: 3px;
-  background: #29b8ce;
+  width: 25px;
+  height: 2px;
+  background: #fff;
   margin: 5px auto;
   -webkit-transition: all 0.5s cubic-bezier(0.81, -0.33, 0.345, 1.375);
   transition: all 0.5s cubic-bezier(0.81, -0.33, 0.345, 1.375);
@@ -8037,8 +8048,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar .hamburger .line:first-of-type {
   /* rotate first one */
-  -webkit-transform: rotate(45deg) translate(10px, 10px);
-          transform: rotate(45deg) translate(10px, 10px);
+  -webkit-transform: rotate(45deg) translate(7px, 5px);
+          transform: rotate(45deg) translate(7px, 5px);
 }
 
 .navbar .hamburger .line:nth-of-type(2) {
@@ -8048,8 +8059,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar .hamburger .line:last-of-type {
   /* rotate third one */
-  -webkit-transform: rotate(-45deg) translate(1px, -1px);
-          transform: rotate(-45deg) translate(1px, -1px);
+  -webkit-transform: rotate(-45deg) translate(5px, -4px);
+          transform: rotate(-45deg) translate(5px, -4px);
+}
+
+.navbar .hamburger.collapsed {
+  border: 1px solid #29b8ce;
 }
 
 .navbar .hamburger.collapsed .line {
@@ -8065,11 +8080,8 @@ a.text-dark:hover, a.text-dark:focus {
   position: fixed;
   top: 0;
   right: 0;
-  background-image: url("../../images/DucatoMerci-01.jpg");
-  background-size: cover;
-  background-position: center center;
   height: 100vh;
-  width: 100vw;
+  width: 25vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -8096,11 +8108,11 @@ a.text-dark:hover, a.text-dark:focus {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  background-color: rgba(33, 37, 41, 0.9);
+  background-color: #6c9dad;
 }
 
 .navbar .navbar-collapse.collapse.show .navbar-nav .nav-item a {
-  color: #29b8ce;
+  color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transition: all 0.5s ease-in-out;
@@ -8112,7 +8124,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .navbar .navbar-collapse.collapse.show .navbar-nav .nav-item .nav-link {
-  color: #29b8ce;
+  color: #fff;
   text-transform: uppercase;
   padding: 0.2em 0;
 }
@@ -8142,7 +8154,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar .dropdown #link-dropdown-toggle-split,
 .navbar .btn-group #link-dropdown-toggle-split {
-  color: #29b8ce;
+  color: #fff;
   font-size: 1.5rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -8155,7 +8167,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar .dropdown .dropdown-toggle-split,
 .navbar .btn-group .dropdown-toggle-split {
-  color: #29b8ce;
+  color: #fff;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -8169,6 +8181,7 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar .dropdown .dropdown-menu,
 .navbar .btn-group .dropdown-menu {
   background-color: unset;
+  border: unset;
 }
 
 .navbar .dropdown .dropdown-menu .dropdown-item,

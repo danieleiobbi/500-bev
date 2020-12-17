@@ -8,7 +8,6 @@ export class Main {
     constructor() {
         this.matchMedia = matchMedia();
         this.removePreloader();
-        this.navigation();
         this.stagger();
         this.gsReveal();
         console.log(this.matchMedia);
@@ -16,20 +15,17 @@ export class Main {
 
     private removePreloader = () => {
         const preloader = document.getElementById("preloader");
-        if (preloader) {
-            setTimeout(function () {
+        if (!preloader) return;
+        const readyStateCheckInterval = setInterval(() => {
+            // console.log(document.readyState);
+            if (document.readyState === "complete") {
                 document.body.style.overflowY = "auto";
                 preloader.remove();
-            }, 1000);
-        }
-    };
-
-    navigation = () => {
-        window.addEventListener("scroll", function () {
-            sessionStorage.scrollPosition = window.scrollY;
-            // console.log(window.scrollY);
-        });
-        window.scroll(0, sessionStorage.scrollPosition || 0);
+                clearInterval(readyStateCheckInterval);
+            } else {
+                readyStateCheckInterval;
+            }
+        }, 100);
     };
 
     stagger = () => {

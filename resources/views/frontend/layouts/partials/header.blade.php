@@ -37,23 +37,19 @@
             @php $href = (request()->is(request()->get('home-segment'))) ? '' : env('APP_URL'); @endphp
 
             <li class="nav-item">
-                <h3><a href="{{ $href }}#" class="nav-link">{!! _i("LOREM IPSUM") !!}</a>
+                <h3><a href="{{ $href }}#DESIGN" class="nav-link">{!! _i("DESIGN") !!}</a>
             </li>
             <li class="nav-item">
-                <h3><a href="{{ $href }}#" class="nav-link">{!! _i("LOREM IPSUM") !!}</a>
+                <h3><a href="{{ $href }}#ELECTRIC-FEATURES" class="nav-link">{!! _i("ELECTRIC FEATURES") !!}</a>
             </li>
-            <li>
-                <!-- split dropdown -->
-                <div class="btn-group">
-                    <a id="link-dropdown-toggle-split" href="{{ $href }}#RANGE">{!! _i("RANGE") !!}</a>
-                    <a class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="sr-only"></span>
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="{{ env('APP_URL').request()->get('segment').'trim/A' }}">{!! _i("A") !!}</a>
-                        <a class="dropdown-item" href="{{ env('APP_URL').request()->get('segment').'trim/B' }}">{!! _i("B") !!}</a>
-                    </div>
-                </div>
+            <li class="nav-item">
+                <h3><a href="{{ $href }}#SAFETY" class="nav-link">{!! _i("SAFETY") !!}</a>
+            </li>
+            <li class="nav-item">
+                <h3><a href="{{ $href }}#TECHNOLOGY" class="nav-link">{!! _i("TECHNOLOGY") !!}</a>
+            </li>
+            <li class="nav-item">
+                <h3><a href="{{ $href }}#CONNECTIVITY" class="nav-link">{!! _i("CONNECTIVITY") !!}</a>
             </li>
         </ul>
     </div>

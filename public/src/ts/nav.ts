@@ -16,12 +16,16 @@ export class Nav {
             ".navbar-collapse"
         ) as HTMLElement;
         const links = navbarCollapse.querySelectorAll(".nav-item");
-
+        gsap.set(navbarCollapse, { opacity: 0 });
+        let show = false;
         hamburger.addEventListener("click", () => {
+            show = !show;
             navbarCollapse.classList.toggle("show");
             hamburger.classList.toggle("collapsed");
             let tl = gsap.timeline();
-            tl.from(navbarCollapse, { x: mMedia.width });
+            if (show) {
+                tl.from(navbarCollapse, { opacity: 1 });
+            }
         });
 
         links.forEach((link) => {
