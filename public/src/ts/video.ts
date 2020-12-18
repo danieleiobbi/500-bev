@@ -109,7 +109,7 @@ export class AutoPlay {
                 onLeave: () => {
                     if (_video.currentTime > 0) _video.pause();
                 },
-                markers: true,
+                markers: false,
             });
         });
     }

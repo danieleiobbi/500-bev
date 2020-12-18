@@ -20,6 +20,7 @@
         "API_URL":"{{ env('API_URL') }}"
     }'>
     <div id="preloader"><img src="{{ asset('images/svg/tail-spin.svg') }}" width="50" alt=""></div>
+    <div class="drawer-veil" id="drawer-veil"></div>
     <main role="main">
         <!-- Header area -->
         @include('frontend.layouts.partials.header')

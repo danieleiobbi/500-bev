@@ -65,7 +65,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #393939;
   text-align: left;
   background-color: #fff;
 }
@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 h2, .h2 {
@@ -381,7 +381,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 h5, .h5 {
@@ -2179,7 +2179,7 @@ mark,
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #393939;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -2206,7 +2206,7 @@ mark,
 }
 
 .btn:hover {
-  color: #212529;
+  color: #393939;
   text-decoration: none;
 }
 
@@ -7756,7 +7756,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #212529 !important;
+  color: #393939 !important;
 }
 
 .text-muted {
@@ -7894,6 +7894,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @font-face {
+  font-family: "Roboto Light";
+  src: url("../../fonts/Roboto/Roboto-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "my-icons";
   src: url("../../fonts/icons/icons-x500.eot?1lcuxl");
   src: url("../../fonts/icons/icons-x500.eot?1lcuxl#iefix") format("embedded-opentype"), url("../../fonts/icons/icons-x500.ttf?1lcuxl") format("truetype"), url("../../fonts/icons/icons-x500.woff?1lcuxl") format("woff"), url("../../fonts/icons/icons-x500.svg?1lcuxl#icons-x500") format("svg");
@@ -8021,7 +8028,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .navbar .navbar-brand img {
-  width: 200px;
+  width: 100px;
 }
 
 .navbar .hamburger {
@@ -8031,6 +8038,7 @@ a.text-dark:hover, a.text-dark:focus {
   outline: unset;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  z-index: 1100;
 }
 
 .navbar .hamburger.navbar-toggler {
@@ -8076,29 +8084,29 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1;
 }
 
-.navbar .navbar-collapse.collapse.show {
+.navbar .navbar-collapse {
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   width: 25vw;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  z-index: 1;
-  overflow-y: scroll;
+  height: 100vh;
+  -webkit-transform: translateX(25vw);
+          transform: translateX(25vw);
+  z-index: 10;
 }
 
-.navbar .navbar-collapse.collapse.show::-webkit-scrollbar {
+.navbar .navbar-collapse::-webkit-scrollbar {
   display: none;
 }
 
-.navbar .navbar-collapse.collapse.show .social-container {
-  color: #fff;
+.navbar .navbar-collapse .social-container a {
+  font-size: 0.8rem;
 }
 
-.navbar .navbar-collapse.collapse.show .navbar-nav {
+.navbar .navbar-collapse .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8111,7 +8119,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #6c9dad;
 }
 
-.navbar .navbar-collapse.collapse.show .navbar-nav .nav-item a {
+.navbar .navbar-collapse .navbar-nav .nav-item a {
   color: #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -8119,17 +8127,17 @@ a.text-dark:hover, a.text-dark:focus {
   transition: all 0.5s ease-in-out;
 }
 
-.navbar .navbar-collapse.collapse.show .navbar-nav .nav-item a:hover {
+.navbar .navbar-collapse .navbar-nav .nav-item a:hover {
   color: #29b8ce;
 }
 
-.navbar .navbar-collapse.collapse.show .navbar-nav .nav-item .nav-link {
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #fff;
   text-transform: uppercase;
   padding: 0.2em 0;
 }
 
-.navbar .navbar-collapse.collapse.show .navbar-nav .nav-item i {
+.navbar .navbar-collapse .navbar-nav .nav-item i {
   position: relative;
   font-size: 1.5rem;
   top: 5px;
@@ -8219,7 +8227,6 @@ a.text-dark:hover, a.text-dark:focus {
  */
 html {
   position: relative;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -8251,6 +8258,22 @@ a:focus {
   top: 16rem;
 }
 
+.drawer-veil {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  background-color: #212529;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.font-light {
+  font-family: "Roboto Light";
+}
+
 #preloader {
   background-color: #000;
   position: fixed;
@@ -8273,6 +8296,14 @@ a:focus {
   color: #29b8ce;
 }
 
+.pt-8 {
+  padding-top: 8rem;
+}
+
+.secondary {
+  color: #6c9dad;
+}
+
 .scrollSequenceFadeIn {
   min-height: 100vh;
 }
@@ -8287,6 +8318,90 @@ a:focus {
   left: 0;
 }
 
+.white {
+  color: #fff;
+}
+
+.white.border-bottom {
+  border-bottom: 1px solid #fff !important;
+}
+
+.x-gallery img {
+  width: 100%;
+  height: auto;
+  background: #f0f0f0;
+}
+
+.x-gallery ul {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+.x-gallery li {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: clamp(500px, 60vw, 800px);
+  padding-right: 1rem;
+}
+
+.x-gallery header {
+  height: 100vh;
+}
+
+.x-gallery footer {
+  height: 50vh;
+}
+
+.x-gallery :-webkit-any-link {
+  color: #4e9815;
+}
+
+.x-gallery :-moz-any-link {
+  color: #4e9815;
+}
+
+.x-gallery :any-link {
+  color: #4e9815;
+}
+
+.x-gallery .df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.x-gallery .aic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.x-gallery .jcc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.x-gallery .demo-wrapper {
+  overflow-x: hidden;
+}
+
+.x-gallery .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.x-gallery .demo-gallery:not(.last) {
+  padding-bottom: 1rem;
+}
+
+.x-gallery .demo-text .text {
+  font-size: clamp(8rem, 15vw, 16rem);
+  line-height: 1;
+  font-weight: 900;
+}
+
 main {
   overflow-x: hidden;
 }
@@ -8295,6 +8410,52 @@ main section {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #fff;
+}
+
+main section#cover {
+  height: 100vh;
+}
+
+main section#cover video {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main section.panel {
+  position: relative;
+  height: 100vh;
+}
+
+main section.panel img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main section.panel .caption {
+  position: absolute;
+}
+
+main section.panel .caption.panel-01 {
+  top: 25%;
+  left: 25%;
+}
+
+main section.panel .caption.panel-01.bottom {
+  top: unset;
+  left: unset;
+  bottom: 10%;
+  right: 25%;
+  width: 380px;
+}
+
+main section.panel .caption.panel-02 {
+  top: 25%;
+  left: 15%;
+}
+
+main section.panel .caption.panel-02 .bottom {
+  width: 380px;
 }
 
 main section#home {

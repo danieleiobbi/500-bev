@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top">
     <a class="navbar-brand" href="{{ env('APP_URL').request()->get('segment')}}">
-        <img class="img-fluid" src="{{ asset('images/svg/logo-w.svg') }}" alt="">
+        <img class="img-fluid" src="{{ asset('images/logos/logo.png') }}" alt="">
     </a>
 
     <button id="hamburger" class="navbar-toggler collapsed hamburger" type="button" data-toggle="_collapse"
@@ -10,9 +10,9 @@
         <div class="line"></div>
     </button>
 
-    <div id="MyNavbar" class="navbar-collapse collapse">
+    <div id="MyNavbar" class="navbar-collapse">
         <ul id="menu-menu-principale" class="navbar-nav">
-            <li class="nav-item mb-5">
+            <li class="nav-item mb-5 social-container">
                 <a class="mr-5" href="//www.facebook.com/sharer/sharer.php?u=https:{{ env('APP_URL').request()->get('segment')}}"
                     target="_blank">
                     <i class="mbri-icon icon-social-facebook"></i> {!! _i("SHARE") !!}

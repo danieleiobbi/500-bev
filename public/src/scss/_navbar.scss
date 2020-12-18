@@ -4,7 +4,7 @@
     }
     .navbar-brand {
         img {
-            width: 200px;
+            width: 100px;
         }
     }
     .hamburger {
@@ -16,6 +16,7 @@
         z-index: 2;
         outline: unset;
         transition: all 0.5s ease-in-out;
+        z-index: 1100;
         .line {
             width: 25px;
             height: 2px;
@@ -46,21 +47,22 @@
             }
         }
     }
-    .navbar-collapse.collapse.show {
+    .navbar-collapse {
         position: fixed;
         top: 0;
         right: 0;
-        height: 100vh;
+        flex: 0 0 auto;
         width: 25vw;
-        flex-direction: column;
-        z-index: 1;
-        //border-left: 1px solid $gray-300;
-        overflow-y: scroll;
+        height: 100vh;
+        transform: translateX(25vw);
+        z-index: 10;
         &::-webkit-scrollbar {
             display: none;
         }
         .social-container {
-            color: $white;
+            a {
+                font-size: 0.8rem;
+            }
         }
         .navbar-nav {
             display: flex;
@@ -68,7 +70,7 @@
             height: 100%;
             justify-content: center;
             text-align: center;
-            background-color: $navbar-bg-color;
+            background-color: $secondary;
             .nav-item {
                 a {
                     color: $white;

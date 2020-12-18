@@ -8,6 +8,8 @@ export class Main {
     constructor() {
         this.matchMedia = matchMedia();
         this.removePreloader();
+        this.layeredPinning();
+        this.xGallery();
         this.stagger();
         this.gsReveal();
         console.log(this.matchMedia);
@@ -26,6 +28,60 @@ export class Main {
                 readyStateCheckInterval;
             }
         }, 100);
+    };
+
+    layeredPinning = () => {
+        const panels = document.querySelectorAll(".panel");
+        if (!panels) return;
+        panels.forEach((panel) => {
+            ScrollTrigger.create({
+                trigger: panel,
+                start: "top top",
+                pin: true,
+                pinSpacing: false,
+                markers: false,
+                snap: 1 / (panels.length - 1), // snap whole page to the closest section!
+            });
+        });
+    };
+
+    xGallery = () => {
+        const containers = document.querySelectorAll(".x-gallery");
+        if (containers.length === 0) return;
+
+        containers.forEach((container) => {
+            // const images = gsap.utils.toArray(".x-gallery img");
+            // const images = container.querySelectorAll(".img");
+            document.body.style.overflow = "auto";
+            document.scrollingElement?.scrollTo(0, 0);
+            const sections = container.querySelectorAll(".section-gallery");
+
+            sections.forEach((section, index) => {
+                const _section = section as HTMLElement;
+                const w = _section.querySelector(".wrapper")!;
+                const [x, xEnd] =
+                    index % 2
+                        ? ["100%", (w.scrollWidth - _section.offsetWidth) * -1]
+                        : [w.scrollWidth * -1, 0];
+                gsap.fromTo(
+                    w,
+                    { x },
+                    {
+                        x: xEnd,
+                        scrollTrigger: {
+                            trigger: _section,
+                            // pin: true,
+                            scrub: 0.5,
+                            start: "top bottom",
+                            end: "bottom center",
+                            markers: true,
+                        },
+                    }
+                );
+            });
+        });
+
+        gsap.utils.toArray("section").forEach((section: any, index) => {});
     };
 
     stagger = () => {
@@ -54,7 +110,7 @@ export class Main {
             this.gsHideElement(elem);
             let markers = false;
             if (elem.classList.contains("markers")) {
-                markers = false;
+                markers = true;
             }
             ScrollTrigger.create({
                 trigger: elem,

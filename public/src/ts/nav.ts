@@ -7,8 +7,8 @@ export class Nav {
     }
 
     private nav = () => {
-        const mMedia = matchMedia();
         const hamburger = document.getElementById("hamburger")!;
+        const drawerVeil = document.getElementById("drawer-veil")!;
         const linkDropdownToggleSplit = document.getElementById(
             "link-dropdown-toggle-split"
         );
@@ -17,12 +17,33 @@ export class Nav {
         ) as HTMLElement;
         const links = navbarCollapse.querySelectorAll(".nav-item");
 
-        hamburger.addEventListener("click", () => {
-            navbarCollapse.classList.toggle("show");
+        // Toggle menu start
+
+        let tl = gsap.timeline({ paused: true });
+        tl.to(navbarCollapse, {
+            x: 0,
+            ease: "Power1.easeOut",
+            duration: 0.25,
+        })
+            .to(navbarCollapse, { autoAlpha: 1, duration: 0.15 }, 0)
+            .reverse()
+            .to(drawerVeil, { autoAlpha: 0.2, duration: 0.15 }, 0)
+            .reverse();
+
+        let openDrawer = false;
+        const toggleDrawerTween = () => {
+            tl.reversed(!tl.reversed());
             hamburger.classList.toggle("collapsed");
-            let tl = gsap.timeline();
-            tl.from(navbarCollapse, { x: mMedia.width });
-        });
+            // body
+            openDrawer = !openDrawer;
+            const overflow = openDrawer ? "hidden" : "auto";
+            document.body.style.overflow = overflow;
+        };
+
+        hamburger.onclick = toggleDrawerTween;
+        drawerVeil.onclick = toggleDrawerTween;
+
+        // Toggle menu end
 
         links.forEach((link) => {
             link.addEventListener("click", () => {

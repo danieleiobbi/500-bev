@@ -5,7 +5,6 @@
 
 html {
     position: relative;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +24,7 @@ a {
         outline: none !important;
     }
 }
+
 .anchor {
     display: block;
     position: relative;
@@ -33,6 +33,22 @@ a {
     &.a-16 {
         top: 16rem;
     }
+}
+
+.drawer-veil {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: $gray-900;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.font-light {
+    font-family: "Roboto Light";
 }
 
 #preloader {
@@ -52,6 +68,14 @@ a {
     color: $primary;
 }
 
+.pt-8 {
+    padding-top: 8rem;
+}
+
+.secondary {
+    color: $secondary;
+}
+
 .scrollSequenceFadeIn {
     min-height: 100vh;
     .sequence-wrap {
@@ -64,11 +88,111 @@ a {
     }
 }
 
+.white {
+    color: $white;
+    &.border-bottom {
+        border-bottom: 1px solid $white !important;
+    }
+}
+
+.x-gallery {
+    img {
+        width: 100%;
+        height: auto;
+        background: #f0f0f0;
+    }
+
+    ul {
+        padding-left: 1rem;
+        list-style: none;
+    }
+
+    li {
+        flex-shrink: 0;
+        width: clamp(500px, 60vw, 800px);
+        padding-right: 1rem;
+    }
+
+    header {
+        height: 100vh;
+    }
+    footer {
+        height: 50vh;
+    }
+
+    :any-link {
+        color: #4e9815;
+    }
+
+    .df {
+        display: flex;
+    }
+    .aic {
+        align-items: center;
+    }
+    .jcc {
+        justify-content: center;
+    }
+
+    .demo-wrapper {
+        overflow-x: hidden;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    .demo-gallery:not(.last) {
+        padding-bottom: 1rem;
+    }
+
+    .demo-text .text {
+        font-size: clamp(8rem, 15vw, 16rem);
+        line-height: 1;
+        font-weight: 900;
+    }
+}
+
 main {
     overflow-x: hidden;
     section {
         position: relative;
         box-sizing: border-box;
+        background-color: $white;
+        &#cover {
+            height: 100vh;
+            video {
+                object-fit: cover;
+            }
+        }
+        &.panel {
+            position: relative;
+            height: 100vh;
+            img {
+                object-fit: cover;
+            }
+            .caption {
+                position: absolute;
+                &.panel-01 {
+                    top: 25%;
+                    left: 25%;
+                    &.bottom {
+                        top: unset;
+                        left: unset;
+                        bottom: 10%;
+                        right: 25%;
+                        width: 380px;
+                    }
+                }
+                &.panel-02 {
+                    top: 25%;
+                    left: 15%;
+                    .bottom {
+                        width: 380px;
+                    }
+                }
+            }
+        }
         &#home {
             height: 100vh;
         }

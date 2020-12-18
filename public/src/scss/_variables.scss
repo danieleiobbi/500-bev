@@ -4,15 +4,18 @@
  */
 $fontPath: "../../fonts/";
 $font-family-base: "Roboto";
-$h1-font-size: $font-size-base * 3.5;
+$h1-font-size: $font-size-base * 3;
 $h2-font-size: $font-size-base * 2;
 $h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1;
+
 /**
  * color
  *
  */
+$body-color: #393939;
 $primary: #29b8ce;
-$navbar-bg-color: #6c9dad;
+$secondary: #6c9dad;
 $navbar-link-color: $white;
 $navbar-link-hover-color: $primary;
 
