@@ -8364,24 +8364,6 @@ a:focus {
   color: #4e9815;
 }
 
-.x-gallery .df {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.x-gallery .aic {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.x-gallery .jcc {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .x-gallery .demo-wrapper {
   overflow-x: hidden;
 }

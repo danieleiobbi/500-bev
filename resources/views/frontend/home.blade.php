@@ -41,85 +41,32 @@
         </p>
     </div>
 </section>
-  
 
-<section id="x-gallery-01" class="pt-8">
+@include('frontend.partials.gallery-01')
+
+<section id="MORE-ROOM" class="pt-8">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6 mx-auto">
-                <h1 class="secondary font-italic font-light border-bottom">{!! _i("LITTLE DETAILS") !!}</h1>
-                <h1 class="ml-5 secondary font-italic font-weight-bold">{!! _i("MAKE BIG THINGS HAPPEN") !!}</h1>
+            <div class="col-12 col-lg-6 mx-auto gs_reveal">
+                <h1 class="secondary font-italic font-light border-bottom">{!! _i("MORE ROOM") !!}</h1>
+                <h1 class="ml-5 secondary font-italic font-weight-bold">{!! _i("FOR CONSCIOUSNESS") !!}</h1>
                 <p>
-                    {!! _i("The new 500 helps to see the road with different eyes, thanks to new LED headlights, but also the world too. Just as 500 has always done. The first generation gave people mobility and freedom; the second generation transformed city cars into fashionable cars; the third has an even more ambitious goal: a better future for all. Including our planet.") !!}
+                    {!! _i("Style meets comfort offering an exclusive driving experience. The interiors, with their clean design, simple lines and fewer buttons, are designed to amplify spaciousness, incorporating details inspired by nature and sustainability. Moreover, with the new front armrest allowing storage and the smartphone holder with wireless charging, everything will find its space.") !!}
                 </p>
 			</div>
         </div>
     </div>
 
-    <div class="container-fluid x-gallery pt-8">
-        <div class='loader df aic jcc'>
-          <div class='demo-wrapper'>
-            <section class='section-gallery'>
-              <ul class='wrapper'>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=138' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=97' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=68' width='1240'>
-                </li>
-              </ul>
-            </section>
-            <section class='section-gallery'>
-              <ul class='wrapper'>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=77' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=206' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=193' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=125' width='1240'>
-                </li>
-              </ul>
-            </section>
-            <section class='section-gallery'>
-              <ul class='wrapper'>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=40' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=1' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=98' width='1240'>
-                </li>
-              </ul>
-            </section>
-            <section class='section-gallery'>
-              <ul class='wrapper'>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=182' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=122' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=117' width='1240'>
-                </li>
-                <li>
-                  <img height='874' src='https://source.unsplash.com/random/1240x874?sig=62' width='1240'>
-                </li>
-              </ul>
-            </section>
-          </div>
+    <div class="container-fluid px-0 pt-8">
+        <div class="row no-gutters">
+            <div class="col-12 gs_reveal gs_reveal_fromLeft">
+                <img class="img-fluid"  src="{{ asset('images/500-04.jpg') }}">
+            </div>
+        </div>
     </div>
 </section>
+
+@include('frontend.partials.gallery-02')
 
 <section id="DUMMY" class="d-flex align-items-center">
     <div class="container">
