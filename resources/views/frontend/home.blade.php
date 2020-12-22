@@ -56,8 +56,7 @@
         </div>
     </div>
 
-    
-    <div class="container-fluid x-gallery">
+    <div class="container-fluid x-gallery pt-8">
         <div class='loader df aic jcc'>
           <div class='demo-wrapper'>
             <section class='section-gallery'>
