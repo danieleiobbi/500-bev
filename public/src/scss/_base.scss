@@ -35,6 +35,14 @@ a {
     }
 }
 
+.bg-primary {
+    background-color: $primary !important;
+}
+
+.bg-secondary {
+    background-color: $secondary !important;
+}
+
 .drawer-veil {
     height: 100%;
     width: 100%;
@@ -155,7 +163,8 @@ main {
                 object-fit: cover;
             }
         }
-        &.panel {
+        &.panel,
+        &.panel-static {
             position: relative;
             height: 100vh;
             img {
@@ -183,9 +192,16 @@ main {
                 }
             }
         }
+
         &#home {
             height: 100vh;
         }
+
+        &.cta-configurator {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
         &#DUMMY {
             min-height: 100vh;
         }

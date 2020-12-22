@@ -68,6 +68,40 @@
 
 @include('frontend.partials.gallery-02')
 
+<section class="cta-configurator bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 mx-auto text-center">
+                <h2 class="white font-italic mb-5"><span class="font-weight-bold">{!! _i("CONFIGURE NOW") !!}</span> <span class="font-light">{!! _i("YOUR NEW 500")!!}</span></h2>
+                <a class="btn btn-primary btn-cta border"  href="{!! _i("//www.alfaromeo.co.uk/configurator/").'?source=brochure' !!}" target="_blank">
+                    <i class="mbri-icon icon-carconfigurator l-icon"></i><span>{!! _i("Car Configurator") !!}</span></a>
+			</div>
+        </div>
+    </div>
+</section>
+
+<section class="panel">
+    <img class="img-fluid" src="{{ asset('images/500-05.jpg') }}">
+    <div class="caption panel-01">
+        <h1 class="white font-italic font-light border-bottom">{!! _i("RECHARGE") !!}</h1>
+        <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("YOUR EMOTIONS") !!}</h1>
+    </div>
+    <div class="caption bottom white small panel-01">
+        {!! _i("Preserve the planet, the lightness and the joy to life is part of our mission. To do so, the new 500 is built on a completely new platform 100% electric, designed for the next decade.") !!}
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 <section id="DUMMY" class="d-flex align-items-center">
     <div class="container">
         <div class="row">
@@ -77,6 +111,7 @@
         </div>
     </div>
 </section>
+
 
 @endsection
 

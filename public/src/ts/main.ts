@@ -74,7 +74,7 @@ export class Main {
                             scrub: 0.5,
                             start: "top bottom",
                             end: "bottom center",
-                            markers: true,
+                            markers: false,
                         },
                     }
                 );

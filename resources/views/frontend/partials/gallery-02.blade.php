@@ -1,4 +1,4 @@
-<section id="x-gallery-02" class="pt-8">
+<section id="x-gallery-02" class="pt-8 mb-5">
     <div class="container-fluid x-gallery pt-8">
         <div class='d-flex align-items-center justify-content-center'>
         <div class='demo-wrapper'>

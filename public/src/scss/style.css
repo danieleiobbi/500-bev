@@ -7914,12 +7914,20 @@ a.text-dark:hover, a.text-dark:focus {
  *
  */
 .btn {
+  position: relative;
   font-size: 1rem;
   padding: 15px 50px;
   border: 2px solid #29b8ce;
   border-radius: 30px;
   outline: none;
   text-transform: uppercase;
+}
+
+.btn i.l-icon {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  font-size: 2.5rem;
 }
 
 .btn.btn-primary {
@@ -8258,6 +8266,14 @@ a:focus {
   top: 16rem;
 }
 
+.bg-primary {
+  background-color: #29b8ce !important;
+}
+
+.bg-secondary {
+  background-color: #6c9dad !important;
+}
+
 .drawer-veil {
   height: 100%;
   width: 100%;
@@ -8404,26 +8420,26 @@ main section#cover video {
      object-fit: cover;
 }
 
-main section.panel {
+main section.panel, main section.panel-static {
   position: relative;
   height: 100vh;
 }
 
-main section.panel img {
+main section.panel img, main section.panel-static img {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main section.panel .caption {
+main section.panel .caption, main section.panel-static .caption {
   position: absolute;
 }
 
-main section.panel .caption.panel-01 {
+main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
   top: 25%;
   left: 25%;
 }
 
-main section.panel .caption.panel-01.bottom {
+main section.panel .caption.panel-01.bottom, main section.panel-static .caption.panel-01.bottom {
   top: unset;
   left: unset;
   bottom: 10%;
@@ -8431,17 +8447,22 @@ main section.panel .caption.panel-01.bottom {
   width: 380px;
 }
 
-main section.panel .caption.panel-02 {
+main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
   top: 25%;
   left: 15%;
 }
 
-main section.panel .caption.panel-02 .bottom {
+main section.panel .caption.panel-02 .bottom, main section.panel-static .caption.panel-02 .bottom {
   width: 380px;
 }
 
 main section#home {
   height: 100vh;
+}
+
+main section.cta-configurator {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 main section#DUMMY {
