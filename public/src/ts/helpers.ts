@@ -1,4 +1,4 @@
-interface Analitics {
+export interface Analitics {
     API_URL: string;
     app_url: string;
     brand_id: string;
@@ -47,7 +47,7 @@ export const matchMedia = (): IntMmedia => {
     };
 };
 
-export const env = () => {
+export const env = (): Analitics => {
     return JSON.parse(document.body.dataset.params!);
 };
 

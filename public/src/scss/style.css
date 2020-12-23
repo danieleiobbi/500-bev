@@ -8274,6 +8274,15 @@ a:focus {
   background-color: #6c9dad !important;
 }
 
+.box-primary {
+  background-color: #29b8ce !important;
+  color: #000;
+}
+
+.box-primary .big {
+  color: #fff;
+}
+
 .drawer-veil {
   height: 100%;
   width: 100%;
@@ -8291,7 +8300,7 @@ a:focus {
 }
 
 #preloader {
-  background-color: #000;
+  background-color: #6c9dad;
   position: fixed;
   top: 0;
   left: 0;
@@ -8332,6 +8341,11 @@ a:focus {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.sound-icon {
+  width: 50px;
+  cursor: pointer;
 }
 
 .white {
@@ -8465,8 +8479,74 @@ main section.cta-configurator {
   padding-bottom: 4rem;
 }
 
+main section#home-11 {
+  min-height: 100vh;
+}
+
+main section#home-11 .container {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+main section#home-11 .container .row {
+  padding-bottom: 10rem;
+}
+
+main section#home-11 .container .row .big {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+main section#home-11 .container .row .icons {
+  width: 100px;
+  height: auto;
+}
+
+main section#SOUND .container {
+  position: relative;
+  z-index: 2;
+}
+
+main section#SOUND::after {
+  content: "\A";
+  position: absolute;
+  background: #6c9dad;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  z-index: 1;
+}
+
 main section#DUMMY {
   min-height: 100vh;
+}
+
+@media (max-width: 1200px) {
+  main section#home-11 h1 {
+    font-size: 2rem;
+  }
+  main section#home-11 .container .row .big {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  main section#home-11 .container .row {
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  main section#home-11 .container {
+    padding-bottom: unset;
+  }
+  main section#home-11 .container .row .icons {
+    width: 70px;
+  }
+  main section#home-11 .container .row h1 {
+    font-size: 1.8rem;
+  }
 }
 
 footer {

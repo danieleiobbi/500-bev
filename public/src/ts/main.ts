@@ -1,15 +1,18 @@
 import gsap from "gsap";
-import { matchMedia, IntMmedia } from "./helpers";
+import { matchMedia, IntMmedia, env, Analitics } from "./helpers";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export class Main {
     private matchMedia: IntMmedia;
+    private env: Analitics;
     constructor() {
+        this.env = env();
         this.matchMedia = matchMedia();
         this.removePreloader();
         this.layeredPinning();
         this.xGallery();
+        this.audio();
         this.stagger();
         this.gsReveal();
         console.log(this.matchMedia);
@@ -193,5 +196,50 @@ export class Main {
 
             ScrollTrigger.create(params);
         });
+    };
+
+    audio = () => {
+        const buttons = document.querySelectorAll(".sound-icon");
+        if (buttons.length === 0) return;
+        buttons.forEach((button) => {
+            const btn = button as HTMLElement;
+            btn.addEventListener("click", () => {
+                const dataTarget = btn.getAttribute("data-target")!;
+                const target = document.getElementById(dataTarget)!;
+                const audio = target as HTMLAudioElement;
+                if (audio.currentTime > 0) {
+                    btn.setAttribute(
+                        "src",
+                        this.env.app_url + "/images/svg/sound-icon.svg"
+                    );
+                    audio.pause();
+                    audio.load();
+                } else {
+                    this.audioReset(buttons);
+                    audio.play();
+                    btn.setAttribute(
+                        "src",
+                        this.env.app_url + "/images/svg/sound-icon-stop.svg"
+                    );
+                }
+            });
+        });
+    };
+
+    private audioReset = (buttons: NodeList) => {
+        buttons.forEach((button) => {
+            const btn = button as HTMLElement;
+            btn.setAttribute(
+                "src",
+                this.env.app_url + "/images/svg/sound-icon.svg"
+            );
+        });
+        const audio = document.getElementsByTagName("audio");
+        if (audio.length > 0) {
+            for (let item of audio as any) {
+                item.pause();
+                item.load();
+            }
+        }
     };
 }

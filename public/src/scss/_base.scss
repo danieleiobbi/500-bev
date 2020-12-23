@@ -43,6 +43,14 @@ a {
     background-color: $secondary !important;
 }
 
+.box-primary {
+    background-color: $primary !important;
+    color: #000;
+    .big {
+        color: $white;
+    }
+}
+
 .drawer-veil {
     height: 100%;
     width: 100%;
@@ -60,7 +68,7 @@ a {
 }
 
 #preloader {
-    background-color: $black;
+    background-color: $secondary;
     position: fixed;
     top: 0;
     left: 0;
@@ -94,6 +102,11 @@ a {
             left: 0;
         }
     }
+}
+
+.sound-icon {
+    width: 50px;
+    cursor: pointer;
 }
 
 .white {
@@ -202,6 +215,42 @@ main {
             padding-bottom: 4rem;
         }
 
+        &#home-11 {
+            min-height: 100vh;
+            .container {
+                padding-top: 10rem;
+                padding-bottom: 10rem;
+                .row {
+                    padding-bottom: 10rem;
+                    .big {
+                        font-size: $font-size-base * 4;
+                        font-weight: bold;
+                    }
+                    .icons {
+                        width: 100px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        &#SOUND {
+            .container {
+                position: relative;
+                z-index: 2;
+            }
+            &::after {
+                content: "\A";
+                position: absolute;
+                background: $secondary;
+                top: -10%;
+                left: 0;
+                width: 100%;
+                height: 65%;
+                z-index: 1;
+            }
+        }
+
         &#DUMMY {
             min-height: 100vh;
         }
@@ -214,6 +263,22 @@ main {
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1200px) {
+    main {
+        section {
+            &#home-11 {
+                h1 {
+                    font-size: 2rem;
+                }
+                .container {
+                    .row {
+                        .big {
+                            font-size: 3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Ipad Pro landscape
@@ -230,10 +295,38 @@ main {
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 768px) {
+    main {
+        section {
+            &#home-11 {
+                .container {
+                    .row {
+                        padding-bottom: 5rem;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 576px) {
+    main {
+        section {
+            &#home-11 {
+                .container {
+                    padding-bottom: unset;
+                    .row {
+                        .icons {
+                            width: 70px;
+                        }
+                        h1 {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // iPhoneX Landscape
