@@ -405,6 +405,205 @@
     </div>
 </section>
 
+<section class="panel">
+    <img class="img-fluid" src="{{ asset('images/500-09.jpg') }}">
+    <div class="caption panel-06">
+        <h1 class="white font-italic font-light border-bottom">{!! _i("CONNECTED") !!}</h1>
+        <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("TO YOUR WORLD") !!}</h1>
+        <p class="white small bottom">
+            {!! _i("The “Cinerama” infotainment system is completely new, projecting you into the future. With a fast, intuitive and easy-to-use 10.25” screen, you can access new content and advanced features, like wireless Apple CarPlay and Android Auto™. Thanks to Ultra-fast Bluetooth®, you will be connected to your devices in less than 5 seconds. Plus, you can enjoy the new 7” cluster, wireless mobile phone charging system and radio with built-in navigation.") !!}
+        </p>
+    </div>
+</section>
+
+<section id="CONNECTIVITY" class="bg-dark pt-8 pb-5">
+    <div class="container white">
+        <div class="row">
+            <div class="col-12 col-lg-10 col-xl-8 mx-auto text-center mb-5">
+                <img class="img-fluid logo" src="{{ asset('images/500-logo-e.png') }}" alt="">
+            </div>
+            <div class="col-12 col-lg-10 col-xl-8 mx-auto text-center mb-5">
+                <h2 class="font-weight-bold primary mb-5"><span class="font-italic font-light">{!! _i("YOUR NEW 500") !!}</span> <span class="font-italic font-weight-bold">{!! _i("IN YOUR SMARTPHONE") !!}</span></h2>
+                <p>{!! _i("Enjoy the best connection, both on board and when you are away from the car. Thanks to the new <strong>Fiat</strong> app and the <strong>Uconnect™ Services</strong>, you can control your new 500 «la Prima» whenever you want and wherever you are.") !!}</p>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-12 col-lg-10 col-xl-8 mx-auto text-center">
+                <div id="accordion-connectivity" class="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-E-CHARGE" aria-expanded="true" aria-controls="collapseOne">
+                                    {!! _i("MY E-CHARGE") !!}
+                                </a>
+                            </h3>
+                        </div>
+
+                        <div id="MY-E-CHARGE" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-connectivity">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-6 text-left">
+                                        {!! _i("Enter a world of services to find the nearest public charging station and access charging modes, payments and history. And remotely manage your private Wallbox from home.") !!}
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <img class="img-fluid" src="{{ asset('images/connectivity/03-my-echarge.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-ASSISTANT" aria-expanded="true" aria-controls="collapseOne">
+                                    {!! _i("MY ASSISTANT") !!}
+                                </a>
+                            </h3>
+                        </div>
+
+                        <div id="MY-ASSISTANT" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-connectivity">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-6 text-left">
+                                        {!! _i("It takes care of you wherever you go,providing you with serviceslike emergency call and roadside assistance.") !!}
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <img class="img-fluid" src="{{ asset('images/connectivity/04-my-assistant.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-REMOTE" aria-expanded="true" aria-controls="collapseOne">
+                                    {!! _i("MY REMOTE") !!}
+                                </a>
+                            </h3>
+                        </div>
+
+                        <div id="MY-REMOTE" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-connectivity">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-6 text-left">
+                                        {!! _i("Locate and manage your new 500 «la Prima» remotely. You can lock it, unlock it, start charging and set the pre-conditioning.") !!}
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <img class="img-fluid" src="{{ asset('images/connectivity/05-my-remote.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-CAR" aria-expanded="true" aria-controls="collapseOne">
+                                    {!! _i("MY CAR") !!}
+                                </a>
+                            </h3>
+                        </div>
+
+                        <div id="MY-CAR" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-connectivity">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-6 text-left">
+                                        {!! _i("You want to know what’s going on under the hood? With My Car you have all the information: battery level, tyre pressure, mileage, maintenance, at your fingertips") !!}
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <img class="img-fluid" src="{{ asset('images/connectivity/06-my-car.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-NAVIGATION" aria-expanded="true" aria-controls="collapseOne">
+                                    {!! _i("MY NAVIGATION") !!}
+                                </a>
+                            </h3>
+                        </div>
+
+                        <div id="MY-NAVIGATION" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-connectivity">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-6 text-left">
+                                        {!! _i("Reaching your destination has never been easier. With one touch, find charging stations, share your route and access maps and information in real time. Your maps will be ever updated “over the air” to guarantee you the best routes at all times.") !!}
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <img class="img-fluid" src="{{ asset('images/connectivity/07-my-navigation.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-WI-FI" aria-expanded="true" aria-controls="collapseOne">
+                                    {!! _i("MY WI-FI") !!}
+                                </a>
+                            </h3>
+                        </div>
+
+                        <div id="MY-WI-FI" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-connectivity">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-6 text-left">
+                                        {!! _i("Feel as comfortable and connected as at home. Your car becomes a WI-FI hotspot where you can connect up to 8 devices. You will also have Alexa to answer any of your requests.") !!}
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <img class="img-fluid" src="{{ asset('images/connectivity/08-my-wifi.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h3 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-ALERT" aria-expanded="true" aria-controls="collapseOne">
+                                    {!! _i("MY ALERT") !!}
+                                </a>
+                            </h3>
+                        </div>
+
+                        <div id="MY-ALERT" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-connectivity">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-6 text-left">
+                                        {!! _i("Always keep your new 500 «la Prima» under control. My Alert warns you of any suspected theft attempt and, if confirmed, it allows you to locate the car.") !!}
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <img class="img-fluid" src="{{ asset('images/connectivity/09-my-alert.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <a href="{!! _i("//apps.apple.com/it/app/fiat-goe-live/id1523452215") !!}" target="_blank" class="btn btn-primary mr-5">{!! _i("DOWNLOAD THE FIAT IOS APP") !!}</a>
+                <a href="{!! _i("//play.google.com/store/apps/details?id=com.fca.goelive.fiat") !!}" target="_blank" class="btn btn-primary">{!! _i("DOWNLOAD THE FIAT ANDROID APP") !!}</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="DUMMY" class="d-flex align-items-center">
     <div class="container">
         <div class="row">

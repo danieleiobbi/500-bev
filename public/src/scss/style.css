@@ -8255,6 +8255,57 @@ a:focus {
   outline: none !important;
 }
 
+.accordion .card {
+  background-color: unset;
+  border: unset;
+  border-radius: unset;
+}
+
+.accordion .card .card-header {
+  background-color: unset;
+  border-bottom: unset;
+  padding: 0.2rem 1.25rem;
+}
+
+.accordion .card .card-header h3 {
+  font-weight: bold;
+}
+
+.accordion .card .card-header h3 .btn {
+  display: block;
+  border: unset;
+  border-top: 1px solid #29b8ce;
+  width: 100%;
+  text-align: left;
+  color: #29b8ce;
+  font-weight: bold;
+  border-radius: unset;
+}
+
+.accordion .card .card-header h3 .btn:not(:disabled):not(.disabled):active, .accordion .card .card-header h3 .btn:not(:disabled):not(.disabled).active {
+  background-color: transparent !important;
+}
+
+.accordion .card .card-header h3 .btn.btn-link:hover, .accordion .card .card-header h3 .btn.btn-link:focus, .accordion .card .card-header h3 .btn.btn-link.focus {
+  text-decoration: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.accordion .card .card-header h3 .btn.collapsed:after {
+  content: "\f0d7";
+}
+
+.accordion .card .card-header h3 .btn:after {
+  font-family: "FontAwesome";
+  content: "\f0d8";
+  float: right;
+}
+
+.accordion .card .card-body {
+  padding: 15px 70px;
+}
+
 .anchor {
   display: block;
   position: relative;
@@ -8504,6 +8555,15 @@ main section.panel .caption.panel-05 .bottom, main section.panel-static .caption
   width: 380px;
 }
 
+main section.panel .caption.panel-06, main section.panel-static .caption.panel-06 {
+  bottom: 10%;
+  left: 10%;
+}
+
+main section.panel .caption.panel-06 .bottom, main section.panel-static .caption.panel-06 .bottom {
+  width: 380px;
+}
+
 main section#home {
   height: 100vh;
 }
@@ -8573,6 +8633,10 @@ main section#home-carousel .carousel .carousel-indicators li {
   background-color: #29b8ce;
   width: 10px;
   height: 10px;
+}
+
+main section#CONNECTIVITY .logo {
+  width: 200px;
 }
 
 main section#DUMMY {

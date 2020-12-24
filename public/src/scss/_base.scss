@@ -25,6 +25,57 @@ a {
     }
 }
 
+.accordion {
+    .card {
+        background-color: unset;
+        border: unset;
+        border-radius: unset;
+        .card-header {
+            background-color: unset;
+            border-bottom: unset;
+            padding: 0.2rem 1.25rem;
+            h3 {
+                font-weight: bold;
+                .btn {
+                    display: block;
+                    border: unset;
+                    border-top: 1px solid $primary;
+                    width: 100%;
+                    text-align: left;
+                    color: $primary;
+                    font-weight: bold;
+                    border-radius: unset;
+
+                    &:not(:disabled):not(.disabled):active,
+                    &:not(:disabled):not(.disabled).active {
+                        background-color: transparent !important;
+                    }
+
+                    &.btn-link {
+                        &:hover,
+                        &:focus,
+                        &.focus {
+                            text-decoration: none !important;
+                            box-shadow: none !important;
+                        }
+                    }
+                    &.collapsed:after {
+                        content: "\f0d7";
+                    }
+                    &:after {
+                        font-family: "FontAwesome";
+                        content: "\f0d8";
+                        float: right;
+                    }
+                }
+            }
+        }
+        .card-body {
+            padding: 15px 70px;
+        }
+    }
+}
+
 .anchor {
     display: block;
     position: relative;
@@ -230,6 +281,13 @@ main {
                         width: 380px;
                     }
                 }
+                &.panel-06 {
+                    bottom: 10%;
+                    left: 10%;
+                    .bottom {
+                        width: 380px;
+                    }
+                }
             }
         }
 
@@ -299,6 +357,12 @@ main {
                         height: 10px;
                     }
                 }
+            }
+        }
+
+        &#CONNECTIVITY {
+            .logo {
+                width: 200px;
             }
         }
 
