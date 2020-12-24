@@ -68,13 +68,13 @@
 
 @include('frontend.partials.gallery-02')
 
-<section class="cta-configurator bg-secondary">
+<section class="cta-container configurator bg-secondary">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 mx-auto text-center">
                 <h2 class="white font-italic mb-5"><span class="font-weight-bold">{!! _i("CONFIGURE NOW") !!}</span> <span class="font-light">{!! _i("YOUR NEW 500")!!}</span></h2>
-                <a class="btn btn-primary btn-cta border"  href="{!! _i("//www.alfaromeo.co.uk/configurator/").'?source=brochure' !!}" target="_blank">
-                    <i class="mbri-icon icon-carconfigurator l-icon"></i><span>{!! _i("Car Configurator") !!}</span></a>
+                <a class="btn btn-primary btn-cta border"  href="{!! _i("#").'?source=brochure' !!}" target="_blank">
+                    <i class="mbri-icon icon-carconfigurator l-icon"></i><span>{!! _i("CAR CONFIGURATOR") !!}</span></a>
 			</div>
         </div>
     </div>
@@ -91,33 +91,34 @@
     </div>
 </section>
 
-
-
 <section id="home-11" class="bg-secondary">
     <div class="container white">
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-lg-5 gs_reveal">
-                <div class="d-flex flex-row align-items-center mb-5">
-                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/electricFeatures/icons/500-01.svg') }}" alt="">
-                    <h2 class="font-weight-bold">{!! _i("CRAFTED<br>FOR THE CITY") !!}</h2>
+                <div class="mb-5">
+                    <div class="d-flex flex-row align-items-center mb-5">
+                        <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/electricFeatures/icons/500-01.svg') }}" alt="">
+                        <h2 class="font-weight-bold">{!! _i("CRAFTED<br>FOR THE CITY") !!}</h2>
+                    </div>
+                    <p>{!! _i("Enjoy the ride with peace of mind, thanks to 320 km on a combined cycle (WLTP)*.") !!}</p>
                 </div>
-                <p>{!! _i("Enjoy the ride with peace of mind, thanks to 320 km on a combined cycle (WLTP).") !!}</p>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <p class="font-weight-bold">{!! _i("COMBINED CYCLE WLTP* UP TO") !!}</p>
+                        <p class="big primary">{!! _i("320Km") !!}</p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <p class="font-weight-bold">{!! _i("URBAN CYCLE UP TO") !!}</p>
+                        <p class="big primary">{!! _i("460Km") !!}</p>
+                    </div>
+                    <div class="col-12">{!! _i("* data under approval") !!}</div>
+                </div>
             </div>
             <div class="col-12 col-lg-5 p-0 p-md-5 gs_reveal gs_reveal_fromRight">
                 <img class="img-fluid p-5" src="{{ asset('images/electricFeatures/01-range-km-desktop.png') }}" alt="">
             </div>
         </div>
 
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12 col-lg-5 gs_reveal gs_reveal_fromLeft">
-                <h3 class="font-weight-bold">{!! _i("COMBINED CYCLE WLTP UP TO") !!}</h3>
-                <p class="big primary">{!! _i("320Km") !!}</p>
-            </div>
-            <div class="col-12 col-lg-5 gs_reveal gs_reveal_fromRight">
-                <h3 class="font-weight-bold">{!! _i("URBAN CYCLE UP TO") !!}</h3>
-                <p class="big primary">{!! _i("460Km") !!}</p>
-            </div>
-        </div>
 
         <div class="row justify-content-center align-items-center flex-column-reverse flex-lg-row">
             <div class="col-12 col-lg-5 p-0 p-md-5 gs_reveal gs_reveal_fromLeft">
@@ -207,8 +208,7 @@
     </div>
 </section>
 
-
-<section id="SOUND">
+<section id="SOUND" class="mb-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
@@ -260,11 +260,150 @@
     </div>
 </section>
 
+<section id="home-carousel">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 mx-auto">
+                <div id="carousel-01"  class="carousel slide mb-5" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{ asset('images/500-07a.jpg') }}" class="d-block w-100" alt="">
+                            <div class="carousel-caption text-left">
+                                <h4 class="primary font-weight-bold">{!! _i("LOREM IPSUM") !!}</h4>
+                                <p>{!! _i("Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aliquam corporis voluptatem, laborum illum voluptates! Facere eum nisi fuga voluptatibus, perferendis dicta tempore magni aliquam. Dicta placeat nesciunt autem consequatur.") !!}</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset('images/500-07b.jpg') }}" class="d-block w-100" alt="">
+                            <div class="carousel-caption text-left">
+                                <h4 class="primary font-weight-bold">{!! _i("IT LOOKS LIKE A DREAM, BUT IT IS AN APP.") !!}</h4>
+                                <p>{!! _i("Buying a car, driving many more: My Dream Garage is the service that allows access to all FCA Group models, choosing the most suitable one for every occasion. Start imagining the future of mobility: while you wait for the new 500, download the app and configure your Dream Garage with the models you would like to try. Sometimes dreams come true, especially  if there’s the new 500 in your future.") !!}</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset('images/500-07c.jpg') }}" class="d-block w-100" alt="">
+                            <div class="carousel-caption text-left">
+                                <h4 class="primary font-weight-bold">{!! _i("LOREM IPSUM") !!}</h4>
+                                <p>{!! _i("Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempora quae, accusamus repellat quibusdam voluptates nemo maiores aut architecto voluptatem debitis repudiandae sit expedita. Error sapiente nostrum similique repudiandae dolorum.") !!}</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset('images/500-07d.jpg') }}" class="d-block w-100" alt="">
+                            <div class="carousel-caption text-left">
+                                <h4 class="primary font-weight-bold">{!! _i("MY E-CHARGE") !!}</h4>
+                                <p>{!! _i("Enter a world of services to find the nearest public charging station and access chargingmodes, payments and history. You can also remotely manage your private EasyWallbox from home.") !!}</p>
+                                <h4 class="primary font-weight-bold">{!! _i("RFID CARD") !!}</h4>
+                                <p>{!! _i("RFID card jointly with My Easy Charge app provides access to more than 170.000 charging points in 21 countries in Europe.") !!}</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset('images/500-07e.jpg') }}" class="d-block w-100" alt="">
+                            <div class="carousel-caption text-left">
+                                <h4 class="primary font-weight-bold">{!! _i("LOREM IPSUM") !!}</h4>
+                                <p>{!! _i("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi ducimus officiis quas quae magni cupiditate, laborum molestiae, corrupti perspiciatis recusandae. Incidunt optio cum officia molestiae esse beatae, doloribus provident.") !!}</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ asset('images/500-07f.jpg') }}" class="d-block w-100" alt="">
+                            <div class="carousel-caption text-left">
+                                <h4 class="primary font-weight-bold">{!! _i("LOREM IPSUM") !!}</h4>
+                                <p>{!! _i("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi ducimus officiis quas quae magni cupiditate, laborum molestiae, corrupti perspiciatis recusandae. Incidunt optio cum officia molestiae esse beatae, doloribus provident.") !!}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-01" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-01" data-slide-to="1"></li>
+                        <li data-target="#carousel-01" data-slide-to="2"></li>
+                        <li data-target="#carousel-01" data-slide-to="3"></li>
+                        <li data-target="#carousel-01" data-slide-to="4"></li>
+                        <li data-target="#carousel-01" data-slide-to="5"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="cta-container configurator bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 mx-auto text-center">
+                <h2 class="white font-italic mb-5"><span class="font-weight-bold">{!! _i("DRIVE NOW") !!}</span> <span class="font-light">{!! _i("YOUR NEW 500")!!}</span></h2>
+                <a class="btn btn-primary btn-cta border"  href="{!! _i("#").'?source=brochure' !!}" target="_blank">
+                    <i class="mbri-icon icon-test-drive l-icon"></i><span>{!! _i("TEST DRIVE") !!}</span></a>
+			</div>
+        </div>
+    </div>
+</section>
 
+<section class="panel">
+    <img class="img-fluid" src="{{ asset('images/500-08.jpg') }}">
+    <div class="caption panel-05">
+        <h1 class="white font-italic font-light border-bottom">{!! _i("THE BEST TECHNOLOGY") !!}</h1>
+        <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("FOR A BETTER LIFE") !!}</h1>
+        <p class="white small bottom">
+            {!! _i("The first city car equipped with Level 2 Autonomous Driving. The new 500 is able to accelerate, maintain a safe distance, keep you on track, read traffic signs and remind you of speed limits, in total autonomy, like a real co-driver.") !!}
+        </p>
+    </div>
+</section>
 
+<section id="home-12" class="bg-dark pt-8">
+    <div class="row">
+        <div class="container manual-video-controls">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10 col-xl-8 text-center mb-5 d-flex justify-content-around">
+                    <img class="icons rounded-circle active" src="{{ asset('images/safety/icons/500-01-adaptive-cruise-control.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("INTELLIGENT ADAPTIVE CRUISE CONTROL"), 'description' => _i("Set the speed and enjoy the ride, new 500 will keep the safe distanceand the speed under control for you."), 'video' => asset("images/safety/01-intelligent-adaptive-cruise-control.mp4")], JSON_HEX_APOS) ?>'>
+                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-02-lane-centering.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("LANE CENTERING"), 'description' => _i("Just a button to stay always in the middle of the road. This innovative system that will keep you on the track."), 'video' => asset("images/safety/02-lane-centering.mp4")], JSON_HEX_APOS); ?>'>
+                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-03-urban-blind-spot.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("URBAN BLIND SPOT"), 'description' => _i("Thanks to an ultrasonic sensor you will be alerted when there is something on the side and rear."), 'video' => asset("images/safety/03-urban-blind spot.mp4")], JSON_HEX_APOS); ?>'>
+                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-04-attention-assist.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("ATTENTION ASSIST"), 'description' => _i("When you are tired the car will detect it and suggest a coffe break."), 'video' => asset("images/safety/04-attention-assist.mp4")], JSON_HEX_APOS); ?>'>
+                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-05-lane-control.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("LANE CONTROL"), 'description' => _i("Prevent the risk of unintendend white lines crossing to stay always on the track."), 'video' => asset("images/safety/05-lane-control.mp4")], JSON_HEX_APOS); ?>'>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-5 col-xl-4 text-center">
+                    <div class="video-wrapper p-5 mb-5 mb-lg-0">
+                        <video class="w-100 videos" muted loop poster="{{ asset('images/safety/01-intelligent-adaptive-cruise-control.jpg') }}">
+                            <source src="" type='video/mp4'>
+                        </video>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4 p-lg-5">
+                    <p class="primary mb-3 font-weight-bold title">{!! _i("INTELLIGENT ADAPTIVE CRUISE CONTROL") !!}</p>
+                    <p class="description white">{!! _i("Set the speed and enjoy the ride, new 500 will keep the safe distanceand the speed under control for you.") !!}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-
+<section id="home-13" class="bg-dark">
+    <div class="container">
+        <div class="manual-video-controls pt-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10 col-xl-8 text-center mb-5 d-flex justify-content-around">
+                    <img class="icons rounded-circle active" src="{{ asset('images/safety/icons/500-06-autonomous-emergency-brake.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("AUTONOMOUS EMERGENCY BRAKING"), 'description' => _i("New 500 will brake automatically to avoid possible collision with car, pedestrian or cyclist."), 'video' => asset("images/safety/06-autonomous-brake.mp4")], JSON_HEX_APOS) ?>'>
+                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-07-rear-view-parking-camera.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("REAR VIEW PARKING CAMERA"), 'description' => _i("The camera will transmit a high-resolution image of wathever is behind you, helping while parking or during your maneuvers."), 'video' => asset("images/safety/07-rear-view.mp4")], JSON_HEX_APOS); ?>'>
+                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-08-360-drone-view.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("360° DRONE VIEW"), 'description' => _i("11 sensors will guarantee a 360° view of the car to detect any kind of obstacles around you and alerting about object proximity."), 'video' => asset("images/safety/08-360-drone-view.mp4")], JSON_HEX_APOS); ?>'>
+                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-09-emergency-call.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("EMERGENCY CALL"), 'description' => _i("In case of emergencies the new 500 «la Prima» will help by making a call that transmits the location and status of the vehicle."), 'video' => asset("images/safety/09-emergency-call.mp4")], JSON_HEX_APOS); ?>'>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-5 col-xl-4 text-center">
+                    <div class="video-wrapper p-5 mb-5 mb-lg-0">
+                        <video class="w-100 videos" muted loop poster="{{ asset('images/safety/06-autonomous-brake.jpg') }}">
+                            <source src="" type='video/mp4'>
+                        </video>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4 p-lg-5">
+                    <p class="primary mb-3 font-weight-bold title">{!! _i("AUTONOMOUS EMERGENCY BRAKING") !!}</p>
+                    <p class="description white">{!! _i("New 500 will brake automatically to avoid possible collision with car, pedestrian or cyclist.") !!}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section id="DUMMY" class="d-flex align-items-center">
     <div class="container">
@@ -275,7 +414,6 @@
         </div>
     </div>
 </section>
-
 
 @endsection
 

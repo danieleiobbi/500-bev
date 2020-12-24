@@ -7916,7 +7916,7 @@ a.text-dark:hover, a.text-dark:focus {
 .btn {
   position: relative;
   font-size: 1rem;
-  padding: 15px 50px;
+  padding: 10px 50px;
   border: 2px solid #29b8ce;
   border-radius: 30px;
   outline: none;
@@ -7925,7 +7925,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn i.l-icon {
   position: absolute;
-  top: 8px;
+  top: 3px;
   left: 6px;
   font-size: 2.5rem;
 }
@@ -8266,6 +8266,10 @@ a:focus {
   top: 16rem;
 }
 
+.bg-dark {
+  background-color: #000 !important;
+}
+
 .bg-primary {
   background-color: #29b8ce !important;
 }
@@ -8297,6 +8301,27 @@ a:focus {
 
 .font-light {
   font-family: "Roboto Light";
+}
+
+.manual-video-controls {
+  min-height: 100vh;
+}
+
+.manual-video-controls .icons {
+  width: 100px;
+  height: auto;
+  border: 2px solid #29b8ce;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  cursor: pointer;
+}
+
+.manual-video-controls .icons:hover, .manual-video-controls .icons.active {
+  border: 3px solid #29b8ce;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 #preloader {
@@ -8470,11 +8495,20 @@ main section.panel .caption.panel-02 .bottom, main section.panel-static .caption
   width: 380px;
 }
 
+main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
+  top: 40%;
+  left: 55%;
+}
+
+main section.panel .caption.panel-05 .bottom, main section.panel-static .caption.panel-05 .bottom {
+  width: 380px;
+}
+
 main section#home {
   height: 100vh;
 }
 
-main section.cta-configurator {
+main section.cta-container {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -8485,10 +8519,6 @@ main section#home-11 {
 
 main section#home-11 .container {
   padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-main section#home-11 .container .row {
   padding-bottom: 10rem;
 }
 
@@ -8516,6 +8546,33 @@ main section#SOUND::after {
   width: 100%;
   height: 65%;
   z-index: 1;
+}
+
+main section#home-carousel .carousel {
+  height: 600px;
+}
+
+main section#home-carousel .carousel .carousel-inner {
+  height: 100%;
+}
+
+main section#home-carousel .carousel .carousel-inner .carousel-caption {
+  position: relative;
+  bottom: unset;
+  left: unset;
+  right: unset;
+  margin-top: 2rem;
+  color: #000;
+}
+
+main section#home-carousel .carousel .carousel-indicators {
+  top: 315px;
+}
+
+main section#home-carousel .carousel .carousel-indicators li {
+  background-color: #29b8ce;
+  width: 10px;
+  height: 10px;
 }
 
 main section#DUMMY {

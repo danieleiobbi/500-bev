@@ -35,6 +35,10 @@ a {
     }
 }
 
+.bg-dark {
+    background-color: $black !important;
+}
+
 .bg-primary {
     background-color: $primary !important;
 }
@@ -65,6 +69,22 @@ a {
 
 .font-light {
     font-family: "Roboto Light";
+}
+
+.manual-video-controls {
+    min-height: 100vh;
+    .icons {
+        width: 100px;
+        height: auto;
+        border: 2px solid $primary;
+        transition: transform 0.5s;
+        cursor: pointer;
+        &:hover,
+        &.active {
+            border: 3px solid $primary;
+            transform: scale(1.2);
+        }
+    }
 }
 
 #preloader {
@@ -203,6 +223,13 @@ main {
                         width: 380px;
                     }
                 }
+                &.panel-05 {
+                    top: 40%;
+                    left: 55%;
+                    .bottom {
+                        width: 380px;
+                    }
+                }
             }
         }
 
@@ -210,7 +237,7 @@ main {
             height: 100vh;
         }
 
-        &.cta-configurator {
+        &.cta-container {
             padding-top: 4rem;
             padding-bottom: 4rem;
         }
@@ -221,7 +248,6 @@ main {
                 padding-top: 10rem;
                 padding-bottom: 10rem;
                 .row {
-                    padding-bottom: 10rem;
                     .big {
                         font-size: $font-size-base * 4;
                         font-weight: bold;
@@ -248,6 +274,31 @@ main {
                 width: 100%;
                 height: 65%;
                 z-index: 1;
+            }
+        }
+
+        &#home-carousel {
+            .carousel {
+                height: 600px;
+                .carousel-inner {
+                    height: 100%;
+                    .carousel-caption {
+                        position: relative;
+                        bottom: unset;
+                        left: unset;
+                        right: unset;
+                        margin-top: 2rem;
+                        color: $black;
+                    }
+                }
+                .carousel-indicators {
+                    top: 315px;
+                    li {
+                        background-color: $primary;
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
             }
         }
 

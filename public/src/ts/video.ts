@@ -16,6 +16,7 @@ declare global {
 }
 declare const YT: any;
 import gsap from "gsap";
+import { toggleClass, matchMedia, scrollToElement } from "./helpers";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -215,4 +216,62 @@ export class YoutubeVideos {
         this.player.stopVideo();
         this.player.destroy();
     };
+}
+
+export class Features {
+    constructor() {
+        this.manualVideoControls();
+    }
+
+    manualVideoControls() {
+        const mm = matchMedia();
+        const hooks = document.querySelectorAll(".manual-video-controls");
+        if (hooks.length === 0) return;
+        hooks.forEach((hook) => {
+            const buttons = hook.querySelectorAll(".icons");
+            const content = hook.querySelector(
+                ".manual-video-controls__content"
+            )!;
+            if (buttons.length === 0) return;
+            buttons.forEach((button) => {
+                const btn = button as HTMLElement;
+                btn.addEventListener("click", () => {
+                    scrollToElement(hook);
+                    toggleClass(btn, buttons);
+                    const params = JSON.parse(
+                        button.getAttribute("data-params")!
+                    );
+
+                    const title = hook.querySelector(".title")! as HTMLElement;
+                    title.innerHTML = params.title;
+
+                    const description = hook.querySelector(
+                        ".description"
+                    )! as HTMLElement;
+                    description.innerHTML = params.description;
+
+                    const video = hook.querySelector(
+                        ".videos"
+                    )! as HTMLVideoElement;
+
+                    if (params.controls) {
+                        video.setAttribute("controls", "");
+                    } else {
+                        video.removeAttribute("controls");
+                    }
+
+                    if (mm.landscape && mm.small) {
+                        scrollToElement(content, 32);
+                    }
+
+                    if (video.currentTime > 0) video.pause();
+                    video.setAttribute("poster", "");
+                    const source = video.getElementsByTagName("source")!;
+                    source[0].setAttribute("src", params.video);
+                    video.load();
+                    video.play();
+                });
+            });
+        });
+    }
 }
