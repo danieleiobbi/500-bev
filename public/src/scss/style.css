@@ -7949,6 +7949,20 @@ a.text-dark:hover, a.text-dark:focus {
   color: #2192a3;
 }
 
+.btn.btn-link.btn-custom {
+  color: #8db3bf;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none !important;
+  background-color: none !important;
+}
+
+.btn.btn-link.btn-custom:hover {
+  color: #6c9dad;
+  border: none !important;
+  background-color: none !important;
+}
+
 .btn:focus, .btn.focus {
   border-color: #29b8ce;
   -webkit-box-shadow: unset !important;
@@ -8329,6 +8343,10 @@ a:focus {
   background-color: #6c9dad !important;
 }
 
+.bg-light {
+  background-color: #e7eff1 !important;
+}
+
 .box-primary {
   background-color: #29b8ce !important;
   color: #000;
@@ -8336,6 +8354,26 @@ a:focus {
 
 .box-primary .big {
   color: #fff;
+}
+
+.collapse-component #btns-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collapse-component #body-component .target img {
+  width: 100px;
+}
+
+.collapse-component #body-component .target .divider {
+  background-color: #6c9dad;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 0 0.5rem 130px;
 }
 
 .drawer-veil {
@@ -8422,6 +8460,12 @@ a:focus {
 .sound-icon {
   width: 50px;
   cursor: pointer;
+}
+
+.w-fc {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .white {
@@ -8520,6 +8564,10 @@ main section.panel img, main section.panel-static img {
      object-fit: cover;
 }
 
+main section.panel.panel-07, main section.panel-static.panel-07 {
+  height: unset;
+}
+
 main section.panel .caption, main section.panel-static .caption {
   position: absolute;
 }
@@ -8562,6 +8610,15 @@ main section.panel .caption.panel-06, main section.panel-static .caption.panel-0
 
 main section.panel .caption.panel-06 .bottom, main section.panel-static .caption.panel-06 .bottom {
   width: 380px;
+}
+
+main section.panel .caption.panel-07, main section.panel-static .caption.panel-07 {
+  top: 7%;
+  left: 25%;
+}
+
+main section.panel .caption.panel-07 .bottom, main section.panel-static .caption.panel-07 .bottom {
+  width: 400px;
 }
 
 main section#home {
@@ -8637,6 +8694,38 @@ main section#home-carousel .carousel .carousel-indicators li {
 
 main section#CONNECTIVITY .logo {
   width: 200px;
+}
+
+main section#api-cards {
+  position: relative;
+  min-height: 50vh;
+}
+
+main section#api-cards .container {
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main section#api-cards .card {
+  padding-top: 2rem;
+  color: #fff;
+  background-color: #6c9dad;
+}
+
+main section#api-cards .card .card-img-top {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+}
+
+main section#api-cards .card .card-body {
+  min-height: 400px;
 }
 
 main section#DUMMY {

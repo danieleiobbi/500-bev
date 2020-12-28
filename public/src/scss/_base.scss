@@ -98,11 +98,35 @@ a {
     background-color: $secondary !important;
 }
 
+.bg-light {
+    background-color: $light !important;
+}
+
 .box-primary {
     background-color: $primary !important;
     color: #000;
     .big {
         color: $white;
+    }
+}
+
+.collapse-component {
+    #btns-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    #body-component {
+        .target {
+            img {
+                width: 100px;
+            }
+            .divider {
+                background-color: $secondary;
+                color: $white;
+                font-weight: bold;
+                padding: 0.5rem 0 0.5rem 130px;
+            }
+        }
     }
 }
 
@@ -180,6 +204,10 @@ a {
     cursor: pointer;
 }
 
+.w-fc {
+    width: fit-content;
+}
+
 .white {
     color: $white;
     &.border-bottom {
@@ -254,6 +282,9 @@ main {
             img {
                 object-fit: cover;
             }
+            &.panel-07 {
+                height: unset;
+            }
             .caption {
                 position: absolute;
                 &.panel-01 {
@@ -286,6 +317,13 @@ main {
                     left: 10%;
                     .bottom {
                         width: 380px;
+                    }
+                }
+                &.panel-07 {
+                    top: 7%;
+                    left: 25%;
+                    .bottom {
+                        width: 400px;
                     }
                 }
             }
@@ -363,6 +401,31 @@ main {
         &#CONNECTIVITY {
             .logo {
                 width: 200px;
+            }
+        }
+
+        &#api-cards {
+            position: relative;
+            min-height: 50vh;
+            .container {
+                position: absolute;
+                top: -20%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .card {
+                padding-top: 2rem;
+                color: $white;
+                background-color: $secondary;
+                .card-img-top {
+                    width: fit-content;
+                    margin: 0 auto;
+                    padding-bottom: 1rem;
+                    border-bottom: 1px solid $white;
+                }
+                .card-body {
+                    min-height: 400px;
+                }
             }
         }
 

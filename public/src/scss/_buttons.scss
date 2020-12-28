@@ -31,6 +31,18 @@
         &:hover {
             color: darken($primary, 10%);
         }
+        &.btn-custom {
+            color: lighten($secondary, 10%);
+            font-weight: bold;
+            font-size: $h3-font-size;
+            border: none !important;
+            background-color: none !important;
+            &:hover {
+                color: $secondary;
+                border: none !important;
+                background-color: none !important;
+            }
+        }
     }
     &:focus,
     &.focus {

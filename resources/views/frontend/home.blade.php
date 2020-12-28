@@ -20,7 +20,7 @@
     </div>
 </section>
 
-<section class="panel panel-02">
+<section class="panel">
     <img class="img-fluid" src="{{ asset('images/500-02.jpg') }}">
     <div class="caption panel-02">
         <h1 class="white font-italic font-light border-bottom">{!! _i("A NEW LOOK") !!}</h1>
@@ -97,7 +97,7 @@
             <div class="col-12 col-lg-5 gs_reveal">
                 <div class="mb-5">
                     <div class="d-flex flex-row align-items-center mb-5">
-                        <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/electricFeatures/icons/500-01.svg') }}" alt="">
+                        <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-01.svg') }}" alt="">
                         <h2 class="font-weight-bold">{!! _i("CRAFTED<br>FOR THE CITY") !!}</h2>
                     </div>
                     <p>{!! _i("Enjoy the ride with peace of mind, thanks to 320 km on a combined cycle (WLTP)*.") !!}</p>
@@ -126,7 +126,7 @@
             </div>
             <div class="col-12 col-lg-5 gs_reveal pr-xl-5">
                 <div class="d-flex flex-row align-items-center mb-5">
-                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/electricFeatures/icons/500-02.svg') }}" alt="">
+                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-02.svg') }}" alt="">
                     <h2 class="font-weight-bold">{!! _i("SHERPA MODE") !!}</h2>
                 </div>
                 <p>{!! _i("This intelligent driving mode saves energy by optimizing battery charge, air conditioning, speed and acceleration. It gives you more range, getting you to your destination.") !!}</p>
@@ -136,7 +136,7 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-lg-5 gs_reveal">
                 <div class="d-flex flex-row align-items-center mb-5">
-                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/electricFeatures/icons/500-03.svg') }}" alt="">
+                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-03.svg') }}" alt="">
                     <h2 class="font-weight-bold">{!! _i("ONE PEDAL<br>DRIVING") !!}</h2>
                 </div>
                 <p>{!! _i("With just one pedal you can accelerate and decelerate, thus recovering kinetic energy that helps recharge the battery. You will still be able to brake with the specific pedal to make driving as easy as possible.") !!}</p>
@@ -152,7 +152,7 @@
             </div>
             <div class="col-12 col-lg-5 gs_reveal pr-xl-5">
                 <div class="d-flex flex-row align-items-center mb-5">
-                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/electricFeatures/icons/500-04.svg') }}" alt="">
+                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-04.svg') }}" alt="">
                     <h3 class="font-weight-bold">{!! _i("FAST CHARGING UP TO 85 KW") !!}</h3>
                 </div>
                 <p>{!! _i("In just 5 minutes, the time for a coffee, you get 50 km of autonomy: a whole day in the city.") !!}</p>
@@ -183,7 +183,7 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-lg-5 gs_reveal pr-xl-5">
                 <div class="d-flex flex-row align-items-center mb-5">
-                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/electricFeatures/icons/500-05.svg') }}" alt="">
+                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-05.svg') }}" alt="">
                     <h3 class="font-weight-bold">{!! _i("EASYWALLBOX") !!}</h3>
                 </div>
                 <p>{!! _i("Recharge the car easily and directly from home with the EasyWallbox: charging power of up to 3 kW without needs of a technician to install. If you want more power you can upgrade your home system up to 7 kW to charge a new 500 in half the time.") !!}</p>
@@ -199,7 +199,7 @@
             </div>
             <div class="col-12 col-lg-5 gs_reveal pr-xl-5">
                 <div class="d-flex flex-row align-items-center mb-5">
-                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/electricFeatures/icons/500-06.svg') }}" alt="">
+                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-06.svg') }}" alt="">
                     <h3 class="font-weight-bold">{!! _i("MODE 3 CABLE") !!}</h3>
                 </div>
                 <p>{!! _i("Use the Mode 3 Cable to charge your new 500 at a public station or at home with your EasyWallbox.") !!}</p>
@@ -603,6 +603,247 @@
         </div>
     </div>
 </section>
+
+<section class="panel-static panel-07">
+    <img class="img-fluid" src="{{ asset('images/500-10.jpg') }}">
+    <div class="caption panel-07">
+        <h1 class="white font-italic font-light border-bottom">{!! _i("DIFFERENT VERSIONS") !!}</h1>
+        <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("ALL UNIQUE") !!}</h1>
+        <p class="white small bottom">
+            {!! _i("The new electric 500 comes just the way you want it: available in Hatchback, Convertible and 3+1 versions and with different trims to choose from. All you have to do is find the one that suits you best.") !!}
+        </p>
+    </div>
+</section>
+
+<section id="api-cards">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-3 gs_reveal gs_reveal_fromRight">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('images/action.png') }}">
+                    <div class="card-body">
+                        <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK ONLY") !!}</h4>
+                        <ul>
+                            <li>{!! _i("15” Steel Wheel _Halogen headlamps + LED DRL _Manual climate control") !!}</li>
+                            <li>{!! _i("Electric Parking Brake") !!}</li>
+                            <li>{!! _i("Entry-Keyless go") !!}</li>
+                            <li>{!! _i("TFT 7” Color Display") !!}</li>
+                            <li>{!! _i("Smartphone Cradle ") !!}</li>
+                            <li>{!! _i("Attention Assist") !!}</li>
+                            <li>{!! _i("Autonomous Emergency Braking") !!}</li>
+                            <li>{!! _i("Lane Control") !!}</li>
+                            <li>{!! _i("Traffic Sign Recognition") !!}</li>
+                            <li>{!! _i("E-call _Fast charge 50 kW _Mode 2 cable (3 kW) _180 km (WLTP)") !!}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 api-card gs_reveal">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('images/passion.png') }}">
+                    <div class="card-body">
+                        <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
+                        <p class="font-weight-bold card-text">{!! _i("In addition to Action contents:") !!}</p>
+                        <ul>
+                            <li>{!! _i("15” Styled Wheel ") !!}</li>
+                            <li>{!! _i("Radio 7” touchscreen ") !!}</li>
+                            <li>{!! _i("CarPlay/Android Auto™") !!}</li>
+                            <li>{!! _i("Uconnect™ Services") !!}</li>
+                            <li>{!! _i("Digital Audio Broadcast") !!}</li>
+                            <li>{!! _i("Cruise Control") !!}</li>
+                            <li>{!! _i("Fast charge 85 kW") !!}</li>
+                            <li>{!! _i("Mode 2 cable (3 kW)") !!}</li>
+                            <li>{!! _i("320 km (WLTP)") !!}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 api-card gs_reveal gs_reveal_fromLeft">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('images/icon.png') }}">
+                    <div class="card-body">
+                        <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
+                        <p class="font-weight-bold card-text">{!! _i("In addition to Action contents:") !!}</p>
+                        <ul>
+                            <li>{!! _i("16” Alloy Wheel") !!}</li>
+                            <li>{!! _i("All Power Windows") !!}</li>
+                            <li>{!! _i("Passive Entry + Wearable Key") !!}</li>
+                            <li>{!! _i("Automatic climate control") !!}</li>
+                            <li>{!! _i("Radio 10,25” NAV") !!}</li>
+                            <li>{!! _i("Traffic Sign Information ") !!}</li>
+                            <li>{!! _i("Rain Sensor") !!}</li>
+                            <li>{!! _i("Fast charge 85 kW") !!}</li>
+                            <li>{!! _i("Mode 2 cable (3 kW)") !!}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="pt-8 gs_reveal">
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 mx-auto">
+                <h1 class="secondary font-italic font-light border-bottom">{!! _i("TO EACH HIS OWN") !!}</h1>
+                <h1 class="secondary ml-5 mb-5 font-italic font-weight-bold">{!! _i("FORM OF PERFECTION") !!}</h1>
+                <p>{!! _i("The new electric 500 comes just the way you want it: available in Hatchback, Convertible and 3+1 versions and with different trims to choose from. All you have to do is find the one that suits you best.") !!}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="OPENING-EDITION" class="bg-secondary">
+    <div class="container-fluid p-0 gs_reveal gs_reveal_fromLeft">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <img class="img-fluid" src="{{ asset('images/500-11.jpg') }}">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8 mx-auto py-5">
+                <div class="row white">
+                    <div class="col-12">
+                        <h2 class="font-italic font-weight-bold mb-0">{!! _i("LA PRIMA") !!}</h2>
+                        <h3 class="font-italic mb-3 pb-2 border-bottom">{!! _i("OPENING EDITION") !!}</h3>
+                        <p class="font-weight-bold">{!! _i("In addition to Action contents:") !!}</p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <ul>
+                            <li>{!! _i("17” Alloy Wheel _LED Headlamps") !!}</li>
+                            <li>{!! _i("Chromed side mouldings") !!}</li>
+                            <li>{!! _i("Dedicated plate (not numbered)") !!}</li>
+                            <li>{!! _i("Monogram Capote (Cabrio)/ Fixed sun roof (HB)") !!}</li>
+                            <li>{!! _i("Eco-leather seats") !!}</li>
+                            <li>{!! _i("50/50 rear bench") !!}</li>
+                            <li>{!! _i("Central Armrest with close central console") !!}</li>
+                            <li>{!! _i("Front & Rear floor mats") !!}</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <ul>
+                            <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2)") !!}</li>
+                            <li>{!! _i("Wireless charger") !!}</li>
+                            <li>{!! _i("360° Drone view & Rear view parking Camera") !!}</li>
+                            <li>{!! _i("Urban Blind Spot") !!}</li>
+                            <li>{!! _i("Fast charge 85 kW") !!}</li>
+                            <li>{!! _i("Mode 3 cable (11 kW)") !!}</li>
+                            <li>{!! _i("320 km (WLTP)") !!}</li>
+                            <li>{!! _i("Second side door (3+1 version only)") !!}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="STYLE" class="pt-8">
+    <div class="container bg-light">
+        <div class="col-12 col-lg-8 mx-auto pt-8">
+            <h1 class="secondary font-italic font-light border-bottom">{!! _i("A MATTER") !!}</h1>
+            <h1 class="secondary mb-5 font-italic font-weight-bold">{!! _i("OF STYLE") !!}</h1>
+            <p class="mb-5">{!! _i("Customize your new 500 however you wish, with three different packages to choose from.") !!}</p>
+            <div class="collapse-component">
+                <div id="btns-container">
+                    <button class="btn btn-link btn-custom" data-target="technology">{!! _i("TECHNOLOGY") !!}</button>
+                    <button class="btn btn-link btn-custom" data-target="comfort">{!! _i("COMFORT") !!}</button>
+                    <button class="btn btn-link btn-custom" data-target="style">{!! _i("STYLE") !!}</button>
+                </div>
+                <div id="body-component">
+                    <div id="target-technology" class="target pt-5">
+                        <div class="row">
+                            <div class="col-12 d-flex align-items-start mb-5">
+                                <img class="mr-3" src="{{ asset('images/icons/pack01.svg') }}">
+                                <div>
+                                    <p class="font-weight-bold secondary">{!! _i("RADIO PACK (opt 3RD)") !!}</p>
+                                    <ul class="pl-3">
+                                        <li>{!! _i("Radio 7’’ (07W)") !!}</li>
+                                        <li>{!! _i("CarPlay/Android Auto™ (8EW) ") !!}</li>
+                                        <li>{!! _i("Wireless Mobile Charger (RFX)") !!}</li>
+                                        <li>{!! _i("Uconnect™ Services (RTK)") !!}</li>
+                                        <li>{!! _i("DAB (RS9)") !!}</li>
+                                        <li>{!! _i("1° rowfull functioning with USB (0SU)") !!}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 divider mb-5">
+                                {!! _i("AVAILABLE ON: ACTION") !!}
+                            </div>
+                            <div class="col-12 d-flex align-items-start mb-5">
+                                <img class="mr-3" src="{{ asset('images/icons/pack02.svg') }}">
+                                <div>
+                                    <p class="font-weight-bold secondary">{!! _i("EYE PARK PACK (opt 3RI)") !!}</p>
+                                    <ul class="pl-3">
+                                        <li>{!! _i("360° Drone View (XAH)") !!}</li>
+                                        <li>{!! _i("Urban Blind Spot (XAN)") !!}</li>
+                                        <li>{!! _i("Rearview Parking Camera (9YN)") !!}</li>
+                                        <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
+                                        <li>{!! _i("6 speakers (RCG)") !!}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 divider mb-5">
+                                {!! _i("AVAILABLE ON: PASSION • ICON") !!}
+                            </div>
+                            <div class="col-12 col-lg-6 d-flex align-items-start mb-5">
+                                <img class="mr-3" src="{{ asset('images/icons/pack03.svg') }}">
+                                <div>
+                                    <p class="font-weight-bold secondary">{!! _i("FIAT CO-DRIVER PACK Passion (opt 3RG)") !!}</p>
+                                    <ul class="pl-3">
+                                        <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>
+                                        <li>{!! _i("360° Drone View (XAH)") !!}</li>
+                                        <li>{!! _i("Urban Blind Spot (XAN)") !!}</li>
+                                        <li>{!! _i("Rearview Parking Camera (9YN)") !!}</li>
+                                        <li>{!! _i("Traffic sign information (0XR)") !!}</li>
+                                        <li>{!! _i("Radio 10,25’’ NAV (9YT) + 6 speakers (RCG) ") !!}</li>
+                                        <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
+                                        <li>{!! _i("Steering wheel soft touch (318)") !!}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <p class="font-weight-bold secondary">{!! _i("FIAT CO-DRIVER PACK Icon (opt 3RH)") !!}</p>
+                                <ul class="pl-3">
+                                    <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>
+                                    <li>{!! _i("360° Drone View (XAH) ") !!}</li>
+                                    <li>{!! _i("Urban Blind Spot (XAN)") !!}</li>
+                                    <li>{!! _i("Rearview Parking Camera (9YN)") !!}</li>
+                                    <li>{!! _i("6 speakers (RCG) ") !!}</li>
+                                    <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 divider mb-5">
+                                {!! _i("AVAILABLE ON: PASSION • ICON") !!}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <section id="DUMMY" class="d-flex align-items-center">
     <div class="container">
