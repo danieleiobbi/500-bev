@@ -7941,28 +7941,6 @@ a.text-dark:hover, a.text-dark:focus {
   border-color: #25a5b9;
 }
 
-.btn.btn-link {
-  color: #29b8ce;
-}
-
-.btn.btn-link:hover {
-  color: #2192a3;
-}
-
-.btn.btn-link.btn-custom {
-  color: #8db3bf;
-  font-weight: bold;
-  font-size: 1.5rem;
-  border: none !important;
-  background-color: none !important;
-}
-
-.btn.btn-link.btn-custom:hover {
-  color: #6c9dad;
-  border: none !important;
-  background-color: none !important;
-}
-
 .btn:focus, .btn.focus {
   border-color: #29b8ce;
   -webkit-box-shadow: unset !important;
@@ -7979,6 +7957,29 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #29b8ce !important;
   border-color: #fff !important;
   color: #fff !important;
+}
+
+.btn.btn-link {
+  color: #29b8ce;
+}
+
+.btn.btn-link:hover {
+  color: #2192a3;
+}
+
+.btn.btn-link.btn-custom {
+  color: #8db3bf;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none !important;
+  background-color: transparent !important;
+  padding: 0;
+}
+
+.btn.btn-link.btn-custom:hover, .btn.btn-link.btn-custom:focus, .btn.btn-link.btn-custom:active {
+  color: #6c9dad;
+  border: none !important;
+  background-color: transparent !important;
 }
 
 .mbri-icon {
@@ -8365,11 +8366,19 @@ a:focus {
           justify-content: space-between;
 }
 
-.collapse-component #body-component .target img {
+.collapse-component #body-component .collapse {
+  display: none;
+}
+
+.collapse-component #body-component .collapse.active {
+  display: block;
+}
+
+.collapse-component #body-component .collapse img {
   width: 100px;
 }
 
-.collapse-component #body-component .target .divider {
+.collapse-component #body-component .collapse .divider {
   background-color: #6c9dad;
   color: #fff;
   font-weight: bold;

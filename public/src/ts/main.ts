@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import { matchMedia, IntMmedia, env, Analitics } from "./helpers";
+import { matchMedia, IntMmedia, env, Analitics, toggleClass } from "./helpers";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,6 +13,7 @@ export class Main {
         this.layeredPinning();
         this.xGallery();
         this.audio();
+        this.collapseComponent();
         this.stagger();
         this.gsReveal();
         console.log(this.matchMedia);
@@ -85,6 +86,23 @@ export class Main {
         });
 
         gsap.utils.toArray("section").forEach((section: any, index) => {});
+    };
+
+    collapseComponent = () => {
+        const components = document.querySelectorAll(".collapse-component");
+        if (components.length === 0) return;
+        components.forEach((component) => {
+            const buttons = component.querySelectorAll(".btn");
+            const targets = component.querySelectorAll(".collapse");
+            buttons.forEach((button) => {
+                button.addEventListener("click", () => {
+                    const t = button.getAttribute("data-target")!;
+                    const target = document.getElementById(t);
+                    console.log(t, target);
+                    toggleClass(<HTMLElement>target, targets);
+                });
+            });
+        });
     };
 
     stagger = () => {

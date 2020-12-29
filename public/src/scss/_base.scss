@@ -116,7 +116,11 @@ a {
         justify-content: space-between;
     }
     #body-component {
-        .target {
+        .collapse {
+            display: none;
+            &.active {
+                display: block;
+            }
             img {
                 width: 100px;
             }
