@@ -134,6 +134,15 @@ a {
     }
 }
 
+#cta {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: $secondary;
+    .btn {
+        width: 270px;
+    }
+}
+
 .drawer-veil {
     height: 100%;
     width: 100%;
@@ -148,6 +157,12 @@ a {
 
 .font-light {
     font-family: "Roboto Light";
+}
+
+.gs_reveal {
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0s;
 }
 
 .manual-video-controls {

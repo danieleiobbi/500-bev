@@ -743,7 +743,7 @@
     </div>
 </section>
 
-<section id="CUSTOMIZE" class="pt-8">
+<section id="CUSTOMIZE" class="pt-8 mb-5">
     <div class="container bg-light">
         <div class="col-12 col-lg-8 mx-auto pt-8">
             <h1 class="secondary font-italic font-light border-bottom">{!! _i("A MATTER") !!}</h1>
@@ -751,7 +751,7 @@
             <p class="mb-5">{!! _i("Customize your new 500 however you wish, with three different packages to choose from.") !!}</p>
             <div class="collapse-component">
                 <div id="btns-container">
-                    <button class="btn btn-link btn-custom" type="button" data-target="target-technology">{!! _i("TECHNOLOGY") !!}</button>
+                    <button class="btn btn-link btn-custom active" type="button" data-target="target-technology">{!! _i("TECHNOLOGY") !!}</button>
                     <button class="btn btn-link btn-custom" type="button" data-target="target-comfort">{!! _i("COMFORT") !!}</button>
                     <button class="btn btn-link btn-custom" type="button" data-target="target-style">{!! _i("STYLE") !!}</button>
                 </div>
@@ -765,8 +765,24 @@
     </div>
 </section>
 
+<section id="CONFIGURATOR" class="pt-8 mb-5 d-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <h1 class="secondary font-italic font-light border-bottom">{!! _i("WHAT COLOUR") !!}</h1>
+                <h1 class="secondary mb-5 font-italic font-weight-bold">{!! _i("IS THE FUTURE") !!}</h1>
+            </div>
+            <div class="col-12 col-lg-6">
+                <img src="{{ asset('images/') }}" alt="">
+                <img src="{{ asset('images/') }}" alt="">
+                <img src="{{ asset('images/') }}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 
 
+@include('frontend.partials.cta')
 
 
 

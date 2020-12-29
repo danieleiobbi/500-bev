@@ -98,8 +98,8 @@ export class Main {
                 button.addEventListener("click", () => {
                     const t = button.getAttribute("data-target")!;
                     const target = document.getElementById(t);
-                    console.log(t, target);
                     toggleClass(<HTMLElement>target, targets);
+                    toggleClass(<HTMLElement>button, buttons);
                 });
             });
         });

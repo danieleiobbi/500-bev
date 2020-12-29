@@ -59,11 +59,13 @@
             background-color: transparent !important;
             padding: 0;
             &:hover,
-            &:focus,
-            &:active {
+            &:active,
+            &:not(:disabled):not(.disabled):active,
+            &:not(:disabled):not(.disabled).active {
                 color: $secondary;
                 border: none !important;
                 background-color: transparent !important;
+                text-decoration: underline;
             }
         }
     }

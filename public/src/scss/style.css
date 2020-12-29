@@ -7976,10 +7976,11 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0;
 }
 
-.btn.btn-link.btn-custom:hover, .btn.btn-link.btn-custom:focus, .btn.btn-link.btn-custom:active {
+.btn.btn-link.btn-custom:hover, .btn.btn-link.btn-custom:active, .btn.btn-link.btn-custom:not(:disabled):not(.disabled):active, .btn.btn-link.btn-custom:not(:disabled):not(.disabled).active {
   color: #6c9dad;
   border: none !important;
   background-color: transparent !important;
+  text-decoration: underline;
 }
 
 .mbri-icon {
@@ -8385,6 +8386,16 @@ a:focus {
   padding: 0.5rem 0 0.5rem 130px;
 }
 
+#cta {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #6c9dad;
+}
+
+#cta .btn {
+  width: 270px;
+}
+
 .drawer-veil {
   height: 100%;
   width: 100%;
@@ -8399,6 +8410,15 @@ a:focus {
 
 .font-light {
   font-family: "Roboto Light";
+}
+
+.gs_reveal {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: -webkit-transform 0s;
+  transition: -webkit-transform 0s;
+  transition: transform 0s;
+  transition: transform 0s, -webkit-transform 0s;
 }
 
 .manual-video-controls {
