@@ -8757,6 +8757,58 @@ main section#api-cards .card .card-body {
   min-height: 400px;
 }
 
+main section#CONFIGURATOR {
+  margin-bottom: 10rem;
+}
+
+main section#CONFIGURATOR #models-selector img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #6c9dad;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+main section#CONFIGURATOR #models-selector img:hover, main section#CONFIGURATOR #models-selector img.active {
+  border: 3px solid #6c9dad;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+main section#CONFIGURATOR #colors-selector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section#CONFIGURATOR #colors-selector .color {
+  min-width: 70px;
+  min-height: 70px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main section#CONFIGURATOR #colors-selector .color:hover, main section#CONFIGURATOR #colors-selector .color.active {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+main section#CONFIGURATOR .img-wrap {
+  position: relative;
+  min-height: 450px;
+}
+
+main section#CONFIGURATOR .img-wrap img {
+  position: absolute;
+}
+
 main section#DUMMY {
   min-height: 100vh;
 }
@@ -8774,6 +8826,13 @@ main section#DUMMY {
   main section#home-11 .container .row {
     padding-bottom: 5rem;
   }
+  main section#CONFIGURATOR #colors-selector .color {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  main section#CONFIGURATOR .img-wrap {
+    min-height: 150px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -8785,6 +8844,32 @@ main section#DUMMY {
   }
   main section#home-11 .container .row h1 {
     font-size: 1.8rem;
+  }
+  main section#CONFIGURATOR #CONFIGURATOR__colorName {
+    margin-left: 1rem !important;
+    font-size: 1.8rem;
+  }
+  main section#CONFIGURATOR #colors-selector {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  main section#CONFIGURATOR #colors-selector .color {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  main section#CONFIGURATOR .img-wrap {
+    min-height: 120px;
+  }
+}
+
+@media (max-width: 320px) {
+  .scrollSequenceFadeIn {
+    min-height: 130vh;
+  }
+  main section#CONFIGURATOR #CONFIGURATOR__colorName {
+    margin-left: 1rem !important;
+    font-size: 1.5rem;
   }
 }
 

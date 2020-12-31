@@ -14,6 +14,7 @@ export class Main {
         this.xGallery();
         this.audio();
         this.collapseComponent();
+        this.configurator();
         this.stagger();
         this.gsReveal();
         console.log(this.matchMedia);
@@ -259,5 +260,89 @@ export class Main {
                 item.load();
             }
         }
+    };
+
+    configurator = () => {
+        const id = "CONFIGURATOR";
+        const parent = document.getElementById(id);
+        if (!parent) return;
+        let selectedModel = parent.getAttribute("data-defaultModel");
+        const modelSelector = document.getElementById("models-selector");
+        if (!modelSelector) return;
+        const modelButtons = modelSelector.querySelectorAll(".model");
+        if (modelButtons.length === 0) return;
+        const selector = document.getElementById("colors-selector");
+        if (!selector) return;
+        const buttons = selector.querySelectorAll(".color");
+        if (buttons.length === 0) return;
+        const images = document.querySelectorAll(`#${id} .img-wrap img`)!;
+        if (images.length === 0) return;
+        images.forEach((element) => {
+            if (!element.classList.contains(`active`)) {
+                this.gsHideElement(element as HTMLElement);
+            }
+        });
+        const nameContainer = document.getElementById(
+            "CONFIGURATOR__colorName"
+        );
+
+        const show = (
+            current: HTMLElement,
+            colorCode: string,
+            colorName: string
+        ) => {
+            // Recupero il bottone colore da selezionare
+            const currentColrorBtn = document.querySelector(
+                `#${id} .color-${colorCode}`
+            )!;
+            toggleClass(<HTMLElement>currentColrorBtn, buttons);
+            toggleClass(current, images);
+
+            gsap.timeline().to(current, {
+                autoAlpha: 1,
+                duration: 1,
+            });
+
+            if (nameContainer) {
+                nameContainer.innerHTML = colorName;
+            }
+
+            // Setto tutte le altre immagini ad alpha 0
+            images.forEach((element) => {
+                if (element !== current) {
+                    gsap.timeline().to(element, {
+                        autoAlpha: 0,
+                        duration: 1,
+                    });
+                }
+            });
+        };
+
+        modelButtons.forEach((mBtn) => {
+            mBtn.addEventListener("click", () => {
+                toggleClass(<HTMLElement>mBtn, modelButtons);
+                const modelCode = mBtn.getAttribute("data-modelCode")!;
+                const colorCode = mBtn.getAttribute("data-colorCode")!;
+                const colorName = mBtn.getAttribute("data-colorName")!;
+                selectedModel = modelCode;
+                // Recupero l'immagine da mostrare
+                const current = document.querySelector(
+                    `#${id} .car-${selectedModel}-${colorCode}`
+                )!;
+                show(<HTMLElement>current, colorCode, colorName);
+            });
+        });
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                toggleClass(<HTMLElement>button, buttons);
+                const colorCode = button.getAttribute("data-colorCode")!;
+                const colorName = button.getAttribute("data-colorName")!;
+                // Recupero l'immagine da mostrare
+                const current = document.querySelector(
+                    `#${id} .car-${selectedModel}-${colorCode}`
+                )!;
+                show(<HTMLElement>current, colorCode, colorName);
+            });
+        });
     };
 }

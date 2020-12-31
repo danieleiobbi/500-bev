@@ -448,6 +448,46 @@ main {
             }
         }
 
+        &#CONFIGURATOR {
+            margin-bottom: 10rem;
+            #models-selector {
+                img {
+                    width: 120px;
+                    height: 120px;
+                    border: 2px solid $secondary;
+                    transition: all 0.2s ease-in-out;
+                    cursor: pointer;
+                    &:hover,
+                    &.active {
+                        border: 3px solid $secondary;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+            #colors-selector {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .color {
+                    min-width: 70px;
+                    min-height: 70px;
+                    cursor: pointer;
+                    transition: 0.5s;
+                    &:hover,
+                    &.active {
+                        transform: scale(1.15);
+                    }
+                }
+            }
+            .img-wrap {
+                position: relative;
+                min-height: 450px;
+                img {
+                    position: absolute;
+                }
+            }
+        }
+
         &#DUMMY {
             min-height: 100vh;
         }
@@ -501,6 +541,17 @@ main {
                     }
                 }
             }
+            &#CONFIGURATOR {
+                #colors-selector {
+                    .color {
+                        min-width: 40px;
+                        min-height: 40px;
+                    }
+                }
+                .img-wrap {
+                    min-height: 150px;
+                }
+            }
         }
     }
 }
@@ -520,6 +571,39 @@ main {
                             font-size: 1.8rem;
                         }
                     }
+                }
+            }
+            &#CONFIGURATOR {
+                #CONFIGURATOR__colorName {
+                    margin-left: 1rem !important;
+                    font-size: 1.8rem;
+                }
+                #colors-selector {
+                    justify-content: start;
+                    .color {
+                        min-width: 40px;
+                        min-height: 40px;
+                    }
+                }
+                .img-wrap {
+                    min-height: 120px;
+                }
+            }
+        }
+    }
+}
+
+// Extra small devices iPhone 5 (portrait phones, less than 576px)
+@media (max-width: 320px) {
+    .scrollSequenceFadeIn {
+        min-height: 130vh;
+    }
+    main {
+        section {
+            &#CONFIGURATOR {
+                #CONFIGURATOR__colorName {
+                    margin-left: 1rem !important;
+                    font-size: 1.5rem;
                 }
             }
         }

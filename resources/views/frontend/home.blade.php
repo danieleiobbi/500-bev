@@ -746,7 +746,7 @@
 <section id="CUSTOMIZE" class="pt-8 mb-5">
     <div class="container bg-light">
         <div class="col-12 col-lg-8 mx-auto pt-8">
-            <h1 class="secondary font-italic font-light border-bottom">{!! _i("A MATTER") !!}</h1>
+            <h1 class="secondary font-italic font-light border-bottom w-fc">{!! _i("A MATTER") !!}</h1>
             <h1 class="secondary mb-5 font-italic font-weight-bold">{!! _i("OF STYLE") !!}</h1>
             <p class="mb-5">{!! _i("Customize your new 500 however you wish, with three different packages to choose from.") !!}</p>
             <div class="collapse-component">
@@ -765,17 +765,57 @@
     </div>
 </section>
 
-<section id="CONFIGURATOR" class="pt-8 mb-5 d-none">
+ <section id="CONFIGURATOR" class="pt-8" data-defaultModel="{{ $config['defaultModel'] }}" >
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <h1 class="secondary font-italic font-light border-bottom">{!! _i("WHAT COLOUR") !!}</h1>
-                <h1 class="secondary mb-5 font-italic font-weight-bold">{!! _i("IS THE FUTURE") !!}</h1>
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-3 primary mb-5">
+                <div>
+                    <h1 class="secondary font-italic font-light border-bottom w-fc">{!! _i("WHAT COLOUR") !!}</h1>
+                    <h1 class="secondary mb-5 font-italic font-weight-bold">{!! _i("IS THE FUTURE") !!}</h1>
+                </div>
             </div>
-            <div class="col-12 col-lg-6">
-                <img src="{{ asset('images/') }}" alt="">
-                <img src="{{ asset('images/') }}" alt="">
-                <img src="{{ asset('images/') }}" alt="">
+            <div class="col-12 col-lg-9 primary mb-5">
+                <div id="models-selector" class="d-flex justify-content-center">
+                    @foreach ($config['models'] as $modelCode => $model)
+                        <div class="text-center mr-5">
+                            <img 
+                            class="img-fluid rounded-circle model mb-3 @php echo ($modelCode == 'hb') ? 'active' : null @endphp" 
+                            data-modelCode="{{ $modelCode }}"
+                            data-colorCode="{{ $model['default']['color']}}"
+                            data-colorName="{{ $config['colors'][$model['default']['color']] }}"
+                            src="{{ asset("images/configurator/".$modelCode."/thumb.jpg") }}" 
+                            >
+                            <h4 class="secondary font-weight-bold font-italic">{{ $model['modelName'] }}</h4>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+            
+            <div id="colors-selector" class="col-12 col-lg-3 mb-5 mb-lg-0">
+                @foreach ($config['colors'] as $code => $color)
+                    <div 
+                        style="background-color: {{ $config['rgbCodes'][$code] }}" 
+                        class="m-2 rounded-circle color color-{{ $code }}  @php echo ($code == $config['models'][$config['defaultModel']]['default']['color']) ? 'active' : null @endphp" 
+                        data-colorCode="{{ $code }}"
+                        data-colorName="{{ $config['colors'][$code]  }}">
+                    </div>
+                @endforeach
+            </div>
+            <div class="col-12 col-lg-9 mb-5">
+                <div class="img-wrap">
+                    @foreach ($config['models'] as $modelName => $model)
+                        @foreach ($model['colors'] as $color)
+                            <img 
+                            class="img-fluid car-{{ $modelName }}-{{ $color }} @php echo ($modelName == 'hb' && $color == $model['default']['color']) ? 'active' : null @endphp" 
+                            src="{{ asset("images/configurator/".$modelName."/".$color.".jpg") }}"
+                            >
+                        @endforeach
+                    @endforeach
+                </div>
+            </div>
+
+            <div class="col-12">
+                <h2 id="CONFIGURATOR__colorName" class="secondary font-italic font-weight-bold border-bottom w-fc mx-auto">{!! _i("RUGIADA GREEN") !!}</h2>
             </div>
         </div>
     </div>
