@@ -9,7 +9,10 @@
 </section>
   
 <section class="panel">
-    <img class="img-fluid" src="{{ asset('images/500-01.jpg') }}">
+    <picture>
+        <source srcset="{{ asset('images/500-01-m.jpg') }}" media="(max-width: 1024px)">
+        <img src="{{ asset('images/500-01.jpg') }}">
+    </picture>
     <div class="caption panel-01">
         <h4 class="primary font-weight-bold">{!! _i("THE NEW FIAT 500 ALL ELECTRIC") !!}</h4>
         <h1 class="white font-italic font-light border-bottom">{!! _i("WELCOME BACK") !!}</h1>
@@ -21,7 +24,10 @@
 </section>
 
 <section class="panel">
-    <img class="img-fluid" src="{{ asset('images/500-02.jpg') }}">
+    <picture>
+        <source srcset="{{ asset('images/500-02-m.jpg') }}" media="(max-width: 1024px)">
+        <img  src="{{ asset('images/500-02.jpg') }}">
+    </picture>
     <div class="caption panel-02">
         <h1 class="white font-italic font-light border-bottom">{!! _i("A NEW LOOK") !!}</h1>
         <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("AT TOMORROW") !!}</h1>
@@ -32,14 +38,10 @@
 </section>
 
 <section class="panel">
-    <img class="img-fluid" src="{{ asset('images/500-03.jpg') }}">
-    <div class="caption panel-03">
-        <h1 class="white font-italic font-light border-bottom">{!! _i("A NEW LOOK") !!}</h1>
-        <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("AT TOMORROW") !!}</h1>
-        <p class="white small bottom">
-            {!! _i("The new 500 helps to see the road with different eyes, thanks to new LED headlights, but also the world too. Just as 500 has always done. The first generation gave people mobility and freedom; the second generation transformed city cars into fashionable cars; the third has an even more ambitious goal: a better future for all. Including our planet.") !!}
-        </p>
-    </div>
+    <picture>
+        <source srcset="{{ asset('images/500-03-m.jpg') }}" media="(max-width: 1024px)">
+        <img src="{{ asset('images/500-03.jpg') }}">
+    </picture>
 </section>
 
 @include('frontend.partials.gallery-01')
@@ -47,7 +49,7 @@
 <section id="MORE-ROOM" class="pt-8">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6 mx-auto gs_reveal">
+            <div class="col-12 col-lg-8 col-xl-6 mx-auto gs_reveal">
                 <h1 class="secondary font-italic font-light border-bottom">{!! _i("MORE ROOM") !!}</h1>
                 <h1 class="ml-5 secondary font-italic font-weight-bold">{!! _i("FOR CONSCIOUSNESS") !!}</h1>
                 <p>
@@ -60,7 +62,10 @@
     <div class="container-fluid px-0 pt-8">
         <div class="row no-gutters">
             <div class="col-12 gs_reveal gs_reveal_fromLeft">
-                <img class="img-fluid"  src="{{ asset('images/500-04.jpg') }}">
+                <picture>
+                    <source srcset="{{ asset('images/500-04-m.jpg') }}" media="(max-width: 1024px)">
+                    <img class="img-fluid" src="{{ asset('images/500-04.jpg') }}">
+                </picture>
             </div>
         </div>
     </div>
@@ -81,7 +86,10 @@
 </section>
 
 <section class="panel">
-    <img class="img-fluid" src="{{ asset('images/500-05.jpg') }}">
+    <picture>
+        <source srcset="{{ asset('images/500-05-m.jpg') }}" media="(max-width: 1024px)">
+        <img class="img-fluid" src="{{ asset('images/500-05.jpg') }}">
+    </picture>
     <div class="caption panel-01">
         <h1 class="white font-italic font-light border-bottom">{!! _i("RECHARGE") !!}</h1>
         <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("YOUR EMOTIONS") !!}</h1>
@@ -212,11 +220,14 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-lg-6">
-                <img class="img-fluid" src="{{ asset('images/500-06.jpg') }}" alt="">
+                <picture>
+                    <source srcset="{{ asset('images/500-06-m.jpg') }}" media="(max-width: 1024px)">
+                    <img class="img-fluid" src="{{ asset('images/500-06.jpg') }}">
+                </picture>
             </div>
             <div class="col-12 col-lg-6 gs_reveal gs_reveal_fromLeft">
                 <div class="row mb-5">
-                    <div class="col-8 white">
+                    <div class="col-12 col-xl-8 white">
                         <h1 class="font-italic font-light border-bottom">{!! _i("PURE") !!}</h1>
                         <h1 class="ml-5 font-italic font-weight-bold">{!! _i("PLEASURE") !!}</h1>
                         <p>
@@ -263,7 +274,7 @@
 <section id="home-carousel">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-4 mx-auto">
+            <div class="col-12 col-lg-6 col-xl-4 mx-auto">
                 <div id="carousel-01"  class="carousel slide mb-5" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -338,7 +349,10 @@
 </section>
 
 <section class="panel">
-    <img class="img-fluid" src="{{ asset('images/500-08.jpg') }}">
+    <picture>
+        <source srcset="{{ asset('images/500-08-m.jpg') }}" media="(max-width: 1024px)">
+        <img class="img-fluid" src="{{ asset('images/500-08.jpg') }}">
+    </picture>
     <div class="caption panel-05">
         <h1 class="white font-italic font-light border-bottom">{!! _i("THE BEST TECHNOLOGY") !!}</h1>
         <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("FOR A BETTER LIFE") !!}</h1>
@@ -406,7 +420,10 @@
 </section>
 
 <section class="panel">
-    <img class="img-fluid" src="{{ asset('images/500-09.jpg') }}">
+    <picture>
+        <source srcset="{{ asset('images/500-09-m.jpg') }}" media="(max-width: 1024px)">
+        <img class="img-fluid" src="{{ asset('images/500-09.jpg') }}">
+    </picture>
     <div class="caption panel-06">
         <h1 class="white font-italic font-light border-bottom">{!! _i("CONNECTED") !!}</h1>
         <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("TO YOUR WORLD") !!}</h1>
@@ -618,7 +635,7 @@
 <section id="api-cards">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-3 gs_reveal gs_reveal_fromRight">
+            <div class="col-12 col-lg-4 col-xl-3 gs_reveal gs_reveal_fromRight">
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('images/action.png') }}">
                     <div class="card-body">
@@ -638,7 +655,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 api-card gs_reveal">
+            <div class="col-12 col-lg-4 col-xl-3 api-card gs_reveal">
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('images/passion.png') }}">
                     <div class="card-body">
@@ -658,7 +675,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 api-card gs_reveal gs_reveal_fromLeft">
+            <div class="col-12 col-lg-4 col-xl-3 api-card gs_reveal gs_reveal_fromLeft">
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('images/icon.png') }}">
                     <div class="card-body">
@@ -686,7 +703,7 @@
 <section class="pt-8 gs_reveal">
     <div class="container mb-5">
         <div class="row">
-            <div class="col-12 col-lg-6 mx-auto">
+            <div class="col-12 col-lg-8 col-xl-6 mx-auto">
                 <h1 class="secondary font-italic font-light border-bottom">{!! _i("TO EACH HIS OWN") !!}</h1>
                 <h1 class="secondary ml-5 mb-5 font-italic font-weight-bold">{!! _i("FORM OF PERFECTION") !!}</h1>
                 <p>{!! _i("The new electric 500 comes just the way you want it: available in Hatchback, Convertible and 3+1 versions and with different trims to choose from. All you have to do is find the one that suits you best.") !!}</p>
@@ -745,7 +762,7 @@
 
 <section id="CUSTOMIZE" class="pt-8 mb-5">
     <div class="container bg-light">
-        <div class="col-12 col-lg-8 mx-auto pt-8">
+        <div class="col-12 col-xl-8 mx-auto pt-8">
             <h1 class="secondary font-italic font-light border-bottom w-fc">{!! _i("A MATTER") !!}</h1>
             <h1 class="secondary mb-5 font-italic font-weight-bold">{!! _i("OF STYLE") !!}</h1>
             <p class="mb-5">{!! _i("Customize your new 500 however you wish, with three different packages to choose from.") !!}</p>
@@ -768,13 +785,13 @@
  <section id="CONFIGURATOR" class="pt-8" data-defaultModel="{{ $config['defaultModel'] }}" >
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-12 col-lg-3 primary mb-5">
+            <div class="col-12 col-xl-4 primary mb-5">
                 <div>
                     <h1 class="secondary font-italic font-light border-bottom w-fc">{!! _i("WHAT COLOUR") !!}</h1>
                     <h1 class="secondary mb-5 font-italic font-weight-bold">{!! _i("IS THE FUTURE") !!}</h1>
                 </div>
             </div>
-            <div class="col-12 col-lg-9 primary mb-5">
+            <div class="col-12 col-xl-8 primary mb-5">
                 <div id="models-selector" class="d-flex justify-content-center">
                     @foreach ($config['models'] as $modelCode => $model)
                         <div class="text-center mr-5">
@@ -823,29 +840,6 @@
 
 
 @include('frontend.partials.cta')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="DUMMY" class="d-flex align-items-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-8 mx-auto text-center">
-                {!! _i("Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sint excepturi in veniam reprehenderit perspiciatis, nulla assumenda optio est eius minima, similique autem repellat cumque provident aperiam quae, ratione tempore.") !!}
-            </div>
-        </div>
-    </div>
-</section>
 
 @endsection
 

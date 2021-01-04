@@ -122,7 +122,7 @@ a {
                 display: block;
             }
             img {
-                width: 100px;
+                width: 80px;
             }
             .divider {
                 background-color: $secondary;
@@ -290,7 +290,10 @@ main {
         background-color: $white;
         &#cover {
             height: 100vh;
+            background-color: $black;
             video {
+                width: 100%;
+                height: 100%;
                 object-fit: cover;
             }
         }
@@ -299,6 +302,8 @@ main {
             position: relative;
             height: 100vh;
             img {
+                width: 100%;
+                height: 100%;
                 object-fit: cover;
             }
             &.panel-07 {
@@ -496,6 +501,17 @@ main {
 
 // Large devices (desktops, less than 1440px)
 @media (max-width: 1440px) {
+    main {
+        section {
+            &#api-cards {
+                .card {
+                    .card-body {
+                        min-height: 460px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Large devices (desktops, less than 1200px)
@@ -518,8 +534,58 @@ main {
     }
 }
 
-// Ipad Pro landscape
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+// Ipad Pro portrait a scendere
+@media (max-width: 1200px) {
+    .manual-video-controls {
+        min-height: 50vh;
+    }
+    main {
+        section {
+            &#cover {
+                display: flex;
+                align-items: center;
+                video {
+                    object-fit: cover;
+                    transform: scale(1);
+                }
+            }
+            &.panel,
+            &.panel-static {
+                position: relative;
+                height: 100vh;
+                img {
+                    object-fit: cover;
+                }
+                &.panel-07 {
+                    height: unset;
+                }
+                .caption {
+                    position: absolute;
+                    &.panel-01 {
+                        top: 15%;
+                    }
+                    &.panel-05 {
+                        top: unset;
+                        left: unset;
+                        bottom: 10%;
+                        right: 10%;
+                    }
+                }
+            }
+
+            &#api-cards {
+                .container {
+                    top: -13%;
+                }
+            }
+
+            &#CONFIGURATOR {
+                #colors-selector {
+                    justify-content: left;
+                }
+            }
+        }
+    }
 }
 
 // Medium devices (tablets, less than 992px)

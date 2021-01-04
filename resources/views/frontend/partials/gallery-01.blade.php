@@ -1,7 +1,7 @@
 <section id="x-gallery-01" class="pt-8">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6 mx-auto gs_reveal">
+            <div class="col-12 col-lg-8 col-xl-6 mx-auto gs_reveal">
                 <h1 class="secondary font-italic font-light border-bottom">{!! _i("LITTLE DETAILS") !!}</h1>
                 <h1 class="ml-5 secondary font-italic font-weight-bold">{!! _i("MAKE BIG THINGS HAPPEN") !!}</h1>
                 <p>
