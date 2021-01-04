@@ -12,7 +12,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 last">
             <p class="font-weight-bold secondary">{!! _i("STYLE PACK CABRIO (opt 3RM)") !!}</p>
             <ul class="pl-3">
                 <li>{!! _i("Tinted glass (070)") !!}</li>

@@ -52,7 +52,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 last">
             <p class="font-weight-bold secondary">{!! _i("FIAT CO-DRIVER PACK Icon (opt 3RH)") !!}</p>
             <ul class="pl-3">
                 <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>

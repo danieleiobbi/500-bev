@@ -218,14 +218,14 @@
 
 <section id="SOUND" class="mb-5">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center flex-column-reverse flex-lg-row">
             <div class="col-12 col-lg-6">
                 <picture>
                     <source srcset="{{ asset('images/500-06-m.jpg') }}" media="(max-width: 1024px)">
                     <img class="img-fluid" src="{{ asset('images/500-06.jpg') }}">
                 </picture>
             </div>
-            <div class="col-12 col-lg-6 gs_reveal gs_reveal_fromLeft">
+            <div class="col-12 col-lg-6 gs_reveal gs_reveal_fromLeft mb-5 mb-lg-0 ">
                 <div class="row mb-5">
                     <div class="col-12 col-xl-8 white">
                         <h1 class="font-italic font-light border-bottom">{!! _i("PURE") !!}</h1>
@@ -237,28 +237,28 @@
                 </div>
                 <div class="row">
                     <div class="col-12 secondary mb-5">{!! _i("Only an electric 500 could make a sound like this: unique, just like her.") !!}</div>
-                    <div class="col-12 col-lg-6 mb-3 d-flex align-items-center justify-content-start">
+                    <div class="col-12 col-md-6 mb-3 d-flex align-items-center justify-content-start">
                         <audio id="audio-italian-creative-spirit">
                             <source src="{{ asset('audio/RRP avas sound SYN 3+RRP rota and Flavio SHORTEN.wav') }}" type="audio/mpeg">
                         </audio>
                         <img class="sound-icon mr-3" data-target="audio-italian-creative-spirit" src="{{ asset('images/svg/sound-icon.svg') }}" alt="">
                         <p class="font-weight-bold secondary small m-0">{!! _i("LISTEN TO THE<br>ITALIAN CREATIVE SPIRIT") !!}</p>
                     </div>
-                    <div class="col-12 col-lg-6 mb-3 d-flex align-items-center justify-content-start">
+                    <div class="col-12 col-md-6 mb-3 d-flex align-items-center justify-content-start">
                         <audio id="audio-other-cars">
                             <source src="{{ asset('audio/COREA.mp3') }}" type="audio/mpeg">
                         </audio>
                         <img class="sound-icon mr-3" data-target="audio-other-cars" src="{{ asset('images/svg/sound-icon.svg') }}" alt="">
                         <p class="font-weight-bold secondary small m-0">{!! _i("LISTEN TO THE SOUND<br>OF OTHER CARS") !!}</p>
                     </div>
-                    <div class="col-12 col-lg-6 mb-3 d-flex align-items-center justify-content-start">
+                    <div class="col-12 col-md-6 mb-3 d-flex align-items-center justify-content-start">
                         <audio id="audio-power-on">
                             <source src="{{ asset('audio/500_key_on.wav') }}" type="audio/mpeg">
                         </audio>
                         <img class="sound-icon mr-3" data-target="audio-power-on" src="{{ asset('images/svg/sound-icon.svg') }}" alt="">
                         <p class="font-weight-bold secondary small m-0">{!! _i("POWER ON") !!}</p>
                     </div>
-                    <div class="col-12 col-lg-6 mb-3 d-flex align-items-center justify-content-start">
+                    <div class="col-12 col-md-6 mb-3 d-flex align-items-center justify-content-start">
                         <audio id="audio-shutdown">
                             <source src="{{ asset('audio/500_key_off.wav') }}" type="audio/mpeg">
                         </audio>
@@ -613,7 +613,7 @@
         </div>
 
         <div class="row py-5">
-            <div class="col-12 d-flex align-items-center justify-content-center">
+            <div class="col-12 d-flex align-items-center justify-content-center btn-wrap">
                 <a href="{!! _i("//apps.apple.com/it/app/fiat-goe-live/id1523452215") !!}" target="_blank" class="btn btn-primary mr-5">{!! _i("DOWNLOAD THE FIAT IOS APP") !!}</a>
                 <a href="{!! _i("//play.google.com/store/apps/details?id=com.fca.goelive.fiat") !!}" target="_blank" class="btn btn-primary">{!! _i("DOWNLOAD THE FIAT ANDROID APP") !!}</a>
             </div>
@@ -622,7 +622,6 @@
 </section>
 
 <section class="panel-static panel-07">
-    <img class="img-fluid" src="{{ asset('images/500-10.jpg') }}">
     <div class="caption panel-07">
         <h1 class="white font-italic font-light border-bottom">{!! _i("DIFFERENT VERSIONS") !!}</h1>
         <h1 class="ml-5 white font-italic font-weight-bold">{!! _i("ALL UNIQUE") !!}</h1>
@@ -630,6 +629,7 @@
             {!! _i("The new electric 500 comes just the way you want it: available in Hatchback, Convertible and 3+1 versions and with different trims to choose from. All you have to do is find the one that suits you best.") !!}
         </p>
     </div>
+    <img class="img-fluid" src="{{ asset('images/500-10.jpg') }}">
 </section>
 
 <section id="api-cards">

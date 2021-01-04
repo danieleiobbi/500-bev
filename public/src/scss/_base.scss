@@ -516,26 +516,6 @@ main {
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1200px) {
-    main {
-        section {
-            &#home-11 {
-                h1 {
-                    font-size: 2rem;
-                }
-                .container {
-                    .row {
-                        .big {
-                            font-size: 3rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// Ipad Pro portrait a scendere
-@media (max-width: 1200px) {
     .manual-video-controls {
         min-height: 50vh;
     }
@@ -573,6 +553,19 @@ main {
                 }
             }
 
+            &#home-11 {
+                h1 {
+                    font-size: 2rem;
+                }
+                .container {
+                    .row {
+                        .big {
+                            font-size: 3rem;
+                        }
+                    }
+                }
+            }
+
             &#api-cards {
                 .container {
                     top: -13%;
@@ -583,6 +576,19 @@ main {
                 #colors-selector {
                     justify-content: left;
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) and (orientation: landscape) {
+    .manual-video-controls {
+        min-height: 100vh;
+    }
+    main {
+        section {
+            &#api-cards {
+                min-height: 70vh;
             }
         }
     }
@@ -607,15 +613,101 @@ main {
                     }
                 }
             }
+
+            &#SOUND {
+                &::after {
+                    content: "\A";
+                    top: -1%;
+                    height: 19%;
+                }
+            }
+
+            &#CONNECTIVITY {
+                .btn-wrap {
+                    flex-wrap: wrap;
+                    .btn {
+                        margin-bottom: 1rem;
+                        margin-right: 0 !important;
+                        margin-left: 0 !important;
+                        font-size: 0.8rem;
+                        width: 45vw;
+                    }
+                }
+            }
+
+            &.panel,
+            &.panel-static {
+                position: relative;
+                height: 100vh;
+                img {
+                    object-fit: cover;
+                }
+                &.panel-07 {
+                    height: unset;
+                    .caption {
+                        position: relative;
+                        top: unset;
+                        left: unset;
+                        padding-top: 4rem;
+                        padding-bottom: 4rem;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        h1 {
+                            color: $secondary;
+                            width: fit-content;
+                            &.border-bottom {
+                                border-bottom: 1px solid $secondary !important;
+                            }
+                        }
+                        p {
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
+
+            &#api-cards {
+                position: relative;
+                min-height: 50vh;
+                .container {
+                    position: relative;
+                    top: unset;
+                    left: unset;
+                    transform: unset;
+                    .card {
+                        margin: 1rem 0;
+                    }
+                }
+            }
+
+            &#CUSTOMIZE {
+                .last {
+                    padding-left: 110px;
+                }
+            }
+
             &#CONFIGURATOR {
+                #models-selector {
+                    div {
+                        img {
+                            width: 100px;
+                            height: 100px;
+                        }
+                        &:last-child {
+                            margin-right: 0 !important;
+                        }
+                    }
+                }
                 #colors-selector {
+                    justify-content: center !important;
                     .color {
                         min-width: 40px;
                         min-height: 40px;
                     }
                 }
                 .img-wrap {
-                    min-height: 150px;
+                    min-height: 350px;
                 }
             }
         }

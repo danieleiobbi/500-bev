@@ -16,7 +16,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 last">
             <p class="font-weight-bold secondary">{!! _i("WINTER PACK (opt 6R7)") !!}</p>
             <ul class="pl-3">
                 <li>{!! _i("1st row Heated seats (452)") !!}</li>
@@ -53,7 +53,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 last">
             <p class="font-weight-bold secondary">{!! _i("CONVENIENCE PACK CABRIO (opt 3RO)") !!}</p>
             <ul class="pl-3">
                 <li>{!! _i("Automatic climate control (140)") !!}</li>
