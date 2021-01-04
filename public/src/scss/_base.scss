@@ -544,6 +544,12 @@ main {
                     &.panel-01 {
                         top: 15%;
                     }
+                    &.panel-02 {
+                        top: unset;
+                        left: unset;
+                        bottom: 10%;
+                        right: 10%;
+                    }
                     &.panel-05 {
                         top: unset;
                         left: unset;
@@ -598,6 +604,52 @@ main {
 @media (max-width: 992px) {
 }
 
+@media (max-width: 992px) and (orientation: landscape) {
+    h1 {
+        font-size: 2rem;
+    }
+    .manual-video-controls {
+        .wrap-icons {
+            .icons {
+                width: 80px;
+            }
+        }
+    }
+    main {
+        section {
+            &.panel,
+            &.panel-static {
+                .caption {
+                    &.panel-01 {
+                        left: 15px;
+                        &.bottom {
+                            right: unset;
+                            left: unset;
+                            right: 15px;
+                        }
+                    }
+                    &.panel-02 {
+                        right: unset;
+                        left: 15px;
+                    }
+                }
+            }
+            &#SOUND {
+                &::after {
+                    top: -1%;
+                    height: 23%;
+                }
+            }
+
+            &#CONFIGURATOR {
+                .img-wrap {
+                    min-height: 205px;
+                }
+            }
+        }
+    }
+}
+
 // Ipad Landscape
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 }
@@ -616,7 +668,6 @@ main {
 
             &#SOUND {
                 &::after {
-                    content: "\A";
                     top: -1%;
                     height: 19%;
                 }
@@ -662,6 +713,9 @@ main {
                         }
                         p {
                             color: $secondary;
+                        }
+                        .bottom {
+                            width: calc(100vw - 30px);
                         }
                     }
                 }
@@ -716,8 +770,61 @@ main {
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 576px) {
+    .manual-video-controls {
+        min-height: 120vh;
+        .wrap-icons {
+            justify-content: center !important;
+            .icons {
+                width: 55px;
+                margin-right: 1rem;
+                &:last-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .x-gallery {
+        &.pt-8 {
+            padding-top: 0;
+        }
+    }
     main {
         section {
+            &.panel,
+            &.panel-static {
+                .caption {
+                    position: absolute;
+                    &.panel-01 {
+                        right: unset;
+                        left: 15px;
+                        &.bottom {
+                            top: unset;
+                            right: unset;
+                            left: 15px;
+                            bottom: 10%;
+                            width: calc(100vw - 31px);
+                        }
+                    }
+                    &.panel-02 {
+                        right: unset;
+                        left: 15px;
+                    }
+
+                    &.panel-05 {
+                        right: unset;
+                        left: 15px;
+                    }
+                    &.panel-06 {
+                        width: calc(100vw - 31px);
+                        right: unset;
+                        left: 15px;
+                    }
+                }
+            }
+
             &#home-11 {
                 .container {
                     padding-bottom: unset;
@@ -731,10 +838,58 @@ main {
                     }
                 }
             }
+
+            &#SOUND {
+                &::after {
+                    height: 27%;
+                }
+            }
+
+            &#CONNECTIVITY {
+                .btn-wrap {
+                    .btn {
+                        width: 80vw;
+                    }
+                }
+            }
+
+            &#CUSTOMIZE {
+                &.pt-8 {
+                    padding-top: 0;
+                }
+                #btns-container {
+                    justify-content: flex-start;
+                    .btn-custom {
+                        margin-right: 1rem;
+                        font-size: 1rem;
+                    }
+                }
+                .collapse-component {
+                    #body-component {
+                        .collapse {
+                            img {
+                                width: 50px;
+                            }
+                            .divider {
+                                padding: 0.5rem 1rem 0.5rem 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+
             &#CONFIGURATOR {
                 #CONFIGURATOR__colorName {
                     margin-left: 1rem !important;
                     font-size: 1.8rem;
+                }
+                #models-selector {
+                    div {
+                        img {
+                            width: 80px;
+                            height: 80px;
+                        }
+                    }
                 }
                 #colors-selector {
                     justify-content: start;
@@ -744,7 +899,7 @@ main {
                     }
                 }
                 .img-wrap {
-                    min-height: 120px;
+                    min-height: 190px;
                 }
             }
         }
@@ -752,12 +907,47 @@ main {
 }
 
 // Extra small devices iPhone 5 (portrait phones, less than 576px)
-@media (max-width: 320px) {
-    .scrollSequenceFadeIn {
-        min-height: 130vh;
+@media (max-width: 375px) {
+    .manual-video-controls {
+        padding-top: 2rem;
+        .wrap-icons {
+            .icons {
+                width: 50px;
+            }
+        }
     }
     main {
+        h1 {
+            font-size: 1.8rem;
+        }
         section {
+            &#cover {
+                video {
+                    object-fit: contain;
+                    transform: scale(2.8);
+                }
+            }
+            &.panel,
+            &.panel-static {
+                .caption {
+                    &.panel-05 {
+                        right: unset;
+                        left: 15px;
+                        .bottom {
+                            width: calc(100vw - 30px);
+                        }
+                    }
+                }
+            }
+
+            &#CONNECTIVITY {
+                .btn-wrap {
+                    .btn {
+                        width: 85vw;
+                    }
+                }
+            }
+
             &#CONFIGURATOR {
                 #CONFIGURATOR__colorName {
                     margin-left: 1rem !important;
@@ -769,7 +959,50 @@ main {
 }
 
 // iPhoneX Landscape
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+@media (max-width: 812px) and (orientation: landscape) {
+    main {
+        section {
+            &#CONNECTIVITY {
+                .btn-wrap {
+                    .btn {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            &#api-cards {
+                position: relative;
+                min-height: 50vh;
+                .container {
+                    position: relative;
+                    top: unset;
+                    left: unset;
+                    transform: unset;
+                    .card {
+                        margin: 1rem 0;
+                    }
+                }
+            }
+
+            &#CONFIGURATOR {
+                #models-selector {
+                    img {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+                #colors-selector {
+                    justify-content: center !important;
+                    .color {
+                        min-width: 50px;
+                        min-height: 50px;
+                    }
+                }
+                .img-wrap {
+                    min-height: 290px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {

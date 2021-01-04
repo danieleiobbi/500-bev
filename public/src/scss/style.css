@@ -8238,10 +8238,23 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: unset;
 }
 
+@media (max-width: 1200px) {
+  .navbar .navbar-collapse {
+    width: 50vw;
+    -webkit-transform: translateX(50vw);
+            transform: translateX(50vw);
+  }
+}
+
 @media (max-width: 576px) {
   .navbar .navbar-brand img {
-    width: 50vw;
-    padding-left: 10vw;
+    width: 20vw;
+    padding-left: 0;
+  }
+  .navbar .navbar-collapse {
+    width: 75vw;
+    -webkit-transform: translateX(75vw);
+            transform: translateX(75vw);
   }
 }
 
@@ -8859,6 +8872,12 @@ main section#DUMMY {
   main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
     top: 15%;
   }
+  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
+    top: unset;
+    left: unset;
+    bottom: 10%;
+    right: 10%;
+  }
   main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
     top: unset;
     left: unset;
@@ -8890,12 +8909,39 @@ main section#DUMMY {
   }
 }
 
+@media (max-width: 992px) and (orientation: landscape) {
+  h1 {
+    font-size: 2rem;
+  }
+  .manual-video-controls .wrap-icons .icons {
+    width: 80px;
+  }
+  main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
+    left: 15px;
+  }
+  main section.panel .caption.panel-01.bottom, main section.panel-static .caption.panel-01.bottom {
+    right: unset;
+    left: unset;
+    right: 15px;
+  }
+  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
+    right: unset;
+    left: 15px;
+  }
+  main section#SOUND::after {
+    top: -1%;
+    height: 23%;
+  }
+  main section#CONFIGURATOR .img-wrap {
+    min-height: 205px;
+  }
+}
+
 @media (max-width: 768px) {
   main section#home-11 .container .row {
     padding-bottom: 5rem;
   }
   main section#SOUND::after {
-    content: "\A";
     top: -1%;
     height: 19%;
   }
@@ -8950,6 +8996,9 @@ main section#DUMMY {
   main section.panel.panel-07 .caption p, main section.panel-static.panel-07 .caption p {
     color: #6c9dad;
   }
+  main section.panel.panel-07 .caption .bottom, main section.panel-static.panel-07 .caption .bottom {
+    width: calc(100vw - 30px);
+  }
   main section#api-cards {
     position: relative;
     min-height: 50vh;
@@ -8989,6 +9038,54 @@ main section#DUMMY {
 }
 
 @media (max-width: 576px) {
+  .manual-video-controls {
+    min-height: 120vh;
+  }
+  .manual-video-controls .wrap-icons {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .manual-video-controls .wrap-icons .icons {
+    width: 55px;
+    margin-right: 1rem;
+  }
+  .manual-video-controls .wrap-icons .icons:last-child {
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .x-gallery.pt-8 {
+    padding-top: 0;
+  }
+  main section.panel .caption, main section.panel-static .caption {
+    position: absolute;
+  }
+  main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
+    right: unset;
+    left: 15px;
+  }
+  main section.panel .caption.panel-01.bottom, main section.panel-static .caption.panel-01.bottom {
+    top: unset;
+    right: unset;
+    left: 15px;
+    bottom: 10%;
+    width: calc(100vw - 31px);
+  }
+  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
+    right: unset;
+    left: 15px;
+  }
+  main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
+    right: unset;
+    left: 15px;
+  }
+  main section.panel .caption.panel-06, main section.panel-static .caption.panel-06 {
+    width: calc(100vw - 31px);
+    right: unset;
+    left: 15px;
+  }
   main section#home-11 .container {
     padding-bottom: unset;
   }
@@ -8998,9 +9095,37 @@ main section#DUMMY {
   main section#home-11 .container .row h1 {
     font-size: 1.8rem;
   }
+  main section#SOUND::after {
+    height: 27%;
+  }
+  main section#CONNECTIVITY .btn-wrap .btn {
+    width: 80vw;
+  }
+  main section#CUSTOMIZE.pt-8 {
+    padding-top: 0;
+  }
+  main section#CUSTOMIZE #btns-container {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  main section#CUSTOMIZE #btns-container .btn-custom {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  main section#CUSTOMIZE .collapse-component #body-component .collapse img {
+    width: 50px;
+  }
+  main section#CUSTOMIZE .collapse-component #body-component .collapse .divider {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
   main section#CONFIGURATOR #CONFIGURATOR__colorName {
     margin-left: 1rem !important;
     font-size: 1.8rem;
+  }
+  main section#CONFIGURATOR #models-selector div img {
+    width: 80px;
+    height: 80px;
   }
   main section#CONFIGURATOR #colors-selector {
     -webkit-box-pack: start;
@@ -9012,17 +9137,75 @@ main section#DUMMY {
     min-height: 40px;
   }
   main section#CONFIGURATOR .img-wrap {
-    min-height: 120px;
+    min-height: 190px;
   }
 }
 
-@media (max-width: 320px) {
-  .scrollSequenceFadeIn {
-    min-height: 130vh;
+@media (max-width: 375px) {
+  .manual-video-controls {
+    padding-top: 2rem;
+  }
+  .manual-video-controls .wrap-icons .icons {
+    width: 50px;
+  }
+  main h1 {
+    font-size: 1.8rem;
+  }
+  main section#cover video {
+    -o-object-fit: contain;
+       object-fit: contain;
+    -webkit-transform: scale(2.8);
+            transform: scale(2.8);
+  }
+  main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
+    right: unset;
+    left: 15px;
+  }
+  main section.panel .caption.panel-05 .bottom, main section.panel-static .caption.panel-05 .bottom {
+    width: calc(100vw - 30px);
+  }
+  main section#CONNECTIVITY .btn-wrap .btn {
+    width: 85vw;
   }
   main section#CONFIGURATOR #CONFIGURATOR__colorName {
     margin-left: 1rem !important;
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 812px) and (orientation: landscape) {
+  main section#CONNECTIVITY .btn-wrap .btn {
+    font-size: 0.8rem;
+  }
+  main section#api-cards {
+    position: relative;
+    min-height: 50vh;
+  }
+  main section#api-cards .container {
+    position: relative;
+    top: unset;
+    left: unset;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  main section#api-cards .container .card {
+    margin: 1rem 0;
+  }
+  main section#CONFIGURATOR #models-selector img {
+    width: 100px;
+    height: 100px;
+  }
+  main section#CONFIGURATOR #colors-selector {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  main section#CONFIGURATOR #colors-selector .color {
+    min-width: 50px;
+    min-height: 50px;
+  }
+  main section#CONFIGURATOR .img-wrap {
+    min-height: 290px;
   }
 }
 

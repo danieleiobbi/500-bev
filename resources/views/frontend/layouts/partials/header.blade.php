@@ -13,11 +13,11 @@
     <div id="MyNavbar" class="navbar-collapse">
         <ul id="menu-menu-principale" class="navbar-nav">
             <li class="nav-item mb-5 social-container">
-                <a class="mr-5" href="//www.facebook.com/sharer/sharer.php?u=https:{{ env('APP_URL').request()->get('segment')}}"
+                <a class="mr-3 mr-lg-5" href="//www.facebook.com/sharer/sharer.php?u=https:{{ env('APP_URL').request()->get('segment')}}"
                     target="_blank">
                     <i class="mbri-icon icon-social-facebook"></i> {!! _i("SHARE") !!}
                 </a>
-                <a class="mr-5" href="//www.twitter.com/share?text={{ urlencode(env('MODEL_NAME')) }}&url={{ urlencode(env('APP_URL').request()->get('segment')) }}" target="_blank">
+                <a class="mr-3 mr-lg-5" href="//www.twitter.com/share?text={{ urlencode(env('MODEL_NAME')) }}&url={{ urlencode(env('APP_URL').request()->get('segment')) }}" target="_blank">
                     <i class="mbri-icon icon-social-twitter"></i>
                     {!! _i("TWEET") !!}
                 </a>
@@ -46,10 +46,10 @@
                 <h3><a href="{{ $href }}#SAFETY" class="nav-link">{!! _i("SAFETY") !!}</a>
             </li>
             <li class="nav-item">
-                <h3><a href="{{ $href }}#TECHNOLOGY" class="nav-link">{!! _i("TECHNOLOGY") !!}</a>
+                <h3><a href="{{ $href }}#CONNECTIVITY" class="nav-link">{!! _i("CONNECTIVITY") !!}</a>
             </li>
             <li class="nav-item">
-                <h3><a href="{{ $href }}#CONNECTIVITY" class="nav-link">{!! _i("CONNECTIVITY") !!}</a>
+                <h3><a href="{{ $href }}#TRIM" class="nav-link">{!! _i("TRIM") !!}</a>
             </li>
         </ul>
     </div>

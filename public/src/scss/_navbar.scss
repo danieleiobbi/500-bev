@@ -145,6 +145,12 @@
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1200px) {
+    .navbar {
+        .navbar-collapse {
+            width: 50vw;
+            transform: translateX(50vw);
+        }
+    }
 }
 
 // Medium devices (tablets, less than 992px)
@@ -160,9 +166,13 @@
     .navbar {
         .navbar-brand {
             img {
-                width: 50vw;
-                padding-left: 10vw;
+                width: 20vw;
+                padding-left: 0;
             }
+        }
+        .navbar-collapse {
+            width: 75vw;
+            transform: translateX(75vw);
         }
     }
 }

@@ -9,9 +9,7 @@ export class Nav {
     private nav = () => {
         const hamburger = document.getElementById("hamburger")!;
         const drawerVeil = document.getElementById("drawer-veil")!;
-        const linkDropdownToggleSplit = document.getElementById(
-            "link-dropdown-toggle-split"
-        );
+
         const navbarCollapse = document.querySelector(
             ".navbar-collapse"
         ) as HTMLElement;
@@ -42,27 +40,10 @@ export class Nav {
 
         hamburger.onclick = toggleDrawerTween;
         drawerVeil.onclick = toggleDrawerTween;
-
-        // Toggle menu end
-
-        links.forEach((link) => {
-            link.addEventListener("click", () => {
-                if (link.classList.contains("dropdown-toggle")) return;
-                collapsed();
+        links.forEach((nl) => {
+            nl.addEventListener("click", () => {
+                toggleDrawerTween();
             });
         });
-
-        if (linkDropdownToggleSplit) {
-            linkDropdownToggleSplit.addEventListener("click", () =>
-                collapsed()
-            );
-        }
-
-        const collapsed = () => {
-            setTimeout(() => {
-                navbarCollapse.classList.toggle("show");
-                hamburger.classList.toggle("collapsed");
-            }, 500);
-        };
     };
 }

@@ -25,7 +25,8 @@
 
 <section class="panel">
     <picture>
-        <source srcset="{{ asset('images/500-02-m.jpg') }}" media="(max-width: 1024px)">
+        {{-- <source srcset="{{ asset('images/500-02-m-576.jpg') }}" media="(max-width: 576px)"> --}}
+        <source srcset="{{ asset('images/500-02-m-576.jpg') }}" media="(max-width: 1024px)">
         <img  src="{{ asset('images/500-02.jpg') }}">
     </picture>
     <div class="caption panel-02">
@@ -44,6 +45,7 @@
     </picture>
 </section>
 
+<div id="DESIGN"></div>
 @include('frontend.partials.gallery-01')
 
 <section id="MORE-ROOM" class="pt-8">
@@ -85,6 +87,7 @@
     </div>
 </section>
 
+<div id="ELECTRIC-FEATURES"></div>
 <section class="panel">
     <picture>
         <source srcset="{{ asset('images/500-05-m.jpg') }}" media="(max-width: 1024px)">
@@ -348,6 +351,7 @@
     </div>
 </section>
 
+<div id="SAFETY"></div>
 <section class="panel">
     <picture>
         <source srcset="{{ asset('images/500-08-m.jpg') }}" media="(max-width: 1024px)">
@@ -363,29 +367,27 @@
 </section>
 
 <section id="home-12" class="bg-dark pt-8">
-    <div class="row">
-        <div class="container manual-video-controls">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 col-xl-8 text-center mb-5 d-flex justify-content-around">
-                    <img class="icons rounded-circle active" src="{{ asset('images/safety/icons/500-01-adaptive-cruise-control.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("INTELLIGENT ADAPTIVE CRUISE CONTROL"), 'description' => _i("Set the speed and enjoy the ride, new 500 will keep the safe distanceand the speed under control for you."), 'video' => asset("images/safety/01-intelligent-adaptive-cruise-control.mp4")], JSON_HEX_APOS) ?>'>
-                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-02-lane-centering.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("LANE CENTERING"), 'description' => _i("Just a button to stay always in the middle of the road. This innovative system that will keep you on the track."), 'video' => asset("images/safety/02-lane-centering.mp4")], JSON_HEX_APOS); ?>'>
-                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-03-urban-blind-spot.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("URBAN BLIND SPOT"), 'description' => _i("Thanks to an ultrasonic sensor you will be alerted when there is something on the side and rear."), 'video' => asset("images/safety/03-urban-blind spot.mp4")], JSON_HEX_APOS); ?>'>
-                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-04-attention-assist.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("ATTENTION ASSIST"), 'description' => _i("When you are tired the car will detect it and suggest a coffe break."), 'video' => asset("images/safety/04-attention-assist.mp4")], JSON_HEX_APOS); ?>'>
-                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-05-lane-control.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("LANE CONTROL"), 'description' => _i("Prevent the risk of unintendend white lines crossing to stay always on the track."), 'video' => asset("images/safety/05-lane-control.mp4")], JSON_HEX_APOS); ?>'>
+    <div class="container manual-video-controls">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-10 col-xl-8 text-center mb-5 d-flex justify-content-around wrap-icons">
+                <img class="icons rounded-circle active" src="{{ asset('images/safety/icons/500-01-adaptive-cruise-control.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("INTELLIGENT ADAPTIVE CRUISE CONTROL"), 'description' => _i("Set the speed and enjoy the ride, new 500 will keep the safe distanceand the speed under control for you."), 'video' => asset("images/safety/01-intelligent-adaptive-cruise-control.mp4")], JSON_HEX_APOS) ?>'>
+                <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-02-lane-centering.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("LANE CENTERING"), 'description' => _i("Just a button to stay always in the middle of the road. This innovative system that will keep you on the track."), 'video' => asset("images/safety/02-lane-centering.mp4")], JSON_HEX_APOS); ?>'>
+                <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-03-urban-blind-spot.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("URBAN BLIND SPOT"), 'description' => _i("Thanks to an ultrasonic sensor you will be alerted when there is something on the side and rear."), 'video' => asset("images/safety/03-urban-blind spot.mp4")], JSON_HEX_APOS); ?>'>
+                <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-04-attention-assist.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("ATTENTION ASSIST"), 'description' => _i("When you are tired the car will detect it and suggest a coffe break."), 'video' => asset("images/safety/04-attention-assist.mp4")], JSON_HEX_APOS); ?>'>
+                <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-05-lane-control.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("LANE CONTROL"), 'description' => _i("Prevent the risk of unintendend white lines crossing to stay always on the track."), 'video' => asset("images/safety/05-lane-control.mp4")], JSON_HEX_APOS); ?>'>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-5 col-xl-4 text-center">
+                <div class="video-wrapper p-5 mb-5 mb-lg-0">
+                    <video class="w-100 videos" muted loop poster="{{ asset('images/safety/01-intelligent-adaptive-cruise-control.jpg') }}">
+                        <source src="" type='video/mp4'>
+                    </video>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-5 col-xl-4 text-center">
-                    <div class="video-wrapper p-5 mb-5 mb-lg-0">
-                        <video class="w-100 videos" muted loop poster="{{ asset('images/safety/01-intelligent-adaptive-cruise-control.jpg') }}">
-                            <source src="" type='video/mp4'>
-                        </video>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-5 col-xl-4 p-lg-5">
-                    <p class="primary mb-3 font-weight-bold title">{!! _i("INTELLIGENT ADAPTIVE CRUISE CONTROL") !!}</p>
-                    <p class="description white">{!! _i("Set the speed and enjoy the ride, new 500 will keep the safe distanceand the speed under control for you.") !!}</p>
-                </div>
+            <div class="col-12 col-lg-5 col-xl-4 p-lg-5">
+                <p class="primary mb-3 font-weight-bold title">{!! _i("INTELLIGENT ADAPTIVE CRUISE CONTROL") !!}</p>
+                <p class="description white">{!! _i("Set the speed and enjoy the ride, new 500 will keep the safe distanceand the speed under control for you.") !!}</p>
             </div>
         </div>
     </div>
@@ -395,7 +397,7 @@
     <div class="container">
         <div class="manual-video-controls pt-5">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-10 col-xl-8 text-center mb-5 d-flex justify-content-around">
+                <div class="col-12 col-lg-10 col-xl-8 text-center mb-5 d-flex justify-content-around wrap-icons">
                     <img class="icons rounded-circle active" src="{{ asset('images/safety/icons/500-06-autonomous-emergency-brake.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("AUTONOMOUS EMERGENCY BRAKING"), 'description' => _i("New 500 will brake automatically to avoid possible collision with car, pedestrian or cyclist."), 'video' => asset("images/safety/06-autonomous-brake.mp4")], JSON_HEX_APOS) ?>'>
                     <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-07-rear-view-parking-camera.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("REAR VIEW PARKING CAMERA"), 'description' => _i("The camera will transmit a high-resolution image of wathever is behind you, helping while parking or during your maneuvers."), 'video' => asset("images/safety/07-rear-view.mp4")], JSON_HEX_APOS); ?>'>
                     <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-08-360-drone-view.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("360° DRONE VIEW"), 'description' => _i("11 sensors will guarantee a 360° view of the car to detect any kind of obstacles around you and alerting about object proximity."), 'video' => asset("images/safety/08-360-drone-view.mp4")], JSON_HEX_APOS); ?>'>
@@ -419,6 +421,7 @@
     </div>
 </section>
 
+<div id="CONNECTIVITY"></div>
 <section class="panel">
     <picture>
         <source srcset="{{ asset('images/500-09-m.jpg') }}" media="(max-width: 1024px)">
@@ -621,6 +624,7 @@
     </div>
 </section>
 
+<div id="TRIM"></div>
 <section class="panel-static panel-07">
     <div class="caption panel-07">
         <h1 class="white font-italic font-light border-bottom">{!! _i("DIFFERENT VERSIONS") !!}</h1>
@@ -641,7 +645,8 @@
                     <div class="card-body">
                         <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK ONLY") !!}</h4>
                         <ul>
-                            <li>{!! _i("15” Steel Wheel _Halogen headlamps + LED DRL _Manual climate control") !!}</li>
+                            <li>{!! _i("15” Steel Wheel _Halogen headlamps + LED DRL") !!}</li>
+                            <li>{!! _i("Manual climate control") !!}</li>
                             <li>{!! _i("Electric Parking Brake") !!}</li>
                             <li>{!! _i("Entry-Keyless go") !!}</li>
                             <li>{!! _i("TFT 7” Color Display") !!}</li>
@@ -650,7 +655,8 @@
                             <li>{!! _i("Autonomous Emergency Braking") !!}</li>
                             <li>{!! _i("Lane Control") !!}</li>
                             <li>{!! _i("Traffic Sign Recognition") !!}</li>
-                            <li>{!! _i("E-call _Fast charge 50 kW _Mode 2 cable (3 kW) _180 km (WLTP)") !!}</li>
+                            <li>{!! _i("E-call _Fast charge 50 kW _Mode 2 cable (3 kW))") !!}</li>
+                            <li>{!! _i("180 km (WLTP)") !!}</li>
                         </ul>
                     </div>
                 </div>
@@ -723,7 +729,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-8 mx-auto py-5">
+            <div class="col-12 col-md-8 mx-auto py-5">
                 <div class="row white">
                     <div class="col-12">
                         <h2 class="font-italic font-weight-bold mb-0">{!! _i("LA PRIMA") !!}</h2>

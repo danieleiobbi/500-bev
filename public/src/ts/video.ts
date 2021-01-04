@@ -260,10 +260,6 @@ export class Features {
                         video.removeAttribute("controls");
                     }
 
-                    if (mm.landscape && mm.small) {
-                        scrollToElement(content, 32);
-                    }
-
                     if (video.currentTime > 0) video.pause();
                     video.setAttribute("poster", "");
                     const source = video.getElementsByTagName("source")!;
