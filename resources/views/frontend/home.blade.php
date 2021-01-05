@@ -633,7 +633,10 @@
             {!! _i("The new electric 500 comes just the way you want it: available in Hatchback, Convertible and 3+1 versions and with different trims to choose from. All you have to do is find the one that suits you best.") !!}
         </p>
     </div>
-    <img class="img-fluid" src="{{ asset('images/500-10.jpg') }}">
+    <picture>
+        <source srcset="{{ asset('images/500-10-m.jpg') }}" media="(max-width: 1024px)">
+        <img class="img-fluid" src="{{ asset('images/500-10.jpg') }}">
+    </picture>
 </section>
 
 <section id="api-cards">
@@ -722,7 +725,10 @@
     <div class="container-fluid p-0 gs_reveal gs_reveal_fromLeft">
         <div class="row no-gutters">
             <div class="col-12">
-                <img class="img-fluid" src="{{ asset('images/500-11.jpg') }}">
+                <picture>
+                    <source srcset="{{ asset('images/500-11-m.jpg') }}" media="(max-width: 1024px)">
+                    <img class="img-fluid" src="{{ asset('images/500-11.jpg') }}">
+                </picture>
             </div>
         </div>
     </div>
