@@ -8827,6 +8827,28 @@ main section#CONFIGURATOR .img-wrap img {
   position: absolute;
 }
 
+main section#CONFIGURATOR #capote {
+  padding-top: 1rem;
+}
+
+main section#CONFIGURATOR #capote .wrap-colors-capote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main section#CONFIGURATOR #capote .wrap-colors-capote div {
+  width: 80px;
+}
+
+main section#CONFIGURATOR #capote .wrap-colors-capote div img {
+  width: 60px;
+  height: auto;
+}
+
 main section#DUMMY {
   min-height: 100vh;
 }
@@ -9137,7 +9159,7 @@ main section#DUMMY {
     min-height: 40px;
   }
   main section#CONFIGURATOR .img-wrap {
-    min-height: 190px;
+    min-height: 140px;
   }
 }
 

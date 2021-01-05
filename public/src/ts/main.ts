@@ -1,5 +1,12 @@
 import gsap from "gsap";
-import { matchMedia, IntMmedia, env, Analitics, toggleClass } from "./helpers";
+import {
+    matchMedia,
+    IntMmedia,
+    env,
+    Analitics,
+    toggleClass,
+    scrollToElement,
+} from "./helpers";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -277,6 +284,7 @@ export class Main {
         if (buttons.length === 0) return;
         const images = document.querySelectorAll(`#${id} .img-wrap img`)!;
         if (images.length === 0) return;
+        const capote = document.getElementById("capote");
         images.forEach((element) => {
             if (!element.classList.contains(`active`)) {
                 this.gsHideElement(element as HTMLElement);
@@ -316,10 +324,15 @@ export class Main {
                     });
                 }
             });
+
+            selectedModel === "cabrio"
+                ? capote?.classList.remove("d-none")
+                : capote?.classList.add("d-none");
         };
 
         modelButtons.forEach((mBtn) => {
             mBtn.addEventListener("click", () => {
+                scrollToElement(modelSelector, 80);
                 toggleClass(<HTMLElement>mBtn, modelButtons);
                 const modelCode = mBtn.getAttribute("data-modelCode")!;
                 const colorCode = mBtn.getAttribute("data-colorCode")!;

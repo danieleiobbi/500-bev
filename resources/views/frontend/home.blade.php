@@ -840,6 +840,28 @@
             <div class="col-12">
                 <h2 id="CONFIGURATOR__colorName" class="secondary font-italic font-weight-bold border-bottom w-fc mx-auto">{!! _i("RUGIADA GREEN") !!}</h2>
             </div>
+
+            <div id="capote" class="col-12 text-center d-none">
+                <p class="small text-muted">{!! _i("Choose between 4 different colors for the capote.") !!}</p>
+                <div class="wrap-colors-capote">
+                    <div>
+                        <img src="{{ asset('images/capote/black.jpg') }}">
+                        <p class="small text-muted">{!! _i("BLACK") !!}</p>
+                    </div>
+                    <div>
+                        <img src="{{ asset('images/capote/blue.jpg') }}">
+                        <p class="small text-muted">{!! _i("BLUE") !!}</p>
+                    </div>
+                    <div>
+                        <img src="{{ asset('images/capote/grey.jpg') }}">
+                        <p class="small text-muted">{!! _i("GREY") !!}</p>
+                    </div>
+                    <div>
+                        <img src="{{ asset('images/capote/monogram.jpg') }}">
+                        <p class="small text-muted">{!! _i("MONOGRAM") !!}</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

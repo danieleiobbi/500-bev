@@ -491,6 +491,20 @@ main {
                     position: absolute;
                 }
             }
+            #capote {
+                padding-top: 1rem;
+                .wrap-colors-capote {
+                    display: flex;
+                    justify-content: center;
+                    div {
+                        width: 80px;
+                        img {
+                            width: 60px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
         }
 
         &#DUMMY {
@@ -899,7 +913,7 @@ main {
                     }
                 }
                 .img-wrap {
-                    min-height: 190px;
+                    min-height: 140px;
                 }
             }
         }
