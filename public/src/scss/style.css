@@ -8963,6 +8963,9 @@ main section#DUMMY {
   main section#home-11 .container .row {
     padding-bottom: 5rem;
   }
+  main section#home-carousel .carousel .carousel-indicators {
+    top: 465px;
+  }
   main section#SOUND::after {
     top: -1%;
     height: 19%;
@@ -9081,6 +9084,12 @@ main section#DUMMY {
   .x-gallery.pt-8 {
     padding-top: 0;
   }
+  main section#cover video {
+    -o-object-fit: contain;
+       object-fit: contain;
+    -webkit-transform: scale(2.8);
+            transform: scale(2.8);
+  }
   main section.panel .caption, main section.panel-static .caption {
     position: absolute;
   }
@@ -9116,6 +9125,9 @@ main section#DUMMY {
   }
   main section#home-11 .container .row h1 {
     font-size: 1.8rem;
+  }
+  main section#home-carousel .carousel .carousel-indicators {
+    top: 260px;
   }
   main section#SOUND::after {
     height: 27%;
@@ -9172,12 +9184,6 @@ main section#DUMMY {
   }
   main h1 {
     font-size: 1.8rem;
-  }
-  main section#cover video {
-    -o-object-fit: contain;
-       object-fit: contain;
-    -webkit-transform: scale(2.8);
-            transform: scale(2.8);
   }
   main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
     right: unset;

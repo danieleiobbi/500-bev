@@ -680,6 +680,14 @@ main {
                 }
             }
 
+            &#home-carousel {
+                .carousel {
+                    .carousel-indicators {
+                        top: 465px;
+                    }
+                }
+            }
+
             &#SOUND {
                 &::after {
                     top: -1%;
@@ -807,6 +815,12 @@ main {
     }
     main {
         section {
+            &#cover {
+                video {
+                    object-fit: contain;
+                    transform: scale(2.8);
+                }
+            }
             &.panel,
             &.panel-static {
                 .caption {
@@ -849,6 +863,14 @@ main {
                         h1 {
                             font-size: 1.8rem;
                         }
+                    }
+                }
+            }
+
+            &#home-carousel {
+                .carousel {
+                    .carousel-indicators {
+                        top: 260px;
                     }
                 }
             }
@@ -935,12 +957,6 @@ main {
             font-size: 1.8rem;
         }
         section {
-            &#cover {
-                video {
-                    object-fit: contain;
-                    transform: scale(2.8);
-                }
-            }
             &.panel,
             &.panel-static {
                 .caption {

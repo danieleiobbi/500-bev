@@ -27,7 +27,7 @@
                         <img height='874' src='{{ asset('images/gallery-02/06.jpg') }}' width='1240'>
                     </li>
                     <li>
-                        <img height='874' src='{{ asset('images/gallery-02/07.jpg') }}' width='1240'>
+                        <img height='874' src='{{ asset('images/gallery-02/03.jpg') }}' width='1240'>
                     </li>
                 </ul>
             </section>

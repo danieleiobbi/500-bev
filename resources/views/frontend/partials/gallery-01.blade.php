@@ -39,20 +39,20 @@
                         <img height='874' src='{{ asset('images/gallery-01/06.jpg') }}' width='1240'>
                     </li>
                     <li>
-                        <img height='874' src='{{ asset('images/gallery-01/07.jpg') }}' width='1240'>
+                        <img height='874' src='{{ asset('images/gallery-01/03.jpg') }}' width='1240'>
                     </li>
                 </ul>
             </section>
             <section class='section-gallery'>
                 <ul class='wrapper'>
                     <li>
-                        <img height='874' src='{{ asset('images/gallery-01/07.jpg') }}' width='1240'>
+                        <img height='874' src='{{ asset('images/gallery-01/09.jpg') }}' width='1240'>
                     </li>
                     <li>
                         <img height='874' src='{{ asset('images/gallery-01/08.jpg') }}' width='1240'>
                     </li>
                     <li>
-                        <img height='874' src='{{ asset('images/gallery-01/09.jpg') }}' width='1240'>
+                        <img height='874' src='{{ asset('images/gallery-01/07.jpg') }}' width='1240'>
                     </li>
                 </ul>
             </section>
