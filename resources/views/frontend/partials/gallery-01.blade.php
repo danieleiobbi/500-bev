@@ -5,7 +5,7 @@
                 <h1 class="secondary font-italic font-light border-bottom">{!! _i("LITTLE DETAILS") !!}</h1>
                 <h1 class="ml-5 secondary font-italic font-weight-bold">{!! _i("MAKE BIG THINGS HAPPEN") !!}</h1>
                 <p>
-                    {!! _i("The new 500 helps to see the road with different eyes, thanks to new LED headlights, but also the world too. Just as 500 has always done. The first generation gave people mobility and freedom; the second generation transformed city cars into fashionable cars; the third has an even more ambitious goal: a better future for all. Including our planet.") !!}
+                    {!! _i("True to its roots and to 500’s iconic style, the new electric 500 is more beautiful than ever thanks to a new cleaner, more refined design and subtle lines, with the 500 logo moved to the front to reaffirm its unmistakable personality. Wider and longer than ever before, it has an even greater on-road presence.") !!}
                 </p>
 			</div>
         </div>

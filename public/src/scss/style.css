@@ -8745,7 +8745,7 @@ main section#CONNECTIVITY .logo {
 
 main section#api-cards {
   position: relative;
-  min-height: 50vh;
+  min-height: 70vh;
 }
 
 main section#api-cards .container {
@@ -8772,7 +8772,7 @@ main section#api-cards .card .card-img-top {
 }
 
 main section#api-cards .card .card-body {
-  min-height: 400px;
+  min-height: 450px;
 }
 
 main section#CONFIGURATOR {

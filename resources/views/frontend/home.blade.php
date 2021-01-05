@@ -111,18 +111,17 @@
                         <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-01.svg') }}" alt="">
                         <h2 class="font-weight-bold">{!! _i("CRAFTED<br>FOR THE CITY") !!}</h2>
                     </div>
-                    <p>{!! _i("Enjoy the ride with peace of mind, thanks to 320 km on a combined cycle (WLTP)*.") !!}</p>
+                    <p>{!! _i("Enjoy the ride with peace of mind, thanks to 320 km on a combined cycle (WLTP).") !!}</p>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        <p class="font-weight-bold">{!! _i("COMBINED CYCLE WLTP* UP TO") !!}</p>
+                        <p class="font-weight-bold">{!! _i("COMBINED CYCLE WLTP UP TO") !!}</p>
                         <p class="big primary">{!! _i("320Km") !!}</p>
                     </div>
                     <div class="col-12 col-lg-6">
                         <p class="font-weight-bold">{!! _i("URBAN CYCLE UP TO") !!}</p>
                         <p class="big primary">{!! _i("460Km") !!}</p>
                     </div>
-                    <div class="col-12">{!! _i("* data under approval") !!}</div>
                 </div>
             </div>
             <div class="col-12 col-lg-5 p-0 p-md-5 gs_reveal gs_reveal_fromRight">
@@ -370,7 +369,7 @@
     <div class="container manual-video-controls">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10 col-xl-8 text-center mb-5 d-flex justify-content-around wrap-icons">
-                <img class="icons rounded-circle active" src="{{ asset('images/safety/icons/500-01-adaptive-cruise-control.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("INTELLIGENT ADAPTIVE CRUISE CONTROL"), 'description' => _i("Set the speed and enjoy the ride, new 500 will keep the safe distanceand the speed under control for you."), 'video' => asset("images/safety/01-intelligent-adaptive-cruise-control.mp4")], JSON_HEX_APOS) ?>'>
+                <img class="icons rounded-circle active" src="{{ asset('images/safety/icons/500-01-adaptive-cruise-control.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("INTELLIGENT ADAPTIVE CRUISE CONTROL"), 'description' => _i("Set the speed and enjoy the ride, new 500 will keep the safe distance and the speed under control for you."), 'video' => asset("images/safety/01-intelligent-adaptive-cruise-control.mp4")], JSON_HEX_APOS) ?>'>
                 <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-02-lane-centering.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("LANE CENTERING"), 'description' => _i("Just a button to stay always in the middle of the road. This innovative system that will keep you on the track."), 'video' => asset("images/safety/02-lane-centering.mp4")], JSON_HEX_APOS); ?>'>
                 <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-03-urban-blind-spot.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("URBAN BLIND SPOT"), 'description' => _i("Thanks to an ultrasonic sensor you will be alerted when there is something on the side and rear."), 'video' => asset("images/safety/03-urban-blind spot.mp4")], JSON_HEX_APOS); ?>'>
                 <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-04-attention-assist.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("ATTENTION ASSIST"), 'description' => _i("When you are tired the car will detect it and suggest a coffe break."), 'video' => asset("images/safety/04-attention-assist.mp4")], JSON_HEX_APOS); ?>'>
@@ -387,7 +386,7 @@
             </div>
             <div class="col-12 col-lg-5 col-xl-4 p-lg-5">
                 <p class="primary mb-3 font-weight-bold title">{!! _i("INTELLIGENT ADAPTIVE CRUISE CONTROL") !!}</p>
-                <p class="description white">{!! _i("Set the speed and enjoy the ride, new 500 will keep the safe distanceand the speed under control for you.") !!}</p>
+                <p class="description white">{!! _i("Set the speed and enjoy the ride, new 500 will keep the safe distance and the speed under control for you.") !!}</p>
             </div>
         </div>
     </div>
@@ -399,7 +398,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10 col-xl-8 text-center mb-5 d-flex justify-content-around wrap-icons">
                     <img class="icons rounded-circle active" src="{{ asset('images/safety/icons/500-06-autonomous-emergency-brake.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("AUTONOMOUS EMERGENCY BRAKING"), 'description' => _i("New 500 will brake automatically to avoid possible collision with car, pedestrian or cyclist."), 'video' => asset("images/safety/06-autonomous-brake.mp4")], JSON_HEX_APOS) ?>'>
-                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-07-rear-view-parking-camera.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("REAR VIEW PARKING CAMERA"), 'description' => _i("The camera will transmit a high-resolution image of wathever is behind you, helping while parking or during your maneuvers."), 'video' => asset("images/safety/07-rear-view.mp4")], JSON_HEX_APOS); ?>'>
+                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-07-rear-view-parking-camera.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("REAR VIEW PARKING CAMERA"), 'description' => _i("The camera will transmit a high-resolution image of whatever is behind you, helping while parking or during your maneuvers."), 'video' => asset("images/safety/07-rear-view.mp4")], JSON_HEX_APOS); ?>'>
                     <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-08-360-drone-view.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("360° DRONE VIEW"), 'description' => _i("11 sensors will guarantee a 360° view of the car to detect any kind of obstacles around you and alerting about object proximity."), 'video' => asset("images/safety/08-360-drone-view.mp4")], JSON_HEX_APOS); ?>'>
                     <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-09-emergency-call.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("EMERGENCY CALL"), 'description' => _i("In case of emergencies the new 500 «la Prima» will help by making a call that transmits the location and status of the vehicle."), 'video' => asset("images/safety/09-emergency-call.mp4")], JSON_HEX_APOS); ?>'>
                 </div>
@@ -444,7 +443,7 @@
             </div>
             <div class="col-12 col-lg-10 col-xl-8 mx-auto text-center mb-5">
                 <h2 class="font-weight-bold primary mb-5"><span class="font-italic font-light">{!! _i("YOUR NEW 500") !!}</span> <span class="font-italic font-weight-bold">{!! _i("IN YOUR SMARTPHONE") !!}</span></h2>
-                <p>{!! _i("Enjoy the best connection, both on board and when you are away from the car. Thanks to the new <strong>Fiat</strong> app and the <strong>Uconnect™ Services</strong>, you can control your new 500 «la Prima» whenever you want and wherever you are.") !!}</p>
+                <p>{!! _i("Enjoy the best connection, both on board and when you’re away from the car. Thanks to the new Fiat app that’s more than just an application, it’s an advanced ecosystem of applications that, together with Uconnect™ Services, enables you to access a world of possibilities and control your new electric 500, whenever you want and wherever you are.") !!}</p>
             </div>
         </div>
 
@@ -455,7 +454,7 @@
                         <div class="card-header" id="headingOne">
                             <h3 class="mb-0">
                                 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-E-CHARGE" aria-expanded="true" aria-controls="collapseOne">
-                                    {!! _i("MY E-CHARGE") !!}
+                                    {!! _i("MANAGE YOUR RECHARGE: MY E-CHARGE") !!}
                                 </a>
                             </h3>
                         </div>
@@ -464,7 +463,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-12 col-lg-6 text-left">
-                                        {!! _i("Enter a world of services to find the nearest public charging station and access charging modes, payments and history. And remotely manage your private Wallbox from home.") !!}
+                                        {!! _i("A world of services for the management of the electric charge. Find public charging stations nearby and access features for charging, payments and track charging history. At home you can quickly access your private Wallbox and, thanks to the remote management, get the most out of your connected Wallbox.") !!}
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <img class="img-fluid" src="{{ asset('images/connectivity/03-my-echarge.png') }}" alt="">
@@ -478,7 +477,7 @@
                         <div class="card-header" id="headingOne">
                             <h3 class="mb-0">
                                 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-ASSISTANT" aria-expanded="true" aria-controls="collapseOne">
-                                    {!! _i("MY ASSISTANT") !!}
+                                    {!! _i("24/7 PERSONAL ROAD ASSISTANCE: MY ASSISTANT") !!}
                                 </a>
                             </h3>
                         </div>
@@ -487,7 +486,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-12 col-lg-6 text-left">
-                                        {!! _i("It takes care of you wherever you go,providing you with serviceslike emergency call and roadside assistance.") !!}
+                                        {!! _i("Emergency calls through a ceiling light, to contact a dedicated assistant or to request roadside assistance, directly from the vehicle’s, touchscreen or through the FIAT app.") !!}
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <img class="img-fluid" src="{{ asset('images/connectivity/04-my-assistant.png') }}" alt="">
@@ -501,7 +500,7 @@
                         <div class="card-header" id="headingOne">
                             <h3 class="mb-0">
                                 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-REMOTE" aria-expanded="true" aria-controls="collapseOne">
-                                    {!! _i("MY REMOTE") !!}
+                                    {!! _i("SEAMLESS REMOTE CONTROL: MY REMOTE") !!}
                                 </a>
                             </h3>
                         </div>
@@ -510,7 +509,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-12 col-lg-6 text-left">
-                                        {!! _i("Locate and manage your new 500 «la Prima» remotely. You can lock it, unlock it, start charging and set the pre-conditioning.") !!}
+                                        {!! _i("Locate the position of the car directly from your smartphone. Lock and unlock the doors and check the charging level and schedule the Air Conditioning and the vehicle charging. Alexa integration.") !!}
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <img class="img-fluid" src="{{ asset('images/connectivity/05-my-remote.png') }}" alt="">
@@ -524,7 +523,7 @@
                         <div class="card-header" id="headingOne">
                             <h3 class="mb-0">
                                 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-CAR" aria-expanded="true" aria-controls="collapseOne">
-                                    {!! _i("MY CAR") !!}
+                                    {!! _i("REAL TIME CAR CHECK: MY CAR") !!}
                                 </a>
                             </h3>
                         </div>
@@ -533,7 +532,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-12 col-lg-6 text-left">
-                                        {!! _i("You want to know what’s going on under the hood? With My Car you have all the information: battery level, tyre pressure, mileage, maintenance, at your fingertips") !!}
+                                        {!! _i("Real time information about the status of your car.") !!}
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <img class="img-fluid" src="{{ asset('images/connectivity/06-my-car.png') }}" alt="">
@@ -547,7 +546,7 @@
                         <div class="card-header" id="headingOne">
                             <h3 class="mb-0">
                                 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-NAVIGATION" aria-expanded="true" aria-controls="collapseOne">
-                                    {!! _i("MY NAVIGATION") !!}
+                                    {!! _i("ALL-NEW CONNECTED NAVIGATION: MY NAVIGATION") !!}
                                 </a>
                             </h3>
                         </div>
@@ -556,7 +555,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-12 col-lg-6 text-left">
-                                        {!! _i("Reaching your destination has never been easier. With one touch, find charging stations, share your route and access maps and information in real time. Your maps will be ever updated “over the air” to guarantee you the best routes at all times.") !!}
+                                        {!! _i("Share the destination from your app and your vehicle. The display shows your destination, with live traffic, weather updates, speed cameras notifications and point of charge. Your maps are always updated “over the air” with a seamless frictionless experience.") !!}
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <img class="img-fluid" src="{{ asset('images/connectivity/07-my-navigation.png') }}" alt="">
@@ -570,7 +569,7 @@
                         <div class="card-header" id="headingOne">
                             <h3 class="mb-0">
                                 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-WI-FI" aria-expanded="true" aria-controls="collapseOne">
-                                    {!! _i("MY WI-FI") !!}
+                                    {!! _i("MOBILE INTERNET: MY WI-FI") !!}
                                 </a>
                             </h3>
                         </div>
@@ -579,7 +578,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-12 col-lg-6 text-left">
-                                        {!! _i("Feel as comfortable and connected as at home. Your car becomes a WI-FI hotspot where you can connect up to 8 devices. You will also have Alexa to answer any of your requests.") !!}
+                                        {!! _i("Connect up to 8 devices and access your Amazon Alexa Voice Assistant onboard.") !!}
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <img class="img-fluid" src="{{ asset('images/connectivity/08-my-wifi.png') }}" alt="">
@@ -593,7 +592,7 @@
                         <div class="card-header" id="headingOne">
                             <h3 class="mb-0">
                                 <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#MY-ALERT" aria-expanded="true" aria-controls="collapseOne">
-                                    {!! _i("MY ALERT") !!}
+                                    {!! _i("STOLEN VEHICLE TRACKING: MY ALERT") !!}
                                 </a>
                             </h3>
                         </div>
@@ -602,7 +601,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-12 col-lg-6 text-left">
-                                        {!! _i("Always keep your new 500 «la Prima» under control. My Alert warns you of any suspected theft attempt and, if confirmed, it allows you to locate the car.") !!}
+                                        {!! _i("In case of theft you will be put in contact with an operator and your car will be tracked to help the police to rescue it.") !!}
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <img class="img-fluid" src="{{ asset('images/connectivity/09-my-alert.png') }}" alt="">
@@ -648,7 +647,8 @@
                     <div class="card-body">
                         <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK ONLY") !!}</h4>
                         <ul>
-                            <li>{!! _i("15” Steel Wheel _Halogen headlamps + LED DRL") !!}</li>
+                            <li>{!! _i("15” Steel Wheel") !!}</li>
+                            <li>{!! _i("Halogen headlamps + LED DRL") !!}</li>
                             <li>{!! _i("Manual climate control") !!}</li>
                             <li>{!! _i("Electric Parking Brake") !!}</li>
                             <li>{!! _i("Entry-Keyless go") !!}</li>
@@ -658,7 +658,8 @@
                             <li>{!! _i("Autonomous Emergency Braking") !!}</li>
                             <li>{!! _i("Lane Control") !!}</li>
                             <li>{!! _i("Traffic Sign Recognition") !!}</li>
-                            <li>{!! _i("E-call _Fast charge 50 kW _Mode 2 cable (3 kW))") !!}</li>
+                            <li>{!! _i("E-call _Fast charge 50 kW") !!}</li>
+                            <li>{!! _i("Mode 2 cable (3 kW))") !!}</li>
                             <li>{!! _i("180 km (WLTP)") !!}</li>
                         </ul>
                     </div>
@@ -689,9 +690,10 @@
                     <img class="card-img-top" src="{{ asset('images/icon.png') }}">
                     <div class="card-body">
                         <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
-                        <p class="font-weight-bold card-text">{!! _i("In addition to Action contents:") !!}</p>
+                        <p class="font-weight-bold card-text">{!! _i("In addition to Passion contents:") !!}</p>
                         <ul>
                             <li>{!! _i("16” Alloy Wheel") !!}</li>
+                            <li>{!! _i("Eco-leather Steering Wheel") !!}</li>
                             <li>{!! _i("All Power Windows") !!}</li>
                             <li>{!! _i("Passive Entry + Wearable Key") !!}</li>
                             <li>{!! _i("Automatic climate control") !!}</li>
@@ -700,6 +702,7 @@
                             <li>{!! _i("Rain Sensor") !!}</li>
                             <li>{!! _i("Fast charge 85 kW") !!}</li>
                             <li>{!! _i("Mode 2 cable (3 kW)") !!}</li>
+                            <li>{!! _i("320 km (WLTP)") !!}</li>
                         </ul>
                     </div>
                 </div>
@@ -715,7 +718,7 @@
             <div class="col-12 col-lg-8 col-xl-6 mx-auto">
                 <h1 class="secondary font-italic font-light border-bottom">{!! _i("TO EACH HIS OWN") !!}</h1>
                 <h1 class="secondary ml-5 mb-5 font-italic font-weight-bold">{!! _i("FORM OF PERFECTION") !!}</h1>
-                <p>{!! _i("The new electric 500 comes just the way you want it: available in Hatchback, Convertible and 3+1 versions and with different trims to choose from. All you have to do is find the one that suits you best.") !!}</p>
+                <p>{!! _i("The exclusive launch edition is available today in the Hatchback and Cabrio version, plus the 3+1 model: the new design that introduces an additional side door to facilitate access to the rear cabin. Three expressions of the versatility that represent the new 500 at its best.") !!}</p>
             </div>
         </div>
     </div>
@@ -744,7 +747,8 @@
                     </div>
                     <div class="col-12 col-lg-6">
                         <ul>
-                            <li>{!! _i("17” Alloy Wheel _LED Headlamps") !!}</li>
+                            <li>{!! _i("17” Alloy Wheel") !!}</li>
+                            <li>{!! _i("LED Headlamps") !!}</li>
                             <li>{!! _i("Chromed side mouldings") !!}</li>
                             <li>{!! _i("Dedicated plate (not numbered)") !!}</li>
                             <li>{!! _i("Monogram Capote (Cabrio)/ Fixed sun roof (HB)") !!}</li>

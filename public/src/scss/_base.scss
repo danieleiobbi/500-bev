@@ -430,7 +430,7 @@ main {
 
         &#api-cards {
             position: relative;
-            min-height: 50vh;
+            min-height: 70vh;
             .container {
                 position: absolute;
                 top: -20%;
@@ -448,7 +448,7 @@ main {
                     border-bottom: 1px solid $white;
                 }
                 .card-body {
-                    min-height: 400px;
+                    min-height: 450px;
                 }
             }
         }

@@ -48,7 +48,7 @@
                 <p class="font-weight-bold secondary">{!! _i("CONVENIENCE PACK HB (opt 3RN)") !!}</p>
                 <ul class="pl-3">
                     <li>{!! _i("Automatic climate control (140)") !!}</li>
-                    <li>{!! _i("All Power windows up/down, open/close via remotecontrol (038)") !!}</li>
+                    <li>{!! _i("All Power windows up/down, open/close via remote control (038)") !!}</li>
                     <li>{!! _i("Passive Entry + Wearable key (9Z0)") !!}</li>
                 </ul>
             </div>
