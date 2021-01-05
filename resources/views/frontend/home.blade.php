@@ -80,7 +80,7 @@
         <div class="row">
             <div class="col-12 col-lg-6 mx-auto text-center">
                 <h2 class="white font-italic mb-5"><span class="font-weight-bold">{!! _i("CONFIGURE NOW") !!}</span> <span class="font-light">{!! _i("YOUR NEW 500")!!}</span></h2>
-                <a class="btn btn-primary btn-cta border"  href="{!! _i("#").'?source=brochure' !!}" target="_blank">
+                <a class="btn btn-primary btn-cta border"  href="{!! _i("//www.fiat.it/car-configurator/").'?source=brochure' !!}" target="_blank">
                     <i class="mbri-icon icon-carconfigurator l-icon"></i><span>{!! _i("CAR CONFIGURATOR") !!}</span></a>
 			</div>
         </div>
@@ -344,7 +344,7 @@
         <div class="row">
             <div class="col-12 col-lg-6 mx-auto text-center">
                 <h2 class="white font-italic mb-5"><span class="font-weight-bold">{!! _i("DRIVE NOW") !!}</span> <span class="font-light">{!! _i("YOUR NEW 500")!!}</span></h2>
-                <a class="btn btn-primary btn-cta border"  href="{!! _i("#").'?source=brochure' !!}" target="_blank">
+                <a class="btn btn-primary btn-cta border"  href="{!! _i("//www.fiat.co.uk/test-drive").'?source=brochure' !!}" target="_blank">
                     <i class="mbri-icon icon-test-drive l-icon"></i><span>{!! _i("TEST DRIVE") !!}</span></a>
 			</div>
         </div>
