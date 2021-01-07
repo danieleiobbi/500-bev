@@ -400,7 +400,7 @@
                     <img class="icons rounded-circle active" src="{{ asset('images/safety/icons/500-06-autonomous-emergency-brake.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("AUTONOMOUS EMERGENCY BRAKING"), 'description' => _i("New 500 will brake automatically to avoid possible collision with car, pedestrian or cyclist."), 'video' => asset("images/safety/06-autonomous-brake.mp4")], JSON_HEX_APOS) ?>'>
                     <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-07-rear-view-parking-camera.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("REAR VIEW PARKING CAMERA"), 'description' => _i("The camera will transmit a high-resolution image of whatever is behind you, helping while parking or during your maneuvers."), 'video' => asset("images/safety/07-rear-view.mp4")], JSON_HEX_APOS); ?>'>
                     <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-08-360-drone-view.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("360° DRONE VIEW"), 'description' => _i("11 sensors will guarantee a 360° view of the car to detect any kind of obstacles around you and alerting about object proximity."), 'video' => asset("images/safety/08-360-drone-view.mp4")], JSON_HEX_APOS); ?>'>
-                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-09-emergency-call.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("EMERGENCY CALL"), 'description' => _i("In case of emergencies the new 500 «la Prima» will help by making a call that transmits the location and status of the vehicle."), 'video' => asset("images/safety/09-emergency-call.mp4")], JSON_HEX_APOS); ?>'>
+                    <img class="icons rounded-circle" src="{{ asset('images/safety/icons/500-09-emergency-call.svg') }}" alt="" data-params='<?php echo json_encode(['title' => _i("EMERGENCY CALL"), 'description' => _i("In case of emergencies the new 500 will help by making a call that transmits the location and status of the vehicle."), 'video' => asset("images/safety/09-emergency-call.mp4")], JSON_HEX_APOS); ?>'>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -658,12 +658,14 @@
                             <li>{!! _i("Autonomous Emergency Braking") !!}</li>
                             <li>{!! _i("Lane Control") !!}</li>
                             <li>{!! _i("Traffic Sign Recognition") !!}</li>
-                            <li>{!! _i("E-call _Fast charge 50 kW") !!}</li>
+                            <li>{!! _i("E-call") !!}</li>
+                            <li>{!! _i("Fast charge 50 kW") !!}</li>
                             <li>{!! _i("Mode 2 cable (3 kW))") !!}</li>
                             <li>{!! _i("180 km (WLTP)") !!}</li>
                         </ul>
                     </div>
                 </div>
+            </div>
             </div>
             <div class="col-12 col-lg-4 col-xl-3 api-card gs_reveal">
                 <div class="card">
@@ -743,7 +745,8 @@
                     <div class="col-12">
                         <h2 class="font-italic font-weight-bold mb-0">{!! _i("LA PRIMA") !!}</h2>
                         <h3 class="font-italic mb-3 pb-2 border-bottom">{!! _i("OPENING EDITION") !!}</h3>
-                        <p class="font-weight-bold">{!! _i("In addition to Action contents:") !!}</p>
+                        <h4 class="card-title font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
+                        <p class="font-weight-bold">{!! _i("In addition to Icon contents:") !!}</p>
                     </div>
                     <div class="col-12 col-lg-6">
                         <ul>
