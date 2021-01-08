@@ -666,7 +666,6 @@
                     </div>
                 </div>
             </div>
-            </div>
             <div class="col-12 col-lg-4 col-xl-3 api-card gs_reveal">
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('images/passion.png') }}">
