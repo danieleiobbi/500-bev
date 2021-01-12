@@ -111,7 +111,7 @@
                         <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-01.svg') }}" alt="">
                         <h2 class="font-weight-bold">{!! _i("CRAFTED<br>FOR THE CITY") !!}</h2>
                     </div>
-                    <p>{!! _i("Enjoy the ride with peace of mind, thanks to 320 km on a combined cycle (WLTP).") !!}</p>
+                    <p>{!! _i("Enjoy the ride with peace of mind, thanks to 320 km on a combined cycle (WLTP)*.") !!}</p>
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-6">
@@ -121,6 +121,9 @@
                     <div class="col-12 col-lg-6">
                         <p class="font-weight-bold">{!! _i("URBAN CYCLE UP TO") !!}</p>
                         <p class="big primary">{!! _i("460Km") !!}</p>
+                    </div>
+                    <div class="col-12 justify-content-start small">
+                        {!! _i("* The electricity consumption value is defined based on official tests, in conformity with the provisions of the EU Regulations in force at the time of homologation. In particular, the indicated values are calculated based on the WLTP test procedure. The electricity consumption values are only indicated for the purpose of comparing the vehicle data. The electricity consumption homologation values may not be representative of the effective electricity consumption values, which depend on many factors related, for example, to driving style, route, weather and road conditions and to vehicle condition, use and equipment. The electricity consumption values specified in this document refer to the versions of the vehicle with the highest and lowest values. These values may change depending on the selected equipment and/or tyre dimensions. The indicated electricity consumption values are not definitive and may evolve if the production cycle is modified. In any case, the official electricity consumption values of the purchased vehicle will be provided with its accompanying documents. If the electricity consumption values are required to calculate the taxes and duties due for the vehicle, please refer to the applicable law in force.") !!}
                     </div>
                 </div>
             </div>
@@ -665,7 +668,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
             </div>
             <div class="col-12 col-lg-4 col-xl-3 api-card gs_reveal">
                 <div class="card">

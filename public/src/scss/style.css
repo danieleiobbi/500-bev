@@ -8696,6 +8696,10 @@ main section#home-11 .container .row .icons {
   height: auto;
 }
 
+main section#home-11 .container .row .small {
+  font-size: 70%;
+}
+
 main section#SOUND .container {
   position: relative;
   z-index: 2;
