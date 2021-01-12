@@ -285,8 +285,8 @@
                         <div class="carousel-item active">
                             <img src="{{ asset('images/500-07a.jpg') }}" class="d-block w-100" alt="">
                             <div class="carousel-caption text-left">
-                                <h4 class="primary font-weight-bold">{!! _i("LOREM IPSUM") !!}</h4>
-                                <p>{!! _i("Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aliquam corporis voluptatem, laborum illum voluptates! Facere eum nisi fuga voluptatibus, perferendis dicta tempore magni aliquam. Dicta placeat nesciunt autem consequatur.") !!}</p>
+                                <h4 class="primary font-weight-bold">{!! _i("10.25” INFOTAINMENT SYSTEM WITH NAVIGATION") !!}</h4>
+                                <p>{!! _i("Listen to music, navigate and connect your devices. Smartphone-like interface on a 10,25” touch screen, fast Bluetooth connection, compatible with wireless projection systems: the ultimate infotainment experience.") !!}</p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -299,8 +299,8 @@
                         <div class="carousel-item">
                             <img src="{{ asset('images/500-07c.jpg') }}" class="d-block w-100" alt="">
                             <div class="carousel-caption text-left">
-                                <h4 class="primary font-weight-bold">{!! _i("LOREM IPSUM") !!}</h4>
-                                <p>{!! _i("Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempora quae, accusamus repellat quibusdam voluptates nemo maiores aut architecto voluptatem debitis repudiandae sit expedita. Error sapiente nostrum similique repudiandae dolorum.") !!}</p>
+                                <h4 class="primary font-weight-bold">{!! _i("AN EXCLUSIVE WALLBOX") !!}</h4>
+                                <p>{!! _i("The optional easyWallbox has been designed exclusively for FCA to create your personal charging point at home. All set with the “Plug & Play” technology which requires no professional installation and a Bluetooth connection, for settings and checking operating parameters.") !!}</p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -313,17 +313,10 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('images/500-07e.jpg') }}" class="d-block w-100" alt="">
-                            <div class="carousel-caption text-left">
-                                <h4 class="primary font-weight-bold">{!! _i("LOREM IPSUM") !!}</h4>
-                                <p>{!! _i("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi ducimus officiis quas quae magni cupiditate, laborum molestiae, corrupti perspiciatis recusandae. Incidunt optio cum officia molestiae esse beatae, doloribus provident.") !!}</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
                             <img src="{{ asset('images/500-07f.jpg') }}" class="d-block w-100" alt="">
                             <div class="carousel-caption text-left">
-                                <h4 class="primary font-weight-bold">{!! _i("LOREM IPSUM") !!}</h4>
-                                <p>{!! _i("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque excepturi ducimus officiis quas quae magni cupiditate, laborum molestiae, corrupti perspiciatis recusandae. Incidunt optio cum officia molestiae esse beatae, doloribus provident.") !!}</p>
+                                <h4 class="primary font-weight-bold">{!! _i("ICONIC SIGNATURE") !!}</h4>
+                                <p>{!! _i("A dedicated logo with the 500 classic badge enriches the great-looking steering wheel, reshaped to recall the essential style of the two-spoke ’57 Fiat 500.") !!}</p>
                             </div>
                         </div>
                     </div>
@@ -333,7 +326,6 @@
                         <li data-target="#carousel-01" data-slide-to="2"></li>
                         <li data-target="#carousel-01" data-slide-to="3"></li>
                         <li data-target="#carousel-01" data-slide-to="4"></li>
-                        <li data-target="#carousel-01" data-slide-to="5"></li>
                     </ol>
                 </div>
             </div>
