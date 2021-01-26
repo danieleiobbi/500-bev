@@ -6,4 +6,4 @@
 @endif
 @section('foot')
 @show
-<script src="{{ asset('dist/js/bundle.js') }}"></script>
+<script src="{{ asset('dist/js/bundle.js?v=2') }}"></script>

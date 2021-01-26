@@ -72,22 +72,29 @@ export class Main {
                 const _section = section as HTMLElement;
                 const w = _section.querySelector(".wrapper")!;
                 const [x, xEnd] =
-                    index % 2
-                        ? ["100%", (w.scrollWidth - _section.offsetWidth) * -1]
-                        : [w.scrollWidth * -1, 0];
+                    index % 2 ? [w.scrollWidth, 0] : [w.scrollWidth * -1, 0];
+
+                let params = {
+                    trigger: _section,
+                    // pin: true,
+                    scrub: 1,
+                    start: "top bottom",
+                    end: "bottom bottom-=100px",
+                    markers: false,
+                };
+                if (this.matchMedia.xSmall) {
+                    params = {
+                        ...params,
+                        start: "top bottom-=150",
+                        end: "bottom top+=150",
+                    };
+                }
                 gsap.fromTo(
                     w,
                     { x },
                     {
                         x: xEnd,
-                        scrollTrigger: {
-                            trigger: _section,
-                            // pin: true,
-                            scrub: 0.5,
-                            start: "top bottom",
-                            end: "bottom center",
-                            markers: false,
-                        },
+                        scrollTrigger: params,
                     }
                 );
             });

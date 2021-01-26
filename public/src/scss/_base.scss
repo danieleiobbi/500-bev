@@ -242,13 +242,14 @@ a {
     }
 
     ul {
-        padding-left: 1rem;
+        padding-left: 0rem;
         list-style: none;
     }
 
     li {
         flex-shrink: 0;
-        width: clamp(500px, 60vw, 800px);
+        // width: clamp(500px, 60vw, 800px);
+        width: 350px;
         padding-right: 1rem;
     }
 
@@ -355,6 +356,54 @@ main {
 
         &#home {
             height: 100vh;
+        }
+
+        .gallery-carousel {
+            .carousel {
+                height: 330px;
+                .carousel-inner {
+                    height: 100%;
+                    .carousel-caption {
+                        position: relative;
+                        bottom: unset;
+                        left: unset;
+                        right: unset;
+                        margin-top: 2rem;
+                        color: $black;
+                    }
+                }
+                .carousel-indicators {
+                    top: 342px;
+                    height: 20px;
+                    li {
+                        background-color: $primary;
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+                .carousel-control {
+                    .carousel-control-prev {
+                        position: relative;
+                        left: 0%;
+                        z-index: 16;
+                    }
+                    .carousel-control-next {
+                        position: relative;
+                        right: 0%;
+                        z-index: 16;
+                    }
+
+                    .carousel-control-prev-icon {
+                        background-image: url("../../images/svg/arrow-left-black.svg");
+                        width: 100%;
+                    }
+
+                    .carousel-control-next-icon {
+                        background-image: url("../../images/svg/arrow-right-black.svg");
+                        width: 100%;
+                    }
+                }
+            }
         }
 
         &.cta-container {
@@ -673,6 +722,11 @@ main {
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 768px) {
+    .x-gallery {
+        li {
+            width: 245px;
+        }
+    }
     main {
         section {
             &#home-11 {
@@ -816,6 +870,7 @@ main {
             padding-top: 0;
         }
     }
+
     main {
         section {
             &#cover {
@@ -854,6 +909,13 @@ main {
                         left: 15px;
                     }
                 }
+            }
+
+            &#x-gallery-02 {
+                &.pt-8 {
+                    padding-top: 0;
+                }
+                margin-bottom: 6rem !important;
             }
 
             &#home-11 {

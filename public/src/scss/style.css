@@ -8525,14 +8525,14 @@ a:focus {
 }
 
 .x-gallery ul {
-  padding-left: 1rem;
+  padding-left: 0rem;
   list-style: none;
 }
 
 .x-gallery li {
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  width: clamp(500px, 60vw, 800px);
+  width: 350px;
   padding-right: 1rem;
 }
 
@@ -8670,6 +8670,56 @@ main section.panel .caption.panel-07 .bottom, main section.panel-static .caption
 
 main section#home {
   height: 100vh;
+}
+
+main section .gallery-carousel .carousel {
+  height: 330px;
+}
+
+main section .gallery-carousel .carousel .carousel-inner {
+  height: 100%;
+}
+
+main section .gallery-carousel .carousel .carousel-inner .carousel-caption {
+  position: relative;
+  bottom: unset;
+  left: unset;
+  right: unset;
+  margin-top: 2rem;
+  color: #000;
+}
+
+main section .gallery-carousel .carousel .carousel-indicators {
+  top: 342px;
+  height: 20px;
+}
+
+main section .gallery-carousel .carousel .carousel-indicators li {
+  background-color: #29b8ce;
+  width: 10px;
+  height: 10px;
+}
+
+main section .gallery-carousel .carousel .carousel-control .carousel-control-prev {
+  position: relative;
+  left: 0%;
+  z-index: 16;
+}
+
+main section .gallery-carousel .carousel .carousel-control .carousel-control-next {
+  position: relative;
+  right: 0%;
+  z-index: 16;
+}
+
+main section .gallery-carousel .carousel .carousel-control .carousel-control-prev-icon {
+  background-image: url("../../images/svg/arrow-left-black.svg");
+  width: 100%;
+}
+
+main section .gallery-carousel .carousel .carousel-control .carousel-control-next-icon {
+  background-image: url("../../images/svg/arrow-right-black.svg");
+  width: 100%;
 }
 
 main section.cta-container {
@@ -8964,6 +9014,9 @@ main section#DUMMY {
 }
 
 @media (max-width: 768px) {
+  .x-gallery li {
+    width: 245px;
+  }
   main section#home-11 .container .row {
     padding-bottom: 5rem;
   }
@@ -9120,6 +9173,12 @@ main section#DUMMY {
     width: calc(100vw - 31px);
     right: unset;
     left: 15px;
+  }
+  main section#x-gallery-02 {
+    margin-bottom: 6rem !important;
+  }
+  main section#x-gallery-02.pt-8 {
+    padding-top: 0;
   }
   main section#home-11 .container {
     padding-bottom: unset;
