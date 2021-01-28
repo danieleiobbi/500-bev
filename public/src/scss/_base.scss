@@ -465,6 +465,7 @@ main {
                 }
                 .carousel-indicators {
                     top: 315px;
+                    height: 25px;
                     li {
                         background-color: $primary;
                         width: 10px;
@@ -569,10 +570,44 @@ main {
 @media (max-width: 1440px) {
     main {
         section {
+            &#home-carousel {
+                .carousel {
+                    .carousel-indicators {
+                        top: 300px;
+                    }
+                }
+            }
             &#api-cards {
                 .card {
                     .card-body {
                         min-height: 460px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1366px) {
+    main {
+        section {
+            &#home-carousel {
+                .carousel {
+                    .carousel-indicators {
+                        top: 285px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    main {
+        section {
+            &#home-carousel {
+                .carousel {
+                    .carousel-indicators {
+                        top: 270px;
                     }
                 }
             }
