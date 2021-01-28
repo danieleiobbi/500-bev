@@ -4,7 +4,7 @@
     </IfModule>
 
     RewriteEngine On
-    RewriteBase /Ducato/
+    RewriteBase /500-bev/
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
