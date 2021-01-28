@@ -9271,12 +9271,24 @@ main section#DUMMY {
   main section.panel .caption.panel-05 .bottom, main section.panel-static .caption.panel-05 .bottom {
     width: calc(100vw - 30px);
   }
+  main section#home-carousel .carousel .carousel-indicators {
+    top: 240px;
+  }
   main section#CONNECTIVITY .btn-wrap .btn {
     width: 85vw;
   }
   main section#CONFIGURATOR #CONFIGURATOR__colorName {
     margin-left: 1rem !important;
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .manual-video-controls .wrap-icons .icons {
+    width: 40px;
+  }
+  main section#home-carousel .carousel .carousel-indicators {
+    top: 200px;
   }
 }
 

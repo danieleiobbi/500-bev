@@ -1070,6 +1070,14 @@ main {
                 }
             }
 
+            &#home-carousel {
+                .carousel {
+                    .carousel-indicators {
+                        top: 240px;
+                    }
+                }
+            }
+
             &#CONNECTIVITY {
                 .btn-wrap {
                     .btn {
@@ -1087,7 +1095,26 @@ main {
         }
     }
 }
-
+@media (max-width: 320px) {
+    .manual-video-controls {
+        .wrap-icons {
+            .icons {
+                width: 40px;
+            }
+        }
+    }
+    main {
+        section {
+            &#home-carousel {
+                .carousel {
+                    .carousel-indicators {
+                        top: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
 // iPhoneX Landscape
 @media (max-width: 812px) and (orientation: landscape) {
     main {
@@ -1133,7 +1160,4 @@ main {
             }
         }
     }
-}
-
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 }
