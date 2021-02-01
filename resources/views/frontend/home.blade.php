@@ -644,11 +644,12 @@
                         <ul>
                             <li>{!! _i("15” Steel Wheel") !!}</li>
                             <li>{!! _i("Halogen headlamps + LED DRL") !!}</li>
-                            <li>{!! _i("Manual climate control") !!}</li>
+                            <li>{!! _i("Manual A/C") !!}</li>
                             <li>{!! _i("Electric Parking Brake") !!}</li>
                             <li>{!! _i("Entry-Keyless go") !!}</li>
                             <li>{!! _i("TFT 7” Color Display") !!}</li>
-                            <li>{!! _i("Smartphone Cradle ") !!}</li>
+                            <li>{!! _i("Smartphone Cradle") !!}</li>
+                            <li>{!! _i("Fiat Link & Drive") !!}</li>
                             <li>{!! _i("Attention Assist") !!}</li>
                             <li>{!! _i("Autonomous Emergency Braking") !!}</li>
                             <li>{!! _i("Lane Control") !!}</li>
@@ -656,7 +657,7 @@
                             <li>{!! _i("E-call") !!}</li>
                             <li>{!! _i("Fast charge 50 kW") !!}</li>
                             <li>{!! _i("Mode 2 cable (3 kW))") !!}</li>
-                            <li>{!! _i("180 km (WLTP)") !!}</li>
+                            <li>{!! _i("185 km (WLTP)") !!}</li>
                         </ul>
                     </div>
                 </div>
@@ -670,7 +671,7 @@
                         <ul>
                             <li>{!! _i("15” Styled Wheel ") !!}</li>
                             <li>{!! _i("Radio 7” touchscreen ") !!}</li>
-                            <li>{!! _i("CarPlay/Android Auto™") !!}</li>
+                            <li>{!! _i("Wireless CarPlay/Android Auto™") !!}</li>
                             <li>{!! _i("Uconnect™ Services") !!}</li>
                             <li>{!! _i("Digital Audio Broadcast") !!}</li>
                             <li>{!! _i("Cruise Control") !!}</li>
@@ -689,10 +690,11 @@
                         <p class="font-weight-bold card-text">{!! _i("In addition to Passion contents:") !!}</p>
                         <ul>
                             <li>{!! _i("16” Alloy Wheel") !!}</li>
+                            <li>{!! _i("Chromed DLO") !!}</li>
                             <li>{!! _i("Eco-leather Steering Wheel") !!}</li>
                             <li>{!! _i("All Power Windows") !!}</li>
                             <li>{!! _i("Passive Entry + Wearable Key") !!}</li>
-                            <li>{!! _i("Automatic climate control") !!}</li>
+                            <li>{!! _i("Automatic A/C") !!}</li>
                             <li>{!! _i("Radio 10,25” NAV") !!}</li>
                             <li>{!! _i("Traffic Sign Information ") !!}</li>
                             <li>{!! _i("Rain Sensor") !!}</li>
@@ -758,6 +760,8 @@
                     <div class="col-12 col-lg-6">
                         <ul>
                             <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2)") !!}</li>
+                            <li>{!! _i("Radio 10.25” NAV") !!}</li>
+                            <li>{!! _i("Automatic A/C") !!}</li>
                             <li>{!! _i("Wireless charger") !!}</li>
                             <li>{!! _i("360° Drone view & Rear view parking Camera") !!}</li>
                             <li>{!! _i("Urban Blind Spot") !!}</li>

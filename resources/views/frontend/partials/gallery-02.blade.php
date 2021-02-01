@@ -24,19 +24,6 @@
                             <img height='874' src='{{ asset('images/gallery-02/05.jpg') }}' width='1240'>
                         </li>
                         <li>
-                            <img height='874' src='{{ asset('images/gallery-02/06.jpg') }}' width='1240'>
-                        </li>
-                    </ul>
-                </section>
-                <section class='section-gallery'>
-                    <ul class='wrapper'>
-                        <li>
-                            <img height='874' src='{{ asset('images/gallery-02/01.jpg') }}' width='1240'>
-                        </li>
-                        <li>
-                            <img height='874' src='{{ asset('images/gallery-02/07.jpg') }}' width='1240'>
-                        </li>
-                        <li>
                             <img height='874' src='{{ asset('images/gallery-02/08.jpg') }}' width='1240'>
                         </li>
                     </ul>
@@ -76,21 +63,6 @@
                         </div>
 
                         <div class="carousel-item">
-                            <img src="{{ asset('images/gallery-02/06.jpg') }}" class="d-block w-100" alt="">
-                            <div class="carousel-caption"></div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="{{ asset('images/gallery-02/01.jpg') }}" class="d-block w-100" alt="">
-                            <div class="carousel-caption"></div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="{{ asset('images/gallery-02/07.jpg') }}" class="d-block w-100" alt="">
-                            <div class="carousel-caption"></div>
-                        </div>
-
-                        <div class="carousel-item">
                             <img src="{{ asset('images/gallery-02/08.jpg') }}" class="d-block w-100" alt="">
                             <div class="carousel-caption"></div>
                         </div>
@@ -102,9 +74,6 @@
                         <li data-target="#gallery-carousel-02" data-slide-to="3"></li>
                         <li data-target="#gallery-carousel-02" data-slide-to="4"></li>
                         <li data-target="#gallery-carousel-02" data-slide-to="5"></li>
-                        <li data-target="#gallery-carousel-02" data-slide-to="6"></li>
-                        <li data-target="#gallery-carousel-02" data-slide-to="7"></li>
-                        <li data-target="#gallery-carousel-02" data-slide-to="8"></li>
                     </ol>
                     <div class="carousel-control py-3 d-flex flex-row justify-content-between align-items-center">
                         <a class="carousel-control-prev" href="#gallery-carousel-02" role="button" data-slide="prev">
