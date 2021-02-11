@@ -11,6 +11,7 @@ class MyConfig
     private $languages = [
         '9999_1' => 'en_US',
         '1000_5' => 'it_IT',
+        '3110_3' => 'de_DE',
     ];
 
     public function handle($request, Closure $next)
@@ -35,12 +36,13 @@ class MyConfig
         return $next($request);
     }
 
-    private function setSource($request){
+    private function setSource($request)
+    {
         if (!$request->session()->exists('source')) {
             session()->put('source', 'site');
         }
 
-        if($request->query('source')){
+        if ($request->query('source')) {
             session()->put('source', $request->query('source'));
         }
     }

@@ -30,6 +30,7 @@ return [
     'supported-locales' => [
         'en_US',
         'it_IT',
+        'de_DE'
     ],
 
     /**

@@ -5,7 +5,7 @@
 <meta property="og:title" content="{{ env('MODEL_NAME') }}" />
 <meta property="og:url" content="{{ env('APP_URL').request()->get('segment')}}" />
 <meta property="og:description" content="{{ env('MODEL_NAME') }}">
-<meta property="og:image" content="{{ asset("images/hybrid-01-mobile.jpg")}}">
+<meta property="og:image" content="{{ asset("images/500-00.jpg")}}">
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="{{ LaravelGettext::getLocale() }}" />
 <!-- Bootstrap CSS and custom style -->
