@@ -8904,6 +8904,24 @@ main section#CONFIGURATOR #capote .wrap-colors-capote div img {
   height: auto;
 }
 
+main section#services {
+  background-color: #6c9dad;
+  border-top: 4px solid #29b8ce;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  color: #fff;
+}
+
+main section#services .accordion .card .card-header h3 .btn {
+  border-top: 1px solid #fff;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+main section#services .accordion .card .card-body {
+  padding: 15px 42px;
+}
+
 main section#DUMMY {
   min-height: 100vh;
 }

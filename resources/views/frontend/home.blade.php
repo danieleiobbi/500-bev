@@ -877,8 +877,8 @@
     </div>
 </section>
 
-
 @include('frontend.partials.cta')
+@include('frontend.partials.services')
 
 @endsection
 

@@ -560,6 +560,29 @@ main {
             }
         }
 
+        &#services {
+            background-color: $secondary;
+            border-top: 4px solid $primary;
+            // margin-top: 8rem;
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+            color: $white;
+            .accordion .card {
+                .card-header {
+                    h3 {
+                        .btn {
+                            border-top: 1px solid $white;
+                            font-size: 0.8rem;
+                            color: $white;
+                        }
+                    }
+                }
+                .card-body {
+                    padding: 15px 42px;
+                }
+            }
+        }
+
         &#DUMMY {
             min-height: 100vh;
         }
