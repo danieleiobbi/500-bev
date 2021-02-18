@@ -8440,7 +8440,7 @@ a:focus {
 
 .manual-video-controls .icons {
   width: 100px;
-  height: auto;
+  height: 100px;
   border: 2px solid #29b8ce;
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
@@ -9025,6 +9025,7 @@ main section#DUMMY {
   }
   .manual-video-controls .wrap-icons .icons {
     width: 80px;
+    height: 80px;
   }
   main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
     left: 15px;
@@ -9164,6 +9165,7 @@ main section#DUMMY {
   }
   .manual-video-controls .wrap-icons .icons {
     width: 55px;
+    height: 55px;
     margin-right: 1rem;
   }
   .manual-video-controls .wrap-icons .icons:last-child {
@@ -9278,6 +9280,7 @@ main section#DUMMY {
   }
   .manual-video-controls .wrap-icons .icons {
     width: 50px;
+    height: 50px;
   }
   main h1 {
     font-size: 1.8rem;
@@ -9304,6 +9307,7 @@ main section#DUMMY {
 @media (max-width: 320px) {
   .manual-video-controls .wrap-icons .icons {
     width: 40px;
+    height: 40px;
   }
   main section#home-carousel .carousel .carousel-indicators {
     top: 200px;

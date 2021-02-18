@@ -169,7 +169,7 @@ a {
     min-height: 100vh;
     .icons {
         width: 100px;
-        height: auto;
+        height: 100px;
         border: 2px solid $primary;
         transition: transform 0.5s;
         cursor: pointer;
@@ -736,6 +736,7 @@ main {
         .wrap-icons {
             .icons {
                 width: 80px;
+                height: 80px;
             }
         }
     }
@@ -913,6 +914,7 @@ main {
             justify-content: center !important;
             .icons {
                 width: 55px;
+                height: 55px;
                 margin-right: 1rem;
                 &:last-child {
                     margin-left: 0;
@@ -1072,6 +1074,7 @@ main {
         .wrap-icons {
             .icons {
                 width: 50px;
+                height: 50px;
             }
         }
     }
@@ -1123,6 +1126,7 @@ main {
         .wrap-icons {
             .icons {
                 width: 40px;
+                height: 40px;
             }
         }
     }
