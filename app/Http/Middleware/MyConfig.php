@@ -10,7 +10,7 @@ class MyConfig
 {
     private $languages = [
         '9999_1' => 'en_US',
-        // '1000_5' => 'it_IT',
+        '1000_5' => 'it_IT',
         '3110_3' => 'de_DE',
     ];
 

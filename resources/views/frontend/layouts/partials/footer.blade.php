@@ -8,7 +8,7 @@
                 <ul>
                     @if(LaravelGettext::getLocale() === 'de_DE')
                     <li>
-                        <a href="{!! _i("//www.fiat.de/datenschutz") !!}" target="_blank">Datenschutzerklärung</a>
+                        <a href="//www.fiat.de/datenschutz" target="_blank">Datenschutzerklärung</a>
                     </li>                   
                     <li class="px-2">|</li>
                     @endif
@@ -30,12 +30,12 @@
                     @if(LaravelGettext::getLocale() === "de_DE")
                         <li class="px-2">|</li>
                         <li>
-                            <a href="{!! _i("https://www.fiat.de/impressum") !!}" target="_blank">Impressum</a>
+                            <a href="https://www.fiat.de/impressum" target="_blank">Impressum</a>
                         </li>
                     @endif
                 </ul>
                 <div class="footer-text">
-                    {!! _i("FCA Italy S.p.A. Corso G. Agnelli 200, 10135 Turin, Italy<br>Turin Companies Register / Tax code no. 07973780013 Company capital 800.000.000 Euros, fully paid up A single shareholder company")!!}
+                    {!! _i("FCA Italy S.p.A. Corso G. Agnelli 200, 10135 Turin, Italy<br>Turin Companies Register / Tax code no. 07973780013 Company capital 800.000.000 Euros, fully paid up A single shareholder company.")!!}
                 </div>
             </div>
         </div>

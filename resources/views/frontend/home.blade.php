@@ -669,7 +669,7 @@
                         <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
                         <p class="font-weight-bold card-text">{!! _i("In addition to Action contents:") !!}</p>
                         <ul>
-                            <li>{!! _i("15” Styled Wheel ") !!}</li>
+                            <li>{!! _i("15” Styled Wheel") !!}</li>
                             <li>{!! _i("Radio 7” touchscreen ") !!}</li>
                             <li>{!! _i("Wireless CarPlay/Android Auto™") !!}</li>
                             <li>{!! _i("Uconnect™ Services") !!}</li>
