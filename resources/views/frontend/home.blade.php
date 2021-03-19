@@ -649,7 +649,9 @@
                             <li>{!! _i("Entry-Keyless go") !!}</li>
                             <li>{!! _i("TFT 7” Color Display") !!}</li>
                             <li>{!! _i("Smartphone Cradle") !!}</li>
+                            @if (LaravelGettext::getLocale() !== 'it_IT')
                             <li>{!! _i("Fiat Link & Drive") !!}</li>
+                            @endif
                             <li>{!! _i("Attention Assist") !!}</li>
                             <li>{!! _i("Autonomous Emergency Braking") !!}</li>
                             <li>{!! _i("Lane Control") !!}</li>
@@ -667,7 +669,9 @@
                     <img class="card-img-top" src="{{ asset('images/passion.png') }}">
                     <div class="card-body">
                         <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
+                        @if (LaravelGettext::getLocale() !== 'it_IT')
                         <p class="font-weight-bold card-text">{!! _i("In addition to Action contents:") !!}</p>
+                        @endif
                         <ul>
                             <li>{!! _i("15” Styled Wheel") !!}</li>
                             <li>{!! _i("Radio 7” touchscreen ") !!}</li>
@@ -678,6 +682,9 @@
                             <li>{!! _i("Fast charge 85 kW") !!}</li>
                             <li>{!! _i("Mode 2 cable (3 kW)") !!}</li>
                             <li>{!! _i("320 km (WLTP)") !!}</li>
+                            @if (LaravelGettext::getLocale() === 'it_IT')
+                            <li>Seconda porta laterale (solo versione 3+1)</li>
+                            @endif
                         </ul>
                     </div>
                 </div>
@@ -687,10 +694,14 @@
                     <img class="card-img-top" src="{{ asset('images/icon.png') }}">
                     <div class="card-body">
                         <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
+                        @if (LaravelGettext::getLocale() !== 'it_IT')
                         <p class="font-weight-bold card-text">{!! _i("In addition to Passion contents:") !!}</p>
+                        @endif
                         <ul>
                             <li>{!! _i("16” Alloy Wheel") !!}</li>
+                            @if (LaravelGettext::getLocale() !== 'it_IT')
                             <li>{!! _i("Chromed DLO") !!}</li>
+                            @endif
                             <li>{!! _i("Eco-leather Steering Wheel") !!}</li>
                             <li>{!! _i("All Power Windows") !!}</li>
                             <li>{!! _i("Passive Entry + Wearable Key") !!}</li>
@@ -742,14 +753,15 @@
                         <h2 class="font-italic font-weight-bold mb-0">{!! _i("LA PRIMA") !!}</h2>
                         <h3 class="font-italic mb-3 pb-2 border-bottom">{!! _i("OPENING EDITION") !!}</h3>
                         <h4 class="card-title font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
+                        @if (LaravelGettext::getLocale() !== 'it_IT')
                         <p class="font-weight-bold">{!! _i("In addition to Icon contents:") !!}</p>
+                        @endif
                     </div>
                     <div class="col-12 col-lg-6">
                         <ul>
                             <li>{!! _i("17” Alloy Wheel") !!}</li>
                             <li>{!! _i("LED Headlamps") !!}</li>
                             <li>{!! _i("Chromed side mouldings") !!}</li>
-                            <li>{!! _i("Dedicated plate (not numbered)") !!}</li>
                             <li>{!! _i("Monogram Capote (Cabrio)/ Fixed sun roof (HB)") !!}</li>
                             <li>{!! _i("Eco-leather seats") !!}</li>
                             <li>{!! _i("50/50 rear bench") !!}</li>
@@ -761,6 +773,9 @@
                         <ul>
                             <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2)") !!}</li>
                             <li>{!! _i("Radio 10.25” NAV") !!}</li>
+                            @if (LaravelGettext::getLocale() !== 'it_IT')
+                            <li>Retrocamera con griglie dinamiche</li>
+                            @endif
                             <li>{!! _i("Automatic A/C") !!}</li>
                             <li>{!! _i("Wireless charger") !!}</li>
                             <li>{!! _i("360° Drone view & Rear view parking Camera") !!}</li>
@@ -768,7 +783,9 @@
                             <li>{!! _i("Fast charge 85 kW") !!}</li>
                             <li>{!! _i("Mode 3 cable (11 kW)") !!}</li>
                             <li>{!! _i("320 km (WLTP)") !!}</li>
+                            @if (LaravelGettext::getLocale() !== 'it_IT')
                             <li>{!! _i("Second side door (3+1 version only)") !!}</li>
+                            @endif
                         </ul>
                     </div>
                 </div>
@@ -849,7 +866,7 @@
             </div>
 
             <div class="col-12">
-                <h2 id="CONFIGURATOR__colorName" class="secondary font-italic font-weight-bold border-bottom w-fc mx-auto">{!! _i("RUGIADA GREEN") !!}</h2>
+                <h2 id="CONFIGURATOR__colorName" class="secondary font-italic font-weight-bold border-bottom w-fc mx-auto">{!! _i("GLACIER BLUE") !!}</h2>
             </div>
 
             <div id="capote" class="col-12 text-center d-none">

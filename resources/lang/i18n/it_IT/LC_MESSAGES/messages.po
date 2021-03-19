@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
 "POT-Creation-Date: 2021-03-15 15:52+0100\n"
-"PO-Revision-Date: 2021-03-15 15:52+0100\n"
+"PO-Revision-Date: 2021-03-19 11:50+0100\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: it_IT\n"
@@ -576,7 +576,7 @@ msgid ""
 "its future too."
 msgstr ""
 "Diamo il benvenuto alla Nuova 500 elettrica e insieme a lei un tipo di "
-"mobilità compeltamente nuova: più avanzata, tecnologica e sostenibile, ma "
+"mobilità completamente nuova: più avanzata, tecnologica e sostenibile, ma "
 "soprattutto semplice e piacevole per l’utente, in pieno stile Fiat. In grado "
 "di ispirare le persone al cambiamento, trasformando il dovere in piacere e "
 "migliorando non solo il presente ma anche il futuro."
@@ -1201,11 +1201,11 @@ msgstr "Display a colori TFT 7”"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:672
 msgid "Smartphone Cradle"
-msgstr "Supporto per smartphone"
+msgstr "Supporto per smartphone e integrazione con<br>App Fiat Link & Drive"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:673
 msgid "Fiat Link & Drive"
-msgstr "Fiat Link & Drive"
+msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:674
 msgid "Attention Assist"
@@ -1247,7 +1247,7 @@ msgstr "BERLINA • CABRIO • 3+1"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:691
 msgid "In addition to Action contents:"
-msgstr "Oltre alle Dotazioni di Action:"
+msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:693
 msgid "15” Styled Wheel"
@@ -1288,15 +1288,11 @@ msgstr "Cavo di ricarica Mode 2 (3 kW)"
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:724
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:791
 msgid "320 km (WLTP)"
-msgstr ""
-"Autonomia 320 km (ciclo WLTP)\n"
-"\n"
-"Terza porta laterale\n"
-"Seconda porta laterale (solo versione 3+1)"
+msgstr "Autonomia 320 km (ciclo WLTP)"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:711
 msgid "In addition to Passion contents:"
-msgstr "Oltre alle Dotazioni di Passion:"
+msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:713
 msgid "16” Alloy Wheel"
@@ -1308,7 +1304,7 @@ msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:715
 msgid "Eco-leather Steering Wheel"
-msgstr "Volante e pomello cambio Soft Touch"
+msgstr "Volante e pomello cambio soft touch"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:716
 msgid "All Power Windows"
@@ -1380,15 +1376,16 @@ msgstr "Modanatura laterale cromata"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:773
 msgid "Dedicated plate (not numbered)"
-msgstr "Capotte con \"Monogramma FIAT\" (Cabrio)"
+msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:774
 msgid "Monogram Capote (Cabrio)/ Fixed sun roof (HB)"
-msgstr "Tetto in vetro fisso (Berlina"
+msgstr ""
+"Capotte con \"Monogramma FIAT\" (Cabrio)/Tetto in vetro fisso (Berlina)"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:775
 msgid "Eco-leather seats"
-msgstr "Sedili \"soft touch\""
+msgstr "Sedili soft touch"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:776
 msgid "50/50 rear bench"
@@ -1408,10 +1405,7 @@ msgstr "Fiat Co-Driver (Guida autonoma livello 2)"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:784
 msgid "Radio 10.25” NAV"
-msgstr ""
-"Radio NAV da 10,25\"\n"
-"Climatizzatore automatico\n"
-"Retrocamera con griglie dinamiche"
+msgstr "Radio NAV da 10,25\""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:786
 msgid "Wireless charger"
@@ -1427,9 +1421,7 @@ msgstr "Urban Blind Spot"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:790
 msgid "Mode 3 cable (11 kW)"
-msgstr ""
-"Cavo di ricarica Mode 3 (11 kW)\n"
-"_Autonomia 320 km (ciclo WLTP)"
+msgstr "Cavo di ricarica Mode 3 (11 kW)"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:792
 msgid "Second side door (3+1 version only)"
@@ -1471,7 +1463,7 @@ msgstr "HA IL FUTURO?"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:873
 msgid "RUGIADA GREEN"
-msgstr "RUGIADA GREEN"
+msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:877
 msgid "Choose between 4 different colors for the capote."
@@ -1500,7 +1492,7 @@ msgstr "STYLE PACK HB (opt 3RL)"
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:9
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:18
 msgid "Tinted glass (070)"
-msgstr "Vetri posteriori oscurati (070) (solo HB)"
+msgstr "Vetri posteriori oscurati (070)"
 
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:10
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:19
@@ -1520,7 +1512,7 @@ msgstr "STYLE PACK CABRIO (opt 3RM)"
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:37
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:69
 msgid "AVAILABLE ON: PASSION • ICON"
-msgstr "DISPONIBILE SU:PASSION • ICON"
+msgstr "DISPONIBILE SU: PASSION • ICON"
 
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:30
 msgid "MAGIC EYE PACK (OPT 3RK)"
@@ -1633,7 +1625,7 @@ msgstr "WINTER PACK (OPT 6R7)"
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:27
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:42
 msgid "AVAILABLE ON: ACTION • PASSION • ICON"
-msgstr "DISONIBILE SU PASSION"
+msgstr "DISPONIBILE SU: ACTION • PASSION • ICON"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:34
 msgid "COMFORT SEATS PACK (opt 3RJ)"
