@@ -8939,6 +8939,17 @@ main section#DUMMY {
   main section#home-carousel .carousel .carousel-indicators {
     top: 285px;
   }
+  main section.panel .caption.panel-01.bottom, main section.panel-static .caption.panel-01.bottom {
+    right: 12%;
+  }
+  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
+    left: 2%;
+  }
+  main section.panel .caption.panel-06, main section.panel-static .caption.panel-06 {
+    bottom: 15%;
+    left: 2%;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 1280px) {

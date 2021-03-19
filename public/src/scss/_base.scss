@@ -620,6 +620,24 @@ main {
                     }
                 }
             }
+            &.panel,
+            &.panel-static {
+                .caption {
+                    &.panel-01 {
+                        &.bottom {
+                            right: 12%;
+                        }
+                    }
+                    &.panel-02 {
+                        left: 2%;
+                    }
+                    &.panel-06 {
+                        bottom: 15%;
+                        left: 2%;
+                        font-size: 0.9rem;
+                    }
+                }
+            }
         }
     }
 }
