@@ -78,10 +78,14 @@
 <section class="cta-container configurator bg-secondary">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6 mx-auto text-center">
-                <h2 class="white font-italic mb-5"><span class="font-weight-bold">{!! _i("CONFIGURE NOW") !!}</span> <span class="font-light">{!! _i("YOUR NEW 500")!!}</span></h2>
-                <a class="btn btn-primary btn-cta border" data-params='{"cta":"Car Configurator"}' href="{!! _i("//www.fiat.it/car-configurator/").'?source=brochure' !!}" target="_blank">
-                    <i class="mbri-icon icon-carconfigurator l-icon"></i><span>{!! _i("CAR CONFIGURATOR") !!}</span></a>
+            <div class="col-12 col-lg-8 mx-auto text-center">
+                <h3 class="white font-italic mb-3">{!! _i("“Today, it’s time for 500 to inspire change, again. To commit to an <strong>higher purpose.</strong>”") !!}</h3>
+                <p class="white mb-5">{!! _i("Olivier François – President Fiat Brand Global") !!}</p>
+                @if(LaravelGettext::getLocale() === 'de_DE')
+                    <button class="btn btn-primary btn-video btn-cta border" data-video="{{ asset('videos/500-laprima-Leonardo-Di-Caprio-de_DE.mp4') }}">{!! _i("PLAY THE VIDEO") !!}</button>
+                @else 
+                    <button class="btn btn-primary btn-video btn-cta border" data-video="{{ asset('videos/500-laprima-Leonardo-Di-Caprio.mp4') }}">{!! _i("PLAY THE VIDEO") !!}</button>
+                @endif
 			</div>
         </div>
     </div>
@@ -411,6 +415,18 @@
                     <p class="description white">{!! _i("New 500 will brake automatically to avoid possible collision with car, pedestrian or cyclist.") !!}</p>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-container configurator bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 mx-auto text-center">
+                <h2 class="white font-italic mb-5"><span class="font-weight-bold">{!! _i("CONFIGURE NOW") !!}</span> <span class="font-light">{!! _i("YOUR NEW 500")!!}</span></h2>
+                <a class="btn btn-primary btn-cta border" data-params='{"cta":"Car Configurator"}' href="{!! _i("//www.fiat.it/car-configurator/").'?source=brochure' !!}" target="_blank">
+                    {!! _i("CAR CONFIGURATOR") !!}</a>
+			</div>
         </div>
     </div>
 </section>

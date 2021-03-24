@@ -27,40 +27,38 @@ export class Fullscreen {
 
     init() {
         const buttons = document.querySelectorAll(".btn-video");
-        if (buttons.length > 0) {
-            buttons.forEach((btn) => {
-                btn.addEventListener("click", () => {
-                    const elem = document.getElementById("myvideo");
+        if (buttons.length === 0) return;
+        buttons.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const target = btn.getAttribute("data-video");
+                if (!target) return;
+                console.log("culo");
 
-                    const target = btn.getAttribute("data-video");
-                    if (!target) return;
+                const container = document.createElement("div");
+                container.style.display = "none";
+                const _video = document.createElement("video");
+                _video.style.display = "block";
+                _video.setAttribute("controls", "true");
+                _video.setAttribute("loop", "true");
+                _video.innerHTML = `<source src='${target}' type='video/mp4'>`;
+                document.body.appendChild(_video);
 
-                    const container = document.createElement("div");
-                    container.style.display = "none";
-                    const _video = document.createElement("video");
-                    _video.style.display = "block";
-                    _video.setAttribute("controls", "true");
-                    _video.setAttribute("loop", "true");
-                    _video.innerHTML = `<source src='${target}' type='video/mp4'>`;
-                    document.body.appendChild(_video);
-
-                    document.addEventListener("fullscreenchange", (event) => {
-                        if (document.fullscreenElement) {
-                            console.log(
-                                `Element: ${document.fullscreenElement.id} entered fullscreen mode.`
-                            );
-                        } else {
-                            _video.remove();
-                            console.log("Leaving full-screen mode.");
-                        }
-                    });
-
-                    if (_video) {
-                        this.toggleFullScreen(_video);
+                document.addEventListener("fullscreenchange", (event) => {
+                    if (document.fullscreenElement) {
+                        console.log(
+                            `Element: ${document.fullscreenElement.id} entered fullscreen mode.`
+                        );
+                    } else {
+                        _video.remove();
+                        console.log("Leaving full-screen mode.");
                     }
                 });
+
+                if (_video) {
+                    this.toggleFullScreen(_video);
+                }
             });
-        }
+        });
     }
 
     private getFullScreenElement() {
