@@ -685,9 +685,7 @@
                     <img class="card-img-top" src="{{ asset('images/passion.png') }}">
                     <div class="card-body">
                         <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
-                        @if (LaravelGettext::getLocale() !== 'it_IT')
                         <p class="font-weight-bold card-text">{!! _i("In addition to Action contents:") !!}</p>
-                        @endif
                         <ul>
                             <li>{!! _i("15” Styled Wheel") !!}</li>
                             <li>{!! _i("Radio 7” touchscreen ") !!}</li>
@@ -710,9 +708,7 @@
                     <img class="card-img-top" src="{{ asset('images/icon.png') }}">
                     <div class="card-body">
                         <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
-                        @if (LaravelGettext::getLocale() !== 'it_IT')
                         <p class="font-weight-bold card-text">{!! _i("In addition to Passion contents:") !!}</p>
-                        @endif
                         <ul>
                             <li>{!! _i("16” Alloy Wheel") !!}</li>
                             @if (LaravelGettext::getLocale() !== 'it_IT')
@@ -789,7 +785,7 @@
                         <ul>
                             <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2)") !!}</li>
                             <li>{!! _i("Radio 10.25” NAV") !!}</li>
-                            @if (LaravelGettext::getLocale() !== 'it_IT')
+                            @if (LaravelGettext::getLocale() === 'it_IT')
                             <li>Retrocamera con griglie dinamiche</li>
                             @endif
                             <li>{!! _i("Automatic A/C") !!}</li>
