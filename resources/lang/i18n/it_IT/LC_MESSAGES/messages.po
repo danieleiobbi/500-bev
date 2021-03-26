@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
 "POT-Creation-Date: 2021-03-15 15:52+0100\n"
-"PO-Revision-Date: 2021-03-19 11:50+0100\n"
+"PO-Revision-Date: 2021-03-25 17:20+0100\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Poedit-KeywordsList: _;__;_i;_s;gettext;_n:1,2;ngettext:1,2;dgettext:2\n"
 "X-Poedit-Basepath: ../../../../../app\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -1247,7 +1247,7 @@ msgstr "BERLINA • CABRIO • 3+1"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:691
 msgid "In addition to Action contents:"
-msgstr ""
+msgstr "Oltre alle Dotazioni di Action:"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:693
 msgid "15” Styled Wheel"
@@ -1292,7 +1292,7 @@ msgstr "Autonomia 320 km (ciclo WLTP)"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:711
 msgid "In addition to Passion contents:"
-msgstr ""
+msgstr "Oltre alle Dotazioni di Passion:"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:713
 msgid "16” Alloy Wheel"
@@ -1425,7 +1425,7 @@ msgstr "Cavo di ricarica Mode 3 (11 kW)"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:792
 msgid "Second side door (3+1 version only)"
-msgstr ""
+msgstr "Retrocamera con griglie dinamiche"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:804
 msgid "A MATTER"
@@ -1633,11 +1633,11 @@ msgstr "COMFORT SEATS PACK (opt 3RJ)"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:36
 msgid "1st Row Adjustable Seats 6 ways (JTM) • Center Armrest (132)"
-msgstr "• Sedili anteriori regolabili a 6 vie (JTM) • Bracciolo centrale (132)"
+msgstr "Sedili anteriori regolabili a 6 vie (JTM) • Bracciolo centrale (132)"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:37
 msgid "Close central console (467)"
-msgstr "• Console centrale con vano portaoggetti richiudibile (467)"
+msgstr "Console centrale con vano portaoggetti richiudibile (467)"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:50
 msgid "CONVENIENCE PACK HB (opt 3RN)"
@@ -1646,18 +1646,18 @@ msgstr "CONVENIENCE PACK HB (OPT 3RN)"
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:52
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:61
 msgid "Automatic climate control (140)"
-msgstr "• Climatizzatore automatico (140)"
+msgstr "Climatizzatore automatico (140)"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:53
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:62
 msgid "All Power windows up/down, open/close via remote control (038)"
 msgstr ""
-"• Comando centralizzato cristalli su portiera con anti pizzicamento (038)"
+"Comando centralizzato cristalli su portiera con anti pizzicamento (038)"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:54
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:63
 msgid "Passive Entry + Wearable key (9Z0)"
-msgstr "• Passive Entry + Wearable key (9Z0)"
+msgstr "Passive Entry + Wearable key (9Z0)"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:59
 msgid "CONVENIENCE PACK CABRIO (opt 3RO)"
