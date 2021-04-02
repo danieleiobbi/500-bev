@@ -23,10 +23,13 @@
                     <li>
                         <a href="{!! _i("//www.fcabankgroup.com/en") !!}" target="_blank">{!! _i("Leasys") !!}</a>
                     </li>
-                    {{-- <li class="px-2 d-none">|</li>
-                    <li class="d-none">
-                        <a href="#" target="_blank">{!! _i("Cookies") !!}</a>
-                    </li> --}}
+                    <!-- Begin CLP plugin -->
+                    @if(App::environment('production') && request()->get('cookie_code'))
+                        <li class="px-2">|</li>
+                        <li>
+                            <a onclick="javascript:getCookieOpenModal()" style="cursor: pointer" target="_blank">Cookies</a>
+                        </li>
+                    @endif
                     @if(LaravelGettext::getLocale() === "de_DE")
                         <li class="px-2">|</li>
                         <li>
