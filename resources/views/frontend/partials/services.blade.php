@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-
+                    @if(LaravelGettext::getLocale() !== 'it_CH')
                     <div class="card">
                         <div class="card-header" id="heading-04b">
                             <h3 class="mb-0">
@@ -85,6 +85,7 @@
                             </div>
                         </div>
                     </div>
+                    @endif
 
                     <div class="card">
                         <div class="card-header" id="heading-04">
