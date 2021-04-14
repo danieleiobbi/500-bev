@@ -8632,6 +8632,32 @@ main section.panel .caption.panel-01.bottom, main section.panel-static .caption.
   width: 380px;
 }
 
+@media (max-width: 1440px) {
+  main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
+    left: 3%;
+  }
+  main section.panel .caption.panel-01.bottom, main section.panel-static .caption.panel-01.bottom {
+    right: 3%;
+  }
+}
+
+@media (max-width: 1200px) {
+  main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
+    top: 15%;
+  }
+}
+
+@media (max-width: 992px) and (orientation: landscape) {
+  main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
+    left: 15px;
+  }
+  main section.panel .caption.panel-01.bottom, main section.panel-static .caption.panel-01.bottom {
+    right: unset;
+    left: unset;
+    right: 15px;
+  }
+}
+
 main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
   top: 25%;
   left: 15%;
@@ -8641,6 +8667,28 @@ main section.panel .caption.panel-02 .bottom, main section.panel-static .caption
   width: 380px;
 }
 
+@media (max-width: 1440px) {
+  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
+    left: 3%;
+  }
+}
+
+@media (max-width: 1200px) {
+  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
+    top: unset;
+    left: unset;
+    bottom: 10%;
+    right: 10%;
+  }
+}
+
+@media (max-width: 992px) and (orientation: landscape) {
+  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
+    right: unset;
+    left: 15px;
+  }
+}
+
 main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
   top: 40%;
   left: 55%;
@@ -8648,6 +8696,31 @@ main section.panel .caption.panel-05, main section.panel-static .caption.panel-0
 
 main section.panel .caption.panel-05 .bottom, main section.panel-static .caption.panel-05 .bottom {
   width: 380px;
+}
+
+@media (max-width: 1440px) {
+  main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
+    top: 12%;
+  }
+}
+
+@media (max-width: 1200px) {
+  main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
+    top: unset;
+    left: unset;
+    bottom: 10%;
+    right: 10%;
+  }
+}
+
+@media (max-width: 375px) {
+  main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
+    right: unset;
+    left: 15px;
+  }
+  main section.panel .caption.panel-05 .bottom, main section.panel-static .caption.panel-05 .bottom {
+    width: calc(100vw - 30px);
+  }
 }
 
 main section.panel .caption.panel-06, main section.panel-static .caption.panel-06 {
@@ -8815,6 +8888,7 @@ main section#api-cards .card {
   padding-top: 2rem;
   color: #fff;
   background-color: #6c9dad;
+  min-height: 600px;
 }
 
 main section#api-cards .card .card-img-top {
@@ -8927,6 +9001,9 @@ main section#DUMMY {
 }
 
 @media (max-width: 1440px) {
+  h1 {
+    font-size: 2.5rem;
+  }
   main section#home-carousel .carousel .carousel-indicators {
     top: 300px;
   }
@@ -8938,12 +9015,6 @@ main section#DUMMY {
 @media (max-width: 1366px) {
   main section#home-carousel .carousel .carousel-indicators {
     top: 285px;
-  }
-  main section.panel .caption.panel-01.bottom, main section.panel-static .caption.panel-01.bottom {
-    right: 12%;
-  }
-  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
-    left: 2%;
   }
   main section.panel .caption.panel-06, main section.panel-static .caption.panel-06 {
     bottom: 15%;
@@ -8987,24 +9058,6 @@ main section#DUMMY {
   main section.panel.panel-07, main section.panel-static.panel-07 {
     height: unset;
   }
-  main section.panel .caption, main section.panel-static .caption {
-    position: absolute;
-  }
-  main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
-    top: 15%;
-  }
-  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
-    top: unset;
-    left: unset;
-    bottom: 10%;
-    right: 10%;
-  }
-  main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
-    top: unset;
-    left: unset;
-    bottom: 10%;
-    right: 10%;
-  }
   main section#home-11 h1 {
     font-size: 2rem;
   }
@@ -9037,18 +9090,6 @@ main section#DUMMY {
   .manual-video-controls .wrap-icons .icons {
     width: 80px;
     height: 80px;
-  }
-  main section.panel .caption.panel-01, main section.panel-static .caption.panel-01 {
-    left: 15px;
-  }
-  main section.panel .caption.panel-01.bottom, main section.panel-static .caption.panel-01.bottom {
-    right: unset;
-    left: unset;
-    right: 15px;
-  }
-  main section.panel .caption.panel-02, main section.panel-static .caption.panel-02 {
-    right: unset;
-    left: 15px;
   }
   main section#SOUND::after {
     top: -1%;
@@ -9295,13 +9336,6 @@ main section#DUMMY {
   }
   main h1 {
     font-size: 1.8rem;
-  }
-  main section.panel .caption.panel-05, main section.panel-static .caption.panel-05 {
-    right: unset;
-    left: 15px;
-  }
-  main section.panel .caption.panel-05 .bottom, main section.panel-static .caption.panel-05 .bottom {
-    width: calc(100vw - 30px);
   }
   main section#home-carousel .carousel .carousel-indicators {
     top: 240px;

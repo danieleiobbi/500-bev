@@ -8,10 +8,9 @@
                 <ul class="pl-3">
                     <li>{!! _i("Radio 7” (07W)") !!}</li>
                     <li>{!! _i("CarPlay/Android Auto™ (8EW)") !!}</li>
-                    @if(LaravelGettext::getLocale() === 'it_CH')
-                    <li>Caricatore wireless per smartphone (RFX)</li>
-                    @endif
+                    @if(LaravelGettext::getLocale() !== 'it_____IT')
                     <li>{!! _i("Wireless Mobile Charger (RFX)") !!}</li>
+                    @endif
                     <li>{!! _i("Uconnect™ Services (RTK)") !!}</li>
                     <li>{!! _i("DAB (RS9)") !!}</li>
                     <li>{!! _i("1° rowfull functioning with USB (0SU)") !!}</li>
@@ -44,19 +43,12 @@
             <div>
                 <p class="font-weight-bold secondary">{!! _i("FIAT CO-DRIVER PACK Passion (opt 3RG)") !!}</p>
                 <ul class="pl-3">
-                    @if(LaravelGettext::getLocale() === 'it_CH')
+                    @if(LaravelGettext::getLocale() === 'it_____IT')
                         <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>
                         <li>{!! _i("360° Drone View (XAH)") !!}</li>
-                        <li>Urban Blind Spot (XAN)</li>
-                        <li>Telecamera posteriore in alta risoluzione con griglie dinamiche (9YN)</li>
-                        <li>{!! _i("Urban Blind Spot (XAN)") !!}</li>
-                        <li>{!! _i("Rearview Parking Camera (9YN)") !!}</li>
                         <li>{!! _i("Traffic sign information (0XR)") !!}</li>
                         <li>{!! _i("Radio 10,25” NAV (9YT) + 6 speakers (RCG)") !!}</li>
-                        <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
-                        <li>Retrovisori esterni elettrici con sbrinamento (041)</li>
                         <li>{!! _i("Steering wheel soft touch (318)") !!}</li>
-                        <li>Traffic Jam Assist (9YZ)</li>
                     @else
                         <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>
                         <li>{!! _i("360° Drone View (XAH)") !!}</li>
@@ -66,6 +58,9 @@
                         <li>{!! _i("Radio 10,25” NAV (9YT) + 6 speakers (RCG)") !!}</li>
                         <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
                         <li>{!! _i("Steering wheel soft touch (318)") !!}</li>
+                        @if(LaravelGettext::getLocale() === 'it_CH')
+                            <li>Traffic Jam Assist (9YZ)</li>
+                        @endif
                     @endif
                 </ul>
             </div>
@@ -78,9 +73,8 @@
                 <li>{!! _i("Urban Blind Spot (XAN)") !!}</li>
                 <li>{!! _i("Rearview Parking Camera (9YN)") !!}</li>
                 <li>{!! _i("6 speakers (RCG)") !!}</li>
+                @if(LaravelGettext::getLocale() !== 'it_____IT')
                 <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
-                @if(LaravelGettext::getLocale() === 'it_CH')
-                <li>Retrovisori esterni elettrici con sbrinamento (041)</li>
                 @endif
             </ul>
         </div>

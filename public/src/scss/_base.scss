@@ -322,6 +322,23 @@ main {
                         right: 25%;
                         width: 380px;
                     }
+                    @media (max-width: 1440px) {
+                        left: 3%;
+                        &.bottom {
+                            right: 3%;
+                        }
+                    }
+                    @media (max-width: 1200px) {
+                        top: 15%;
+                    }
+                    @media (max-width: 992px) and (orientation: landscape) {
+                        left: 15px;
+                        &.bottom {
+                            right: unset;
+                            left: unset;
+                            right: 15px;
+                        }
+                    }
                 }
                 &.panel-02 {
                     top: 25%;
@@ -329,12 +346,41 @@ main {
                     .bottom {
                         width: 380px;
                     }
+                    @media (max-width: 1440px) {
+                        left: 3%;
+                    }
+                    @media (max-width: 1200px) {
+                        top: unset;
+                        left: unset;
+                        bottom: 10%;
+                        right: 10%;
+                    }
+                    @media (max-width: 992px) and (orientation: landscape) {
+                        right: unset;
+                        left: 15px;
+                    }
                 }
                 &.panel-05 {
                     top: 40%;
                     left: 55%;
                     .bottom {
                         width: 380px;
+                    }
+                    @media (max-width: 1440px) {
+                        top: 12%;
+                    }
+                    @media (max-width: 1200px) {
+                        top: unset;
+                        left: unset;
+                        bottom: 10%;
+                        right: 10%;
+                    }
+                    @media (max-width: 375px) {
+                        right: unset;
+                        left: 15px;
+                        .bottom {
+                            width: calc(100vw - 30px);
+                        }
                     }
                 }
                 &.panel-06 {
@@ -494,6 +540,7 @@ main {
                 padding-top: 2rem;
                 color: $white;
                 background-color: $secondary;
+                min-height: 600px;
                 .card-img-top {
                     width: fit-content;
                     margin: 0 auto;
@@ -591,6 +638,9 @@ main {
 
 // Large devices (desktops, less than 1440px)
 @media (max-width: 1440px) {
+    h1 {
+        font-size: 2.5rem;
+    }
     main {
         section {
             &#home-carousel {
@@ -623,14 +673,6 @@ main {
             &.panel,
             &.panel-static {
                 .caption {
-                    &.panel-01 {
-                        &.bottom {
-                            right: 12%;
-                        }
-                    }
-                    &.panel-02 {
-                        left: 2%;
-                    }
                     &.panel-06 {
                         bottom: 15%;
                         left: 2%;
@@ -680,24 +722,6 @@ main {
                 }
                 &.panel-07 {
                     height: unset;
-                }
-                .caption {
-                    position: absolute;
-                    &.panel-01 {
-                        top: 15%;
-                    }
-                    &.panel-02 {
-                        top: unset;
-                        left: unset;
-                        bottom: 10%;
-                        right: 10%;
-                    }
-                    &.panel-05 {
-                        top: unset;
-                        left: unset;
-                        bottom: 10%;
-                        right: 10%;
-                    }
                 }
             }
 
@@ -760,23 +784,6 @@ main {
     }
     main {
         section {
-            &.panel,
-            &.panel-static {
-                .caption {
-                    &.panel-01 {
-                        left: 15px;
-                        &.bottom {
-                            right: unset;
-                            left: unset;
-                            right: 15px;
-                        }
-                    }
-                    &.panel-02 {
-                        right: unset;
-                        left: 15px;
-                    }
-                }
-            }
             &#SOUND {
                 &::after {
                     top: -1%;
@@ -1101,19 +1108,6 @@ main {
             font-size: 1.8rem;
         }
         section {
-            &.panel,
-            &.panel-static {
-                .caption {
-                    &.panel-05 {
-                        right: unset;
-                        left: 15px;
-                        .bottom {
-                            width: calc(100vw - 30px);
-                        }
-                    }
-                }
-            }
-
             &#home-carousel {
                 .carousel {
                     .carousel-indicators {
