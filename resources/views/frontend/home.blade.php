@@ -293,6 +293,7 @@
                                 <p>{!! _i("Listen to music, navigate and connect your devices. Smartphone-like interface on a 10,25” touch screen, fast Bluetooth connection, compatible with wireless projection systems: the ultimate infotainment experience.") !!}</p>
                             </div>
                         </div>
+                        @if(LaravelGettext::getLocale() !== 'it_CH')
                         <div class="carousel-item">
                             <img src="{{ asset('images/500-07b.jpg') }}" class="d-block w-100" alt="">
                             <div class="carousel-caption text-left">
@@ -300,6 +301,7 @@
                                 <p>{!! _i("Buying a car, driving many more: My Dream Garage is the service that allows access to all FCA Group models, choosing the most suitable one for every occasion. Start imagining the future of mobility: while you wait for the new 500, download the app and configure your Dream Garage with the models you would like to try. Sometimes dreams come true, especially  if there’s the new 500 in your future.") !!}</p>
                             </div>
                         </div>
+                        @endif
                         <div class="carousel-item">
                             <img src="{{ asset('images/500-07c.jpg') }}" class="d-block w-100" alt="">
                             <div class="carousel-caption text-left">
@@ -329,7 +331,9 @@
                         <li data-target="#carousel-01" data-slide-to="1"></li>
                         <li data-target="#carousel-01" data-slide-to="2"></li>
                         <li data-target="#carousel-01" data-slide-to="3"></li>
+                        @if(LaravelGettext::getLocale() !== 'it_CH')
                         <li data-target="#carousel-01" data-slide-to="4"></li>
+                        @endif
                     </ol>
                 </div>
             </div>
@@ -721,6 +725,10 @@
                             <li>{!! _i("Radio 10,25” NAV") !!}</li>
                             <li>{!! _i("Traffic Sign Information ") !!}</li>
                             <li>{!! _i("Rain Sensor") !!}</li>
+                            @if (LaravelGettext::getLocale() !== 'it_CH')
+                            <li>Sensori di parcheggio posteriori</li>
+                            <li>Caricatore senza fili</li>
+                            @endif
                             <li>{!! _i("Fast charge 85 kW") !!}</li>
                             <li>{!! _i("Mode 2 cable (3 kW)") !!}</li>
                             <li>{!! _i("320 km (WLTP)") !!}</li>

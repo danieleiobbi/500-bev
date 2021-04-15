@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
 "POT-Creation-Date: 2021-04-02 08:11+0000\n"
-"PO-Revision-Date: 2021-04-09 10:59+0200\n"
+"PO-Revision-Date: 2021-04-15 10:37+0200\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: it_CH\n"
@@ -349,7 +349,7 @@ msgstr ""
 
 #: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:110
 msgid "fcabankgroup.com"
-msgstr "*** Assicuratore: AXA Assicurazioni SA, Winterthur."
+msgstr "*** Assicuratore: AXA Assicurazioni SA, Winterthur"
 
 #: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:122
 msgid "WEB"
@@ -360,6 +360,9 @@ msgid ""
 "Take care of your car in one click! Go to my.fiat.com and discover a world "
 "of dedicated services: safe maintenance, reminders and customized promotions."
 msgstr ""
+"Prenditi cura della tua Fiat con un click! Vai su my.fiat.com e scopri un "
+"mondo di servizi dedicati: programmi di manutenzione, promemoria e offerte "
+"personalizzate."
 
 #: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:143
 msgid "MOPAR<sub>®</sub> E-STORE "
@@ -791,9 +794,7 @@ msgid ""
 msgstr ""
 "Ricarica l’auto con facilità e direttamente da casa con l’EasyWallbox che "
 "offre una potenza di ricarica fino a 3 kW, senza il bisogno di installazione "
-"da parte di un tecnico.\n"
-"E se aggiorni l’impianto di casa a 7 kW, la Nuova 500 si ricarica in metà "
-"del tempo."
+"da parte di un tecnico."
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:219
 msgid "MODE 3 CABLE"
@@ -805,8 +806,7 @@ msgid ""
 "with your EasyWallbox."
 msgstr ""
 "Usa il cavo di ricarica rapida Mode 3 per ricaricare la tua Nuova 500 presso "
-"le stazioni pubbliche oppure a casa tramite i dispositivi di ricarica "
-"domestica (EasyWallbox o JuiceBox)."
+"le stazioni pubbliche oppure a casa tramite l'EasyWallbox (opzionale)."
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:239
 msgid "PURE"
@@ -869,7 +869,7 @@ msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:299
 msgid "IT LOOKS LIKE A DREAM, BUT IT IS AN APP."
-msgstr "L’APPLICAZIONE CHE SEMBRA UN SOGNO."
+msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:300
 msgid ""
@@ -880,12 +880,6 @@ msgid ""
 "would like to try. Sometimes dreams come true, especially  if there’s the "
 "new 500 in your future."
 msgstr ""
-"Acquista una sola auto, guidane molte altre: My Dream Garage è il servizio "
-"che permette di accedere a tutti i modelli del gruppo FCA, scegliendo quello "
-"più adatto per ogni occasione. Inizia a immaginare il futuro della mobilità: "
-"scarica l’app e configura il tuo Dream Garage selezionando i modelli che "
-"vorresti provare. I sogni possono diventare realtà, soprattutto se la Nuova "
-"500 farà parte del tuo futuro."
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:306
 msgid "AN EXCLUSIVE WALLBOX"
@@ -920,14 +914,14 @@ msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:315
 msgid "RFID CARD"
-msgstr "RFID CARD"
+msgstr "TESSERA RFID"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:316
 msgid ""
 "RFID card jointly with My Easy Charge app provides access to more than "
 "170.000 charging points in 21 countries in Europe."
 msgstr ""
-"La RFID CARD insieme all’app My Easy Charge fornisce l’accesso a oltre "
+"La tessera RFID insieme all’app My Easy Charge fornisce l’accesso a oltre "
 "170.000 stazioni di ricarica in 21 paesi europei."
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:322
@@ -1066,9 +1060,9 @@ msgid ""
 "unlock the doors and check the charging level and schedule the Air "
 "Conditioning and the vehicle charging. Alexa integration."
 msgstr ""
-"Locate the position of the car directly from your smartphone. Lock and "
-"unlock the doors and check the charging level and schedule the Air "
-"Conditioning and the vehicle charging. Alexa integration."
+"Localizza la posizione dell’auto direttamente dal tuo smartphone. Blocca e "
+"sblocca le porte, controlla il livello di carica e programma l’aria "
+"condizionata e la ricarica del veicolo. Integrazione Alexa."
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:533
 msgid "REAL TIME CAR CHECK: MY CAR"
@@ -1123,7 +1117,7 @@ msgstr "//apps.apple.com/it/app/fiat-goe-live/id1523452215"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:634
 msgid "DOWNLOAD THE FIAT IOS APP"
-msgstr "SCARICA L’APP FIAT"
+msgstr "SCARICA L’APP FIAT IOS"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:635
 msgid "//play.google.com/store/apps/details?id=com.fca.goelive.fiat"
@@ -1131,7 +1125,7 @@ msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:635
 msgid "DOWNLOAD THE FIAT ANDROID APP"
-msgstr "SCARICA LA APP FIAT ANDROID"
+msgstr "SCARICA L'APP FIAT ANDROID"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:644
 msgid "DIFFERENT VERSIONS"
@@ -1147,9 +1141,8 @@ msgid ""
 "Convertible and 3+1 versions and with different trims to choose from. All "
 "you have to do is find the one that suits you best."
 msgstr ""
-"La Nuova 500 elettrica è proprio come la desideri. Scegli fra gli "
-"allestimenti: La Prima, Icon, Passion e Action. Tutto quello che devi fare è "
-"trovare la versione più adatta a te."
+"La Nuova 500 elettrica è proprio come la desideri. Scegli fra Icon, Passion "
+"o Action: tutto quello che devi fare è trovare la versione più adatta a te."
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:664
 msgid "HATCHBACK ONLY"
@@ -1284,11 +1277,11 @@ msgstr "DLO cromato"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:715
 msgid "Eco-leather Steering Wheel"
-msgstr "Volante e pomello cambio in \"soft touch\""
+msgstr "Volante in \"soft touch\""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:716
 msgid "All Power Windows"
-msgstr "Finestrini elettrici richiudibili da remoto"
+msgstr "Alzacristalli automatici"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:717
 msgid "Passive Entry + Wearable Key"
