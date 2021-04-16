@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
 "POT-Creation-Date: 2021-04-02 08:11+0000\n"
-"PO-Revision-Date: 2021-04-15 10:37+0200\n"
+"PO-Revision-Date: 2021-04-15 17:50+0200\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: it_CH\n"
@@ -166,7 +166,7 @@ msgstr "Note Legali"
 
 #: ../storage/framework/messages/14e433ea3e3b5e8beb18d10263006b10cc868893.php.php:24
 msgid "//www.fcabankgroup.com/en"
-msgstr "https://fiat.fcabank.it/it"
+msgstr "https://fiat.fcabank.ch/it"
 
 #: ../storage/framework/messages/14e433ea3e3b5e8beb18d10263006b10cc868893.php.php:24
 msgid "Leasys"
@@ -234,11 +234,11 @@ msgstr ""
 
 #: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:46
 msgid "//www.fiat.it/leasing"
-msgstr "https://www.fiat.it/leasing"
+msgstr ""
 
 #: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:46
 msgid "fiat.it/leasing"
-msgstr "fiat.it/leasing"
+msgstr ""
 
 #: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:56
 msgid "MOPAR<sub>®</sub> VEHICLE PROTECTION"
@@ -622,7 +622,7 @@ msgstr "LA TUA NUOVA 500"
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:84
 #: ../storage/framework/messages/954fc969fe18e019699092279e3604d8e12f3503.php.php:10
 msgid "//www.fiat.it/car-configurator/"
-msgstr "//www.fiat.it/car-configurator/"
+msgstr "https://www.fiat.ch/it/configuratore/"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:85
 msgid "CAR CONFIGURATOR"
@@ -944,7 +944,7 @@ msgstr "GUIDA ORA"
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:345
 #: ../storage/framework/messages/954fc969fe18e019699092279e3604d8e12f3503.php.php:20
 msgid "//www.fiat.it/test-drive"
-msgstr "//www.fiat.it/test-drive"
+msgstr "https://www.fiat.ch/it/test-drive-fiat"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:346
 msgid "TEST DRIVE"
