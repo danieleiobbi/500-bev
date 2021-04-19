@@ -43,24 +43,21 @@
             <div>
                 <p class="font-weight-bold secondary">{!! _i("FIAT CO-DRIVER PACK Passion (opt 3RG)") !!}</p>
                 <ul class="pl-3">
-                    @if(LaravelGettext::getLocale() === 'it___IT')
-                        <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>
-                        <li>{!! _i("360° Drone View (XAH)") !!}</li>
-                        <li>{!! _i("Traffic sign information (0XR)") !!}</li>
-                        <li>{!! _i("Radio 10,25” NAV (9YT) + 6 speakers (RCG)") !!}</li>
-                        <li>{!! _i("Steering wheel soft touch (318)") !!}</li>
-                    @else
-                        <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>
-                        <li>{!! _i("360° Drone View (XAH)") !!}</li>
-                        <li>{!! _i("Urban Blind Spot (XAN)") !!}</li>
-                        <li>{!! _i("Rearview Parking Camera (9YN)") !!}</li>
-                        <li>{!! _i("Traffic sign information (0XR)") !!}</li>
-                        <li>{!! _i("Radio 10,25” NAV (9YT) + 6 speakers (RCG)") !!}</li>
-                        <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
-                        <li>{!! _i("Steering wheel soft touch (318)") !!}</li>
-                        @if(LaravelGettext::getLocale() === 'it_CH')
-                            <li>Traffic Jam Assist (9YZ)</li>
-                        @endif
+                    <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>
+                    <li>{!! _i("360° Drone View (XAH)") !!}</li>
+                    <li>{!! _i("Urban Blind Spot (XAN)") !!}</li>
+                    <li>{!! _i("Rearview Parking Camera (9YN)") !!}</li>
+                    @if(LaravelGettext::getLocale() === 'fr_CH')
+                    <li>Lecture des panneaux de signalisation (0XR)</li>
+                    <li></li>
+                    <li></li>
+                    @endif
+                    <li>{!! _i("Traffic sign information (0XR)") !!}</li>
+                    <li>{!! _i("Radio 10,25” NAV (9YT) + 6 speakers (RCG)") !!}</li>
+                    <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
+                    <li>{!! _i("Steering wheel soft touch (318)") !!}</li>
+                    @if(LaravelGettext::getLocale() === 'it_CH')
+                        <li>Traffic Jam Assist (9YZ)</li>
                     @endif
                 </ul>
             </div>
@@ -76,7 +73,7 @@
                 @if(LaravelGettext::getLocale() !== 'it___IT')
                 <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
                 @endif
-                @if(LaravelGettext::getLocale() === 'it_CH')
+                @if(LaravelGettext::getLocale() === 'it_CH' || LaravelGettext::getLocale() === 'fr_CH')
                 <li>Traffic Jam Assist (9YZ)</li>
                 @endif
             </ul>

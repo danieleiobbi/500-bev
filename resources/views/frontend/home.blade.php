@@ -720,15 +720,15 @@
                             @endif
                             <li>{!! _i("Eco-leather Steering Wheel") !!}</li>
                             <li>{!! _i("All Power Windows") !!}</li>
+                            @if (LaravelGettext::getLocale() === 'fr_CH')
+                            <li>Capteurs de stationnement arrière</li>
+                            <li>Chargeur sans fil su La prima _Plaque spécifique (non numérotée)</li>
+                            @endif
                             <li>{!! _i("Passive Entry + Wearable Key") !!}</li>
                             <li>{!! _i("Automatic A/C") !!}</li>
                             <li>{!! _i("Radio 10,25” NAV") !!}</li>
                             <li>{!! _i("Traffic Sign Information ") !!}</li>
                             <li>{!! _i("Rain Sensor") !!}</li>
-                            @if (LaravelGettext::getLocale() !== 'it_CH')
-                            <li>Sensori di parcheggio posteriori</li>
-                            <li>Caricatore senza fili</li>
-                            @endif
                             <li>{!! _i("Fast charge 85 kW") !!}</li>
                             <li>{!! _i("Mode 2 cable (3 kW)") !!}</li>
                             <li>{!! _i("320 km (WLTP)") !!}</li>
