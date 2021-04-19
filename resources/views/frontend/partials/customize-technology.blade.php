@@ -49,8 +49,6 @@
                     <li>{!! _i("Rearview Parking Camera (9YN)") !!}</li>
                     @if(LaravelGettext::getLocale() === 'fr_CH')
                     <li>Lecture des panneaux de signalisation (0XR)</li>
-                    <li></li>
-                    <li></li>
                     @endif
                     <li>{!! _i("Traffic sign information (0XR)") !!}</li>
                     <li>{!! _i("Radio 10,25” NAV (9YT) + 6 speakers (RCG)") !!}</li>
