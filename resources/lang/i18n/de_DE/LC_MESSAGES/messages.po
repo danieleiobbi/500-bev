@@ -1,128 +1,128 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
-"POT-Creation-Date: 2021-04-02 08:11+0000\n"
-"PO-Revision-Date: 2021-04-02 08:11+0000\n"
+"POT-Creation-Date: 2021-04-21 09:59+0200\n"
+"PO-Revision-Date: 2021-04-21 09:59+0200\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-KeywordsList: _;__;_i;_s;gettext;_n:1,2;ngettext:1,2;dgettext:2\n"
 "X-Poedit-Basepath: ../../../../../app\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: Http\n"
 "X-Poedit-SearchPath-1: ../resources/views\n"
 "X-Poedit-SearchPath-2: Console\n"
-"X-Poedit-SearchPath-3: ../storage/framework/messages/\n"
+"X-Poedit-SearchPath-3: ../storage/framework/messages\n"
 
-#: ../resources/views/frontend/home.blade.php:367
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:372
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:388
+#: ../resources/views/frontend/home.blade.php:375
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:380
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:396
 msgid "INTELLIGENT ADAPTIVE CRUISE CONTROL"
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:367
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:372
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:389
+#: ../resources/views/frontend/home.blade.php:375
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:380
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:397
 msgid ""
 "Set the speed and enjoy the ride, new 500 will keep the safe distance and "
 "the speed under control for you."
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:368
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:373
+#: ../resources/views/frontend/home.blade.php:376
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:381
 msgid "LANE CENTERING"
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:368
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:373
+#: ../resources/views/frontend/home.blade.php:376
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:381
 msgid ""
 "Just a button to stay always in the middle of the road. This innovative "
 "system that will keep you on the track."
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:369
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:374
+#: ../resources/views/frontend/home.blade.php:377
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:382
 msgid "URBAN BLIND SPOT"
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:369
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:374
+#: ../resources/views/frontend/home.blade.php:377
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:382
 msgid ""
 "Thanks to an ultrasonic sensor you will be alerted when there is something "
 "on the side and rear."
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:370
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:375
+#: ../resources/views/frontend/home.blade.php:378
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:383
 msgid "ATTENTION ASSIST"
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:370
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:375
+#: ../resources/views/frontend/home.blade.php:378
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:383
 msgid "When you are tired the car will detect it and suggest a coffe break."
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:371
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:376
+#: ../resources/views/frontend/home.blade.php:379
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:384
 msgid "LANE CONTROL"
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:371
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:376
+#: ../resources/views/frontend/home.blade.php:379
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:384
 msgid ""
 "Prevent the risk of unintendend white lines crossing to stay always on the "
 "track."
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:395
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:400
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:415
+#: ../resources/views/frontend/home.blade.php:403
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:408
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:423
 msgid "AUTONOMOUS EMERGENCY BRAKING"
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:395
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:400
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:416
+#: ../resources/views/frontend/home.blade.php:403
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:408
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:424
 msgid ""
 "New 500 will brake automatically to avoid possible collision with car, "
 "pedestrian or cyclist."
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:396
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:401
+#: ../resources/views/frontend/home.blade.php:404
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:409
 msgid "REAR VIEW PARKING CAMERA"
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:396
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:401
+#: ../resources/views/frontend/home.blade.php:404
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:409
 msgid ""
 "The camera will transmit a high-resolution image of whatever is behind you, "
 "helping while parking or during your maneuvers."
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:397
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:402
+#: ../resources/views/frontend/home.blade.php:405
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:410
 msgid "360° DRONE VIEW"
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:397
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:402
+#: ../resources/views/frontend/home.blade.php:405
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:410
 msgid ""
 "11 sensors will guarantee a 360° view of the car to detect any kind of "
 "obstacles around you and alerting about object proximity."
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:398
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:403
+#: ../resources/views/frontend/home.blade.php:406
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:411
 msgid "EMERGENCY CALL"
 msgstr ""
 
-#: ../resources/views/frontend/home.blade.php:398
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:403
+#: ../resources/views/frontend/home.blade.php:406
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:411
 msgid ""
 "In case of emergencies the new 500 will help by making a call that transmits "
 "the location and status of the vehicle."
@@ -152,7 +152,7 @@ msgstr ""
 msgid "Leasys"
 msgstr ""
 
-#: ../storage/framework/messages/14e433ea3e3b5e8beb18d10263006b10cc868893.php.php:35
+#: ../storage/framework/messages/14e433ea3e3b5e8beb18d10263006b10cc868893.php.php:41
 msgid ""
 "FCA Italy S.p.A. Corso G. Agnelli 200, 10135 Turin, Italy<br>Turin Companies "
 "Register / Tax code no. 07973780013 Company capital 800.000.000 Euros, fully "
@@ -262,11 +262,11 @@ msgstr ""
 msgid "leasys.com"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:99
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:100
 msgid "FINANCE PACKAGES<br>AND INSURANCE SERVICES"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:109
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:110
 msgid ""
 "FCA Bank is the digital bank dedicated to motorists specialized in the car "
 "financing. Whether you are a private customer, professionals or run your own "
@@ -286,50 +286,50 @@ msgid ""
 "vehicle without the obligation to purchase a new one."
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:110
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:111
 msgid "For full details, please visit"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:110
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:111
 msgid "//www.fcabankgroup.com/"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:110
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:111
 msgid "fcabankgroup.com"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:122
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:123
 msgid "WEB"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:132
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:133
 msgid ""
 "Take care of your car in one click! Go to my.fiat.com and discover a world "
 "of dedicated services: safe maintenance, reminders and customized promotions."
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:143
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:144
 msgid "MOPAR<sub>®</sub> E-STORE "
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:152
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:153
 msgid ""
 "The official store for accessories, parts and services for FCA vehicles."
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:152
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:153
 msgid "//moparstore.it"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:152
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:153
 msgid "moparstore.it"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:162
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:163
 msgid "Uconnect™"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:172
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:173
 msgid ""
 "The new electric 500 is equipped with a complete range of Connected "
 "Services, both on board and outside, including a new smartphone app. With "
@@ -338,14 +338,14 @@ msgid ""
 "and enjoy!"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:173
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:174
 msgid ""
 "Using My Uconnect.fiat web portal you will always be updated on your "
 "activated Uconnect™ Services and you can purchase and manage optional "
 "packages and renewals."
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:174
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:175
 msgid ""
 "Moreover, Uconnect™ Box enables a set of additional services, also specific "
 "for Fleet and Large Account, and gives the opportunity to access insurance "
@@ -353,17 +353,17 @@ msgid ""
 "policies."
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:184
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:185
 msgid "MOPAR<sub>®</sub> FLEET & BUSINESS SOLUTIONS<br>AND AFTERSALES SERVICES"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:191
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:192
 msgid ""
 "DISCOVER THE DEDICATED AFTERSALES SERVICES DESIGNED TO SUPPORT YOU AND YOUR "
 "BUSINESS."
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:192
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:193
 msgid ""
 "Mopar Fleet&Business services offers you perfect solutions that optimize "
 "your business activities and give you privileged services reducing you "
@@ -374,21 +374,21 @@ msgid ""
 "with us."
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:193
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:194
 msgid "PRE-PAID TAILORMADE SERVICE CONTRACTS"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:194
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:195
 msgid ""
 "Subscribe to any of the tailored plans offered to Mopar Vehicle Protection, "
 "to help you maintain your business vehicle in tip-top condition."
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:195
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:196
 msgid "PAY-PER-USE SERVICE CONTRACTS"
 msgstr ""
 
-#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:196
+#: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:197
 msgid ""
 "Our customers stipulates a contract which determines lower rates and "
 "predefined discounts: a single monthly invoicing service for the entire "
@@ -416,6 +416,7 @@ msgid "ROSE GOLD"
 msgstr ""
 
 #: ../storage/framework/messages/263af85a85db1ef837749f10469a4a116e95e855.php.php:26
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:913
 #: Http/Controllers/MainController.php:26
 msgid "GLACIER BLUE"
 msgstr ""
@@ -511,34 +512,29 @@ msgid ""
 msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:83
-msgid "CONFIGURE NOW"
-msgstr ""
-
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:83
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:344
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:446
-#: ../storage/framework/messages/954fc969fe18e019699092279e3604d8e12f3503.php.php:5
-msgid "YOUR NEW 500"
+msgid ""
+"“Today, it’s time for 500 to inspire change, again. To commit to an "
+"<strong>higher purpose.</strong>”"
 msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:84
-#: ../storage/framework/messages/954fc969fe18e019699092279e3604d8e12f3503.php.php:10
-msgid "//www.fiat.it/car-configurator/"
+msgid "Olivier François – President Fiat Brand Global"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:85
-msgid "CAR CONFIGURATOR"
-msgstr ""
-
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:98
-msgid "RECHARGE"
-msgstr ""
-
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:99
-msgid "YOUR EMOTIONS"
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:86
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:88
+msgid "PLAY THE VIDEO"
 msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:102
+msgid "RECHARGE"
+msgstr ""
+
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:103
+msgid "YOUR EMOTIONS"
+msgstr ""
+
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:106
 #, php-format
 msgid ""
 "Preserve the planet, the lightness and the joy to life is part of our "
@@ -546,33 +542,33 @@ msgid ""
 "100% electric, designed for the next decade."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:114
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:118
 msgid "CRAFTED<br>FOR THE CITY"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:116
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:120
 msgid ""
 "Enjoy the ride with peace of mind, thanks to 320 km on a combined cycle "
 "(WLTP)*."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:120
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:124
 msgid "COMBINED CYCLE WLTP UP TO"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:121
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:125
 msgid "320Km"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:124
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:128
 msgid "URBAN CYCLE UP TO"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:125
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:129
 msgid "460Km"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:128
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:132
 msgid ""
 "* The electricity consumption value is defined based on official tests, in "
 "conformity with the provisions of the EU Regulations in force at the time of "
@@ -593,67 +589,67 @@ msgid ""
 "please refer to the applicable law in force."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:146
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:150
 msgid "SHERPA MODE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:148
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:152
 msgid ""
 "This intelligent driving mode saves energy by optimizing battery charge, air "
 "conditioning, speed and acceleration. It gives you more range, getting you "
 "to your destination."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:156
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:160
 msgid "ONE PEDAL<br>DRIVING"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:158
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:162
 msgid ""
 "With just one pedal you can accelerate and decelerate, thus recovering "
 "kinetic energy that helps recharge the battery. You will still be able to "
 "brake with the specific pedal to make driving as easy as possible."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:172
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:176
 msgid "FAST CHARGING UP TO 85 KW"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:174
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:178
 msgid ""
 "In just 5 minutes, the time for a coffee, you get 50 km of autonomy: a whole "
 "day in the city."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:181
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:185
 msgid "85 Kw"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:182
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:186
 msgid "FAST CHARGING"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:187
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:191
 msgid "50km"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:188
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:192
 msgid "IN 5 MINUTES"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:193
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:197
 msgid "0-80%"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:194
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:198
 msgid "IN 35 MINUTES"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:203
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:207
 msgid "EASYWALLBOX"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:205
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:209
 msgid ""
 "Recharge the car easily and directly from home with the EasyWallbox: "
 "charging power of up to 3 kW without needs of a technician to install. If "
@@ -661,25 +657,25 @@ msgid ""
 "new 500 in half the time."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:219
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:223
 msgid "MODE 3 CABLE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:221
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:225
 msgid ""
 "Use the Mode 3 Cable to charge your new 500 at a public station or at home "
 "with your EasyWallbox."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:239
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:243
 msgid "PURE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:240
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:244
 msgid "PLEASURE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:242
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:246
 msgid ""
 "We choose to overcome all electric limits by offering top-of-the-segment "
 "range and quick, easy to use charging solutions to let you enjoy a "
@@ -688,43 +684,43 @@ msgid ""
 "accompanying music, in ignition, shutdown and on the move."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:248
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:252
 msgid ""
 "Only an electric 500 could make a sound like this: unique, just like her."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:254
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:258
 msgid "LISTEN TO THE<br>ITALIAN CREATIVE SPIRIT"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:261
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:265
 msgid "LISTEN TO THE SOUND<br>OF OTHER CARS"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:268
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:272
 msgid "POWER ON"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:275
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:279
 msgid "SHUTDOWN"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:292
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:296
 msgid "10.25” INFOTAINMENT SYSTEM WITH NAVIGATION"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:293
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:297
 msgid ""
 "Listen to music, navigate and connect your devices. Smartphone-like "
 "interface on a 10,25” touch screen, fast Bluetooth connection, compatible "
 "with wireless projection systems: the ultimate infotainment experience."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:299
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:304
 msgid "IT LOOKS LIKE A DREAM, BUT IT IS AN APP."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:300
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:305
 msgid ""
 "Buying a car, driving many more: My Dream Garage is the service that allows "
 "access to all FCA Group models, choosing the most suitable one for every "
@@ -734,11 +730,11 @@ msgid ""
 "new 500 in your future."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:306
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:312
 msgid "AN EXCLUSIVE WALLBOX"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:307
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:313
 msgid ""
 "The optional easyWallbox has been designed exclusively for FCA to create "
 "your personal charging point at home. All set with the “Plug & Play” "
@@ -746,60 +742,67 @@ msgid ""
 "connection, for settings and checking operating parameters."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:313
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:319
 msgid "MY E-CHARGE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:314
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:320
 msgid ""
 "Enter a world of services to find the nearest public charging station and "
 "access chargingmodes, payments and history. You can also remotely manage "
 "your private EasyWallbox from home."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:315
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:321
 msgid "RFID CARD"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:316
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:322
 msgid ""
 "RFID card jointly with My Easy Charge app provides access to more than "
 "170.000 charging points in 21 countries in Europe."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:322
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:328
 msgid "ICONIC SIGNATURE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:323
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:329
 msgid ""
 "A dedicated logo with the 500 classic badge enriches the great-looking "
 "steering wheel, reshaped to recall the essential style of the two-spoke ’57 "
 "Fiat 500."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:344
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:352
 msgid "DRIVE NOW"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:345
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:352
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:435
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:466
+#: ../storage/framework/messages/954fc969fe18e019699092279e3604d8e12f3503.php.php:5
+msgid "YOUR NEW 500"
+msgstr ""
+
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:353
 #: ../storage/framework/messages/954fc969fe18e019699092279e3604d8e12f3503.php.php:20
 msgid "//www.fiat.it/test-drive"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:346
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:354
 msgid "TEST DRIVE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:359
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:367
 msgid "THE BEST TECHNOLOGY"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:360
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:368
 msgid "FOR A BETTER LIFE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:362
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:370
 msgid ""
 "The first city car equipped with Level 2 Autonomous Driving. The new 500 is "
 "able to accelerate, maintain a safe distance, keep you on track, read "
@@ -807,15 +810,28 @@ msgid ""
 "co-driver."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:430
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:435
+msgid "CONFIGURE NOW"
+msgstr ""
+
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:436
+#: ../storage/framework/messages/954fc969fe18e019699092279e3604d8e12f3503.php.php:10
+msgid "//www.fiat.it/car-configurator/"
+msgstr ""
+
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:437
+msgid "CAR CONFIGURATOR"
+msgstr ""
+
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:450
 msgid "CONNECTED"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:431
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:451
 msgid "TO YOUR WORLD"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:433
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:453
 msgid ""
 "The “Cinerama” infotainment system is completely new, projecting you into "
 "the future. With a fast, intuitive and easy-to-use 10.25” screen, you can "
@@ -825,11 +841,11 @@ msgid ""
 "wireless mobile phone charging system and radio with built-in navigation."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:446
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:466
 msgid "IN YOUR SMARTPHONE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:447
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:467
 msgid ""
 "Enjoy the best connection, both on board and when you’re away from the car. "
 "Thanks to the new Fiat app that’s more than just an application, it’s an "
@@ -838,11 +854,11 @@ msgid ""
 "500, whenever you want and wherever you are."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:458
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:478
 msgid "MANAGE YOUR RECHARGE: MY E-CHARGE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:468
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:488
 msgid ""
 "A world of services for the management of the electric charge. Find public "
 "charging stations nearby and access features for charging, payments and "
@@ -851,41 +867,41 @@ msgid ""
 "Wallbox."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:483
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:503
 msgid "24/7 PERSONAL ROAD ASSISTANCE: MY ASSISTANT"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:493
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:513
 msgid ""
 "Emergency calls through a ceiling light, to contact a dedicated assistant or "
 "to request roadside assistance, directly from the vehicle’s, touchscreen or "
 "through the FIAT app."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:508
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:528
 msgid "SEAMLESS REMOTE CONTROL: MY REMOTE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:518
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:538
 msgid ""
 "Locate the position of the car directly from your smartphone. Lock and "
 "unlock the doors and check the charging level and schedule the Air "
 "Conditioning and the vehicle charging. Alexa integration."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:533
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:553
 msgid "REAL TIME CAR CHECK: MY CAR"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:543
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:563
 msgid "Real time information about the status of your car."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:558
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:578
 msgid "ALL-NEW CONNECTED NAVIGATION: MY NAVIGATION"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:568
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:588
 msgid ""
 "Share the destination from your app and your vehicle. The display shows your "
 "destination, with live traffic, weather updates, speed cameras notifications "
@@ -893,225 +909,225 @@ msgid ""
 "seamless frictionless experience."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:583
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:603
 msgid "MOBILE INTERNET: MY WI-FI"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:593
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:613
 msgid ""
 "Connect up to 8 devices and access your Amazon Alexa Voice Assistant onboard."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:608
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:628
 msgid "STOLEN VEHICLE TRACKING: MY ALERT"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:618
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:638
 msgid ""
 "In case of theft you will be put in contact with an operator and your car "
 "will be tracked to help the police to rescue it."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:634
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:654
 msgid "//apps.apple.com/it/app/fiat-goe-live/id1523452215"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:634
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:654
 msgid "DOWNLOAD THE FIAT IOS APP"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:635
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:655
 msgid "//play.google.com/store/apps/details?id=com.fca.goelive.fiat"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:635
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:655
 msgid "DOWNLOAD THE FIAT ANDROID APP"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:644
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:664
 msgid "DIFFERENT VERSIONS"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:645
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:665
 msgid "ALL UNIQUE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:647
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:667
 msgid ""
 "The new electric 500 comes just the way you want it: available in Hatchback, "
 "Convertible and 3+1 versions and with different trims to choose from. All "
 "you have to do is find the one that suits you best."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:664
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:684
 msgid "HATCHBACK ONLY"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:666
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:686
 msgid "15” Steel Wheel"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:667
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:687
 msgid "Halogen headlamps + LED DRL"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:668
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:688
 msgid "Manual A/C"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:669
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:689
 msgid "Electric Parking Brake"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:670
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:690
 msgid "Entry-Keyless go"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:671
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:691
 msgid "TFT 7” Color Display"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:672
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:692
 msgid "Smartphone Cradle"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:673
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:694
 msgid "Fiat Link & Drive"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:674
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:696
 msgid "Attention Assist"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:675
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:697
 msgid "Autonomous Emergency Braking"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:676
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:698
 msgid "Lane Control"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:677
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:699
 msgid "Traffic Sign Recognition"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:678
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:700
 msgid "E-call"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:679
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:701
 msgid "Fast charge 50 kW"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:680
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:702
 msgid "Mode 2 cable (3 kW))"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:681
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:703
 msgid "185 km (WLTP)"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:690
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:710
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:765
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:712
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:735
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:796
 msgid "HATCHBACK • CABRIO • 3+1"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:691
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:713
 msgid "In addition to Action contents:"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:693
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:715
 msgid "15” Styled Wheel"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:694
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:716
 msgid "Radio 7” touchscreen "
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:695
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:717
 msgid "Wireless CarPlay/Android Auto™"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:696
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:718
 msgid "Uconnect™ Services"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:697
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:719
 msgid "Digital Audio Broadcast"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:698
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:720
 msgid "Cruise Control"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:699
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:722
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:789
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:721
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:753
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:827
 msgid "Fast charge 85 kW"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:700
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:723
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:722
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:754
 msgid "Mode 2 cable (3 kW)"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:701
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:724
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:791
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:723
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:755
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:829
 msgid "320 km (WLTP)"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:711
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:736
 msgid "In addition to Passion contents:"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:713
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:738
 msgid "16” Alloy Wheel"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:714
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:740
 msgid "Chromed DLO"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:715
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:742
 msgid "Eco-leather Steering Wheel"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:716
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:743
 msgid "All Power Windows"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:717
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:748
 msgid "Passive Entry + Wearable Key"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:718
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:785
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:749
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:823
 msgid "Automatic A/C"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:719
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:750
 msgid "Radio 10,25” NAV"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:720
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:751
 msgid "Traffic Sign Information "
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:721
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:752
 msgid "Rain Sensor"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:738
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:769
 msgid "TO EACH HIS OWN"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:739
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:770
 msgid "FORM OF PERFECTION"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:740
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:771
 msgid ""
 "The exclusive launch edition is available today in the Hatchback and Cabrio "
 "version, plus the 3+1 model: the new design that introduces an additional "
@@ -1119,137 +1135,129 @@ msgid ""
 "versatility that represent the new 500 at its best."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:763
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:794
 msgid "LA PRIMA"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:764
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:795
 msgid "OPENING EDITION"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:766
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:798
 msgid "In addition to Icon contents:"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:770
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:803
 msgid "17” Alloy Wheel"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:771
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:804
 msgid "LED Headlamps"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:772
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:805
 msgid "Chromed side mouldings"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:773
-msgid "Dedicated plate (not numbered)"
-msgstr ""
-
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:774
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:809
 msgid "Monogram Capote (Cabrio)/ Fixed sun roof (HB)"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:775
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:810
 msgid "Eco-leather seats"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:776
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:811
 msgid "50/50 rear bench"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:777
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:812
 msgid "Central Armrest with close central console"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:778
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:813
 msgid "Front & Rear floor mats"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:783
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:818
 msgid "Fiat Co-Driver (Autonomous Driving L2)"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:784
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:819
 msgid "Radio 10.25” NAV"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:786
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:824
 msgid "Wireless charger"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:787
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:825
 msgid "360° Drone view & Rear view parking Camera"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:788
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:826
 msgid "Urban Blind Spot"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:790
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:828
 msgid "Mode 3 cable (11 kW)"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:792
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:831
 msgid "Second side door (3+1 version only)"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:804
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:844
 msgid "A MATTER"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:805
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:845
 msgid "OF STYLE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:806
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:846
 msgid ""
 "Customize your new 500 however you wish, with three different packages to "
 "choose from."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:809
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:849
 msgid "TECHNOLOGY"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:810
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:850
 msgid "COMFORT"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:811
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:851
 msgid "STYLE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:828
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:868
 msgid "WHAT COLOUR"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:829
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:869
 msgid "IS THE FUTURE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:873
-msgid "RUGIADA GREEN"
-msgstr ""
-
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:877
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:917
 msgid "Choose between 4 different colors for the capote."
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:881
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:921
 msgid "BLACK"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:885
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:925
 msgid "BLUE"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:889
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:929
 msgid "GREY"
 msgstr ""
 
-#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:893
+#: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:933
 msgid "MONOGRAM"
 msgstr ""
 
@@ -1277,8 +1285,8 @@ msgstr ""
 
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:23
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:39
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:37
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:69
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:39
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:82
 msgid "AVAILABLE ON: PASSION • ICON"
 msgstr ""
 
@@ -1352,7 +1360,7 @@ msgid "Radio 7” (07W), CarPlay/Android Auto™ (8EW)"
 msgstr ""
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:10
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:11
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:12
 msgid "Wireless Mobile Charger (RFX)"
 msgstr ""
 
@@ -1375,9 +1383,9 @@ msgid "Heated windshield (253)"
 msgstr ""
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:15
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:31
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:52
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:65
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:33
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:57
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:74
 msgid "Electrical side mirrors with defrost (041)"
 msgstr ""
 
@@ -1478,70 +1486,70 @@ msgstr ""
 msgid "CarPlay/Android Auto™ (8EW)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:12
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:14
 msgid "Uconnect™ Services (RTK)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:13
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:15
 msgid "DAB (RS9)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:14
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:16
 msgid "1° rowfull functioning with USB (0SU)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:19
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:21
 msgid "AVAILABLE ON: ACTION"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:26
-msgid "EYE PARK PACK (opt 3RI)"
-msgstr ""
-
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:28
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:47
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:61
-msgid "360° Drone View (XAH)"
-msgstr ""
-
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:29
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:48
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:62
-msgid "Urban Blind Spot (XAN)"
+msgid "EYE PARK PACK (opt 3RI)"
 msgstr ""
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:30
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:49
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:63
-msgid "Rearview Parking Camera (9YN)"
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:69
+msgid "360° Drone View (XAH)"
+msgstr ""
+
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:31
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:50
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:70
+msgid "Urban Blind Spot (XAN)"
 msgstr ""
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:32
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:64
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:51
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:71
+msgid "Rearview Parking Camera (9YN)"
+msgstr ""
+
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:34
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:72
 msgid "6 speakers (RCG)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:44
-msgid "FIAT CO-DRIVER PACK Passion (opt 3RG)"
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:46
+msgid "FIAT CO-DRIVER PACK Passion (opt 2N5)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:46
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:60
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:48
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:68
 msgid "Fiat Co-Driver (Autonomous Driving L2) (NH1)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:50
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:55
 msgid "Traffic sign information (0XR)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:51
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:56
 msgid "Radio 10,25” NAV (9YT) + 6 speakers (RCG)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:53
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:58
 msgid "Steering wheel soft touch (318)"
 msgstr ""
 
-#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:58
-msgid "FIAT CO-DRIVER PACK Icon (opt 3RH)"
+#: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:66
+msgid "FIAT CO-DRIVER PACK Icon (opt 2N6)"
 msgstr ""

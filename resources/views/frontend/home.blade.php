@@ -293,7 +293,7 @@
                                 <p>{!! _i("Listen to music, navigate and connect your devices. Smartphone-like interface on a 10,25” touch screen, fast Bluetooth connection, compatible with wireless projection systems: the ultimate infotainment experience.") !!}</p>
                             </div>
                         </div>
-                        @if(LaravelGettext::getLocale() !== 'it_CH')
+                        @if(LaravelGettext::getLocale() !== 'it_CH' && LaravelGettext::getLocale() !== 'fr_CH')
                         <div class="carousel-item">
                             <img src="{{ asset('images/500-07b.jpg') }}" class="d-block w-100" alt="">
                             <div class="carousel-caption text-left">
@@ -722,7 +722,7 @@
                             <li>{!! _i("All Power Windows") !!}</li>
                             @if (LaravelGettext::getLocale() === 'fr_CH')
                             <li>Capteurs de stationnement arrière</li>
-                            <li>Chargeur sans fil su La prima _Plaque spécifique (non numérotée)</li>
+                            <li>Chargeur sans fil</li>
                             @endif
                             <li>{!! _i("Passive Entry + Wearable Key") !!}</li>
                             <li>{!! _i("Automatic A/C") !!}</li>
@@ -782,6 +782,9 @@
                             <li>{!! _i("17” Alloy Wheel") !!}</li>
                             <li>{!! _i("LED Headlamps") !!}</li>
                             <li>{!! _i("Chromed side mouldings") !!}</li>
+                            @if (LaravelGettext::getLocale() === 'fr_CH')
+                            <li>Plaque spécifique (non numérotée)</li>
+                            @endif
                             <li>{!! _i("Monogram Capote (Cabrio)/ Fixed sun roof (HB)") !!}</li>
                             <li>{!! _i("Eco-leather seats") !!}</li>
                             <li>{!! _i("50/50 rear bench") !!}</li>

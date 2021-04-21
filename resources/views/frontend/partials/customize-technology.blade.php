@@ -41,7 +41,7 @@
         <div class="col-12 col-lg-6 d-flex align-items-start mb-5">
             <img class="mr-3" src="{{ asset('images/icons/pack03.svg') }}">
             <div>
-                <p class="font-weight-bold secondary">{!! _i("FIAT CO-DRIVER PACK Passion (opt 3RG)") !!}</p>
+                <p class="font-weight-bold secondary">{!! _i("FIAT CO-DRIVER PACK Passion (opt 2N5)") !!}</p>
                 <ul class="pl-3">
                     <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>
                     <li>{!! _i("360° Drone View (XAH)") !!}</li>
@@ -54,14 +54,14 @@
                     <li>{!! _i("Radio 10,25” NAV (9YT) + 6 speakers (RCG)") !!}</li>
                     <li>{!! _i("Electrical side mirrors with defrost (041)") !!}</li>
                     <li>{!! _i("Steering wheel soft touch (318)") !!}</li>
-                    @if(LaravelGettext::getLocale() === 'it_CH')
+                    @if(LaravelGettext::getLocale() === 'it_CH' || LaravelGettext::getLocale() === 'fr_CH')
                         <li>Traffic Jam Assist (9YZ)</li>
                     @endif
                 </ul>
             </div>
         </div>
         <div class="col-12 col-lg-6 last">
-            <p class="font-weight-bold secondary">{!! _i("FIAT CO-DRIVER PACK Icon (opt 3RH)") !!}</p>
+            <p class="font-weight-bold secondary">{!! _i("FIAT CO-DRIVER PACK Icon (opt 2N6)") !!}</p>
             <ul class="pl-3">
                 <li>{!! _i("Fiat Co-Driver (Autonomous Driving L2) (NH1)") !!}</li>
                 <li>{!! _i("360° Drone View (XAH)") !!}</li>
