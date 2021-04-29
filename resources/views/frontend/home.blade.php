@@ -331,7 +331,7 @@
                         <li data-target="#carousel-01" data-slide-to="1"></li>
                         <li data-target="#carousel-01" data-slide-to="2"></li>
                         <li data-target="#carousel-01" data-slide-to="3"></li>
-                        @if(LaravelGettext::getLocale() !== 'it_CH')
+                        @if(LaravelGettext::getLocale() !== 'it_CH' && LaravelGettext::getLocale() !== 'fr_CH')
                         <li data-target="#carousel-01" data-slide-to="4"></li>
                         @endif
                     </ol>
@@ -656,6 +656,97 @@
 <section id="api-cards">
     <div class="container">
         <div class="row justify-content-center">
+            @if (LaravelGettext::getLocale() === 'fr_FR')
+            <div class="col-12 col-lg-3 gs_reveal">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('images/action_fr_FR.png') }}">
+                    <div class="card-body">
+                        <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK ONLY") !!}</h4>
+                        <ul>
+                            <li>{!! _i("15” Steel Wheel") !!}</li>
+                            <li>{!! _i("Halogen headlamps + LED DRL") !!}</li>
+                            <li>{!! _i("Manual A/C") !!}</li>
+                            <li>{!! _i("Electric Parking Brake") !!}</li>
+                            <li>{!! _i("Entry-Keyless go") !!}</li>
+                            <li>{!! _i("TFT 7” Color Display") !!}</li>
+                            <li>{!! _i("Smartphone Cradle") !!}</li>
+                            <li>{!! _i("Fiat Link & Drive") !!}</li>
+                            <li>{!! _i("Attention Assist") !!}</li>
+                            <li>{!! _i("Autonomous Emergency Braking") !!}</li>
+                            <li>{!! _i("Lane Control") !!}</li>
+                            <li>{!! _i("Traffic Sign Recognition") !!}</li>
+                            <li>{!! _i("E-call") !!}</li>
+                            <li>{!! _i("Fast charge 50 kW") !!}</li>
+                            <li>{!! _i("Mode 2 cable (3 kW))") !!}</li>
+                            <li>{!! _i("185 km (WLTP)") !!}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 api-card gs_reveal">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('images/passion_fr_FR.png') }}">
+                    <div class="card-body">
+                        <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
+                        <p class="font-weight-bold card-text">{!! _i("In addition to Action contents:") !!}</p>
+                        <ul>
+                            <li>{!! _i("15” Styled Wheel") !!}</li>
+                            <li>{!! _i("Radio 7” touchscreen ") !!}</li>
+                            <li>{!! _i("Wireless CarPlay/Android Auto™") !!}</li>
+                            <li>{!! _i("Uconnect™ Services") !!}</li>
+                            <li>{!! _i("Digital Audio Broadcast") !!}</li>
+                            <li>{!! _i("Cruise Control") !!}</li>
+                            <li>{!! _i("Fast charge 85 kW") !!}</li>
+                            <li>{!! _i("Mode 2 cable (3 kW)") !!}</li>
+                            <li>{!! _i("320 km (WLTP)") !!}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 api-card gs_reveal">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('images/icon_fr_FR.png') }}">
+                    <div class="card-body">
+                        <h4 class="card-title text-center font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
+                        <p class="font-weight-bold card-text">{!! _i("In addition to Passion contents:") !!}</p>
+                        <ul>
+                            <li>{!! _i("16” Alloy Wheel") !!}</li>
+                            <li>{!! _i("Chromed DLO") !!}</li>
+                            <li>{!! _i("Eco-leather Steering Wheel") !!}</li>
+                            <li>{!! _i("All Power Windows") !!}</li>
+                            <li>{!! _i("Passive Entry + Wearable Key") !!}</li>
+                            <li>{!! _i("Automatic A/C") !!}</li>
+                            <li>{!! _i("Radio 10,25” NAV") !!}</li>
+                            <li>{!! _i("Traffic Sign Information ") !!}</li>
+                            <li>{!! _i("Rain Sensor") !!}</li>
+                            <li>{!! _i("Fast charge 85 kW") !!}</li>
+                            <li>{!! _i("Mode 2 cable (3 kW)") !!}</li>
+                            <li>{!! _i("320 km (WLTP)") !!}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 gs_reveal">
+                <div class="card">
+                    <img class="card-img-top" src="{{ asset('images/iconplus_fr_FR.png') }}">
+                    <div class="card-body">
+                        <h4 class="card-title text-center font-weight-bold mb-3">BERLINE • CABRIO • 3+1</h4>
+                        <ul>
+                            <li>Accoudoir central avec console fermée</li>
+                            <li>Banquette fractionnable 50/50</li>
+                            <li>Batterie 42 kWh</li>
+                            <li>Chargeur à induction</li>
+                            <li>Feux de route/croisement automatiques</li>
+                            <li>Jantes alliage 17’’ bicolores</li>
+                            <li>Projecteur full LED ‘Infinity’</li>
+                            <li>Rétroviseur int. photochromatique</li>
+                            <li>Toit vitré panoramique</li>
+                            <li>Vitres arrière surteintées</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            @else
             <div class="col-12 col-lg-4 col-xl-3 gs_reveal gs_reveal_fromRight">
                 <div class="card">
                     <img class="card-img-top" src="{{ asset('images/action.png') }}">
@@ -735,7 +826,12 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div>            
+            @endif
+
+
+
+
         </div>
     </div>
 </section>

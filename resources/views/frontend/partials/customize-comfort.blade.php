@@ -1,6 +1,6 @@
 <div id="target-comfort" class="collapse pt-5">
     <div class="row">
-
+        @if (LaravelGettext::getLocale() !== 'es_ES')
         <div class="col-12 col-lg-6 d-flex align-items-start mb-5">
             <img class="mr-3" src="{{ asset('images/icons/pack04.svg') }}">
             <div>
@@ -26,6 +26,7 @@
         <div class="col-12 divider mb-5">
             {!! _i("AVAILABLE ON: ACTION • PASSION • ICON") !!}
         </div>
+        @endif
 
         <div class="col-12 d-flex align-items-start mb-5">
             <img class="mr-3" src="{{ asset('images/icons/pack05.svg') }}">
