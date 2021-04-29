@@ -143,7 +143,7 @@
             </div>
             <div class="col-12 col-lg-5 gs_reveal pr-xl-5">
                 <div class="d-flex flex-row align-items-center mb-5">
-                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-02.svg') }}" alt="">
+                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-04.svg') }}" alt="">
                     <h2 class="font-weight-bold">{!! _i("SHERPA MODE") !!}</h2>
                 </div>
                 <p>{!! _i("This intelligent driving mode saves energy by optimizing battery charge, air conditioning, speed and acceleration. It gives you more range, getting you to your destination.") !!}</p>
@@ -169,7 +169,7 @@
             </div>
             <div class="col-12 col-lg-5 gs_reveal pr-xl-5">
                 <div class="d-flex flex-row align-items-center mb-5">
-                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-04.svg') }}" alt="">
+                    <img class="img-fluid mr-3 mr-lg-5 icons" src="{{ asset('images/icons/500-02.svg') }}" alt="">
                     <h3 class="font-weight-bold">{!! _i("FAST CHARGING UP TO 85 KW") !!}</h3>
                 </div>
                 <p>{!! _i("In just 5 minutes, the time for a coffee, you get 50 km of autonomy: a whole day in the city.") !!}</p>
