@@ -293,7 +293,7 @@
                                 <p>{!! _i("Listen to music, navigate and connect your devices. Smartphone-like interface on a 10,25” touch screen, fast Bluetooth connection, compatible with wireless projection systems: the ultimate infotainment experience.") !!}</p>
                             </div>
                         </div>
-                        @if(LaravelGettext::getLocale() !== 'it_CH' && LaravelGettext::getLocale() !== 'fr_CH')
+                        @if(LaravelGettext::getLocale() !== 'it_CH' && LaravelGettext::getLocale() !== 'fr_CH' && LaravelGettext::getLocale() !== 'de_CH')
                         <div class="carousel-item">
                             <img src="{{ asset('images/500-07b.jpg') }}" class="d-block w-100" alt="">
                             <div class="carousel-caption text-left">
