@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
 "POT-Creation-Date: 2021-04-21 09:58+0200\n"
-"PO-Revision-Date: 2021-05-03 16:54+0200\n"
+"PO-Revision-Date: 2021-05-05 18:19+0200\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: de_CH\n"
@@ -889,7 +889,7 @@ msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:312
 msgid "AN EXCLUSIVE WALLBOX"
-msgstr ""
+msgstr "EINE EXKLUSIVE WALLBOX"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:313
 msgid ""
@@ -898,6 +898,10 @@ msgid ""
 "technology which requires no professional installation and a Bluetooth "
 "connection, for settings and checking operating parameters."
 msgstr ""
+"Die optionale easyWallbox wurde exklusiv für FCA entwickelt, um Ihre "
+"persönliche Ladestation zu Hause zu gestalten. Alles mit der \"Plug & Play\"-"
+"Technologie, die keine professionelle Installation und eine Bluetooth-"
+"Verbindung erfordert, zur Einstellung und Überprüfung der Betriebsparameter."
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:319
 msgid "MY E-CHARGE"
