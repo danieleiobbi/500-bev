@@ -1,3 +1,4 @@
+@if (session()->get('source') !== request()->get('source_iLinkEco'))
 <section id="cta" class="d-flex align-items-center">
     <div class="container">
         <div class="row mb-5">
@@ -27,3 +28,4 @@
         </div>
     </div>
 </section>
+@endif

@@ -12,6 +12,7 @@
 
     <div id="MyNavbar" class="navbar-collapse">
         <ul id="menu-menu-principale" class="navbar-nav">
+            @if (session()->get('source') !== request()->get('source_iLinkEco'))
             <li class="nav-item mb-5 social-container">
                 <a class="mr-3 mr-lg-5" href="//www.facebook.com/sharer/sharer.php?u=https:{{ env('APP_URL').request()->get('segment')}}"
                     target="_blank">
@@ -26,6 +27,7 @@
                     {!! _i("SHARE") !!}
                 </a>
             </li>
+            @endif
 
             <li class="nav-item">
                 <h3>

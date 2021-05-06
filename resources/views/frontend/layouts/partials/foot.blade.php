@@ -8,8 +8,7 @@
 @show
 <script src="{{ asset('dist/js/bundle.js?v=2') }}"></script>
 
-
 <!-- Begin CLP plugin -->
-@if(App::environment('production') && request()->get('cookie_code'))
+@if(App::environment('production') && request()->get('cookie_code') && session()->get('source') !== request()->get('source_iLinkEco'))
     <script type="text/javascript" src="https://cookielaw.emea.fcagroup.com/CookieLawProduct/resources/generatejs?key={{request()->get('cookie_code')}}"></script>
 @endif

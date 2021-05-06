@@ -341,6 +341,7 @@
     </div>
 </section>
 
+@if (session()->get('source') !== request()->get('source_iLinkEco'))
 <section class="cta-container configurator bg-secondary">
     <div class="container">
         <div class="row">
@@ -352,6 +353,7 @@
         </div>
     </div>
 </section>
+@endif
 
 <div id="SAFETY"></div>
 <section class="panel">
@@ -423,6 +425,7 @@
     </div>
 </section>
 
+@if (session()->get('source') !== request()->get('source_iLinkEco'))
 <section class="cta-container configurator bg-secondary">
     <div class="container">
         <div class="row">
@@ -434,6 +437,7 @@
         </div>
     </div>
 </section>
+@endif
 
 <div id="CONNECTIVITY"></div>
 <section class="panel">
@@ -628,13 +632,14 @@
                 </div>
             </div>
         </div>
-
+        @if (session()->get('source') !== request()->get('source_iLinkEco'))
         <div class="row py-5">
             <div class="col-12 d-flex align-items-center justify-content-center btn-wrap">
                 <a href="{!! _i("//apps.apple.com/it/app/fiat-goe-live/id1523452215") !!}" target="_blank" class="btn btn-primary mr-5">{!! _i("DOWNLOAD THE FIAT IOS APP") !!}</a>
                 <a href="{!! _i("//play.google.com/store/apps/details?id=com.fca.goelive.fiat") !!}" target="_blank" class="btn btn-primary">{!! _i("DOWNLOAD THE FIAT ANDROID APP") !!}</a>
             </div>
         </div>
+        @endif
     </div>
 </section>
 

@@ -16,6 +16,7 @@ export class Main {
     constructor() {
         this.env = env();
         this.matchMedia = matchMedia();
+        this.iLinkEco();
         this.removePreloader();
         this.layeredPinning();
         this.xGallery();
@@ -27,7 +28,18 @@ export class Main {
         console.log(this.matchMedia);
     }
 
-    private removePreloader = () => {
+    iLinkEco = () => {
+        if (this.env.source !== "iLinkEco") return;
+        const a = document.getElementsByTagName("a");
+        for (var idx = 0; idx < a.length; ++idx) {
+            const href = a[idx].href;
+            if (!href.includes(this.env.app_url)) {
+                a[idx].addEventListener("click", (e) => e.preventDefault());
+            }
+        }
+    };
+
+    removePreloader = () => {
         const preloader = document.getElementById("preloader");
         if (!preloader) return;
         const readyStateCheckInterval = setInterval(() => {

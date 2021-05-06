@@ -39,7 +39,11 @@
                                 <img class="w-50 mb-5" src="{{ asset('images/logos/FCA-FleetBusiness.svg') }}">
                                 <div>
                                     {!! _i("FCA Fleet & Business is the division that responds to all business customer needs, including self-employees, small and medium enterprises and large companies. Through our partners, we provide our business customers with dedicated financial products for leasing, contract hire or purchasing, and tailored after-sales services, such as scheduled service plans and warranty extensions.") !!} 
-                                    <a href="{!! _i("//www.fiat.it/leasing")!!}" target="_blank">{!! _i("fiat.it/leasing") !!}</a>
+                                    @if (session()->get('source') !== request()->get('source_iLinkEco'))
+                                        <a href="{!! _i("//www.fiat.it/leasing")!!}" target="_blank">{!! _i("fiat.it/leasing") !!}</a>
+                                    @else
+                                        {!! _i("fiat.it/leasing") !!}
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -80,7 +84,11 @@
                                     <p>{!! _i("Leasys offers rental and mobility services for individuals, professionals and companies of all size and public administrations: from short-and-medium term rental, long term to car sharing, and from subscription to fleet management, up to the online sale of used end-of-lease cars. Leasys is an all-round mobility operator offering flexible and digital solutions.") !!}<p>
                                     <p>{!! _i("For those who wish to drive the New Fiat 500 and enjoy the experience without thinking at the car management it is possible to rent the new 500 with Leasys Miles, the pay-per-use offer. Thanks to this innovative formula, Leasys responds to the needs of those who use the car mainly around the city and have a low annual mileage. Leasys Miles has a duration of 48 months, has no down payment and it is characterized by an advantageous monthly fee, to which is added a variable fee calculated on the basis of the kilometers actually travelled. The first 1,000 kms are already included in the fee. It is also possible to enrich the basic rental with additional assistance services and insurance coverages to enjoy the car and its use truly with no worries.") !!}<p>
                                     <p>{!! _i("For those who, instead, will choose to buy the New Fiat 500, Leasys have created My Dream Garage: a virtual garage, 100% digital, simply managed through your smartphone that allows driving the most iconic FCA’s House of Brands Vehicles.") !!}<p>
-                                    <p>{!! _i("To more details, please consult") !!} <a href="{!! _i("//www.leasys.com") !!}" target='_blank'>{!! _i("leasys.com") !!}</a><p>
+                                    @if (session()->get('source') !== request()->get('source_iLinkEco'))
+                                        <p>{!! _i("To more details, please consult") !!} <a href="{!! _i("//www.leasys.com") !!}" target='_blank'>{!! _i("leasys.com") !!}</a><p>
+                                    @else
+                                        <p>{!! _i("To more details, please consult") !!} {!! _i("leasys.com") !!}<p>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -101,7 +109,11 @@
                                 <img class="w-50 mb-5" src="{{ asset('images/logos/FCA-BANK.png') }}">
                                 <div>
                                     <p>{!! _i("FCA Bank is the digital bank dedicated to motorists specialized in the car financing. Whether you are a private customer, professionals or run your own business, FCA BANK offers you the best and most flexible financial solutions to facilitate your purchase of the New Fiat 500 so that you can drive it away. With FCA Bank, you can combine your finance with high value-added insurance services tailored to meet your requirements: fire and theft, collision and fully comprehensive insurance, extended warranty, and windscreen or vehicle security marking. For those who want to buy the New 500, FCA Bank has created Go Easy, a new financial solution dedicated, which will be available in all Europe. It is a PCP with a low monthly payment and the guaranteed future of the car. The financing solution which makes it possible to have always a new vehicle, paying just for the effective use, with a broad range of options available at contract expiration including, but not limited to, replacement of vehicle by purchasing a new one, keeping the vehicle by repaying or refinancing the final instalment, returning the vehicle without the obligation to purchase a new one.") !!}</p>
-                                    <p>{!! _i("For full details, please visit") !!} <a href="{!! _i("//www.fcabankgroup.com/") !!}" target='_blank'>{!! _i("fcabankgroup.com") !!}</a></p>
+                                    @if (session()->get('source') !== request()->get('source_iLinkEco'))
+                                        <p>{!! _i("For full details, please visit") !!} <a href="{!! _i("//www.fcabankgroup.com/") !!}" target='_blank'>{!! _i("fcabankgroup.com") !!}</a></p>
+                                    @else
+                                        <p>{!! _i("For full details, please visit") !!} {!! _i("fcabankgroup.com") !!}</p>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -141,7 +153,11 @@
                             <div class="card-body small">
                                 <img class="logo-fiat-commerce mb-3 w-50" src="{{ asset('images/logos/Mopar-estore.svg') }}">
                                 <div>
-                                    {!! _i("The official store for accessories, parts and services for FCA vehicles.") !!} <a href="{!! _i("//moparstore.it") !!}" target='_blank'>{!! _i("moparstore.it") !!}</a>
+                                    @if (session()->get('source') !== request()->get('source_iLinkEco'))
+                                        {!! _i("The official store for accessories, parts and services for FCA vehicles.") !!} <a href="{!! _i("//moparstore.it") !!}" target='_blank'>{!! _i("moparstore.it") !!}</a>
+                                    @else
+                                        {!! _i("The official store for accessories, parts and services for FCA vehicles.") !!} {!! _i("moparstore.it") !!}
+                                    @endif
                                 </div>
                             </div>
                         </div>
