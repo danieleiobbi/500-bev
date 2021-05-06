@@ -71,7 +71,7 @@ class MyConfig
             'market_code' => $request->segment(1),
             'language_code' => $request->segment(2),
             'cookie_code' => $cookieCode,
-            'source_iLinkEco' => 'iLinkEco'
+            'source_iLinkEco' => 'iLinkECO'
         ]);
         return $next($request);
     }
