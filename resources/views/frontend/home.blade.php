@@ -828,10 +828,6 @@
                 </div>
             </div>            
             @endif
-
-
-
-
         </div>
     </div>
 </section>
@@ -869,9 +865,6 @@
                         <h2 class="font-italic font-weight-bold mb-0">{!! _i("LA PRIMA") !!}</h2>
                         <h3 class="font-italic mb-3 pb-2 border-bottom">{!! _i("OPENING EDITION") !!}</h3>
                         <h4 class="card-title font-weight-bold mb-3">{!! _i("HATCHBACK • CABRIO • 3+1") !!}</h4>
-                        @if (LaravelGettext::getLocale() !== 'it_IT')
-                        <p class="font-weight-bold">{!! _i("In addition to Icon contents:") !!}</p>
-                        @endif
                     </div>
                     <div class="col-12 col-lg-6">
                         <ul>
