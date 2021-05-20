@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
 "POT-Creation-Date: 2021-04-21 10:00+0200\n"
-"PO-Revision-Date: 2021-04-23 16:00+0200\n"
+"PO-Revision-Date: 2021-05-19 16:52+0200\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.3\n"
 "X-Poedit-KeywordsList: _;__;_i;_s;gettext;_n:1,2;ngettext:1,2;dgettext:2\n"
 "X-Poedit-Basepath: ../../../../../app\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -178,7 +178,21 @@ msgstr ""
 "Fiat Chrysler Automobiles Spain, S.A. Avenida de Madrid 15. 28802 Alcalá de "
 "Henares.<br> Madrid - España. Inscrita en el Registro Mercantil de Madrid "
 "follo 86, tomo 107 del Libro de Sociedades, hoja #3978, Inscripción 1 CIF "
-"A-28012342"
+"A-28012342 <p class=\"small text-muted mt-3\">Este catálogo online es "
+"propiedad de FCA Italy, una subsidiaria de Stellantis N.V. FCA Italy hace "
+"todos los esfuerzos posibles por asegurarse de que la información, las "
+"imágenes de los productos y las especificaciones contenidas en este catálogo "
+"sean exactas y estén actualizadas, y se reserva el derecho de introducir "
+"cambios de forma ocasional y sin previo aviso en los precios, las "
+"especificaciones, los colores y los materiales, y a cambiar o descatalogar "
+"modelos si se considera necesario para la mejora de los productos o por "
+"razones de diseño y/o marketing. El equipamiento y los extras opcionales "
+"pueden variar en función de los requisitos específicos del mercado o la "
+"legislación. Algunos equipamientos descritos o ilustrados en este catálogo "
+"online son opcionales. Las imágenes son meramente indicativas. Para obtener "
+"más información, visitar la web oficial de Fiat. Fiat® es una marca "
+"registrada de FCA US LLC, una compañía subsidiaria de Stellantis N.V."
+"<br>Fiat 04.2.4017.54 – S – 05/2021</p>"
 
 #: ../storage/framework/messages/190059d09b1d89eef6ff3862c640e8eee47af0bb.php.php:10
 msgid "CIAO FIAT CUSTOMER CARE"
@@ -686,26 +700,7 @@ msgid ""
 "(WLTP)*."
 msgstr ""
 "Disfruta del viaje sabiendo que tienes hasta 460 km de autonomía en la "
-"ciudad y hasta 320 km en el ciclo mixto (WLTP)*.<br>\n"
-"* El valor de consumo eléctrico se ha definido a partir de ensayos "
-"oficiales, en conformidad con lo estipulado en las normas de la UE vigentes "
-"en el momento de la homologación. En particular, los valores indicados se "
-"calculan en función del procedimiento de prueba WLTP. Los valores de consumo "
-"eléctrico solo se indican con el fin de comparar los datos del vehículo. Los "
-"valores de homologación de consumo de electricidad podrían no coincidir con "
-"los valores reales, que dependen de muchos factores, entre ellos, el estilo "
-"de conducción, el trayecto, las condiciones meteorológicas y el estado de la "
-"carretera, así como del estado del vehículo, su uso y su equipamiento. Los "
-"valores de consumo eléctrico especificados en este documento se refieren a "
-"las versiones del vehículo con los valores más altos y más bajos. Dichos "
-"valores pueden cambiar en función del equipamiento seleccionado o de las "
-"medidas de los neumáticos. Los valores de consumo de electricidad indicados "
-"no son definitivos y pueden evolucionar si se modifica el ciclo de "
-"producción. En todo caso, los valores oficiales de consumo eléctrico se "
-"suministrarán con la documentación adjunta al vehículo adquirido. Si los "
-"valores de consumo de electricidad son relevantes para calcular los "
-"impuestos y otras obligaciones relacionadas con el vehículo, es preciso "
-"consultar la legislación vigente en cada país."
+"ciudad y hasta 320 km en el ciclo mixto (WLTP)*.<br>"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:124
 msgid "COMBINED CYCLE WLTP UP TO"
@@ -817,7 +812,7 @@ msgstr "50Km"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:192
 msgid "IN 5 MINUTES"
-msgstr "IN 5 MINUTOS"
+msgstr "EN 5 MINUTOS"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:197
 msgid "0-80%"
@@ -825,7 +820,7 @@ msgstr "0-80%"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:198
 msgid "IN 35 MINUTES"
-msgstr "IN 35 MINUTOS"
+msgstr "EN 35 MINUTOS"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:207
 msgid "EASYWALLBOX"
@@ -944,7 +939,7 @@ msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:312
 msgid "AN EXCLUSIVE WALLBOX"
-msgstr "UNA WALLBOX EXCLUSIVA"
+msgstr "UN WALLBOX EXCLUSIVO"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:313
 msgid ""
@@ -1360,7 +1355,7 @@ msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:742
 msgid "Eco-leather Steering Wheel"
-msgstr "Volante forrado de toque suave"
+msgstr "Volante con tacto suave"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:743
 msgid "All Power Windows"

@@ -236,7 +236,7 @@
             </div>
             <div class="col-12 col-lg-6 gs_reveal gs_reveal_fromLeft mb-5 mb-lg-0 ">
                 <div class="row mb-5">
-                    <div class="col-12 col-xl-8 white">
+                    <div class="col-12 white">
                         <h1 class="font-italic font-light border-bottom">{!! _i("PURE") !!}</h1>
                         <h1 class="ml-5 font-italic font-weight-bold">{!! _i("PLEASURE") !!}</h1>
                         <p>
