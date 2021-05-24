@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
 "POT-Creation-Date: 2021-04-21 10:00+0200\n"
-"PO-Revision-Date: 2021-05-19 16:52+0200\n"
+"PO-Revision-Date: 2021-05-21 17:00+0200\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: es_ES\n"
@@ -652,7 +652,7 @@ msgstr ""
 "El interior, con un diseño de líneas simples y menos botones, está pensado "
 "para ampliar el espacio e incorpora detalles inspirados en la naturaleza y "
 "la sostenibilidad. Además, con el compartimento del nuevo reposabrazos "
-"delantero y el soporte con carga inalámbrica para el smatphone, hay sitio "
+"delantero y el soporte con carga inalámbrica para el smartphone, hay sitio "
 "para todo."
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:83
@@ -1457,7 +1457,7 @@ msgstr "Radionavegador de 26 cm (10,25”)"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:824
 msgid "Wireless charger"
-msgstr "Cargador inalámbrico"
+msgstr "Cargador inalámbrico smartphone compatibles"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:825
 msgid "360° Drone view & Rear view parking Camera"
@@ -1473,7 +1473,7 @@ msgstr "Cable de Modo 3 (11 kW)"
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:831
 msgid "Second side door (3+1 version only)"
-msgstr "320 km (Autonomía WLTP)"
+msgstr ""
 
 #: ../storage/framework/messages/35d55f23c075770159f835247b3872a97ce97042.php.php:844
 msgid "A MATTER"
@@ -1536,16 +1536,16 @@ msgstr "PACK STYLE (OPC. 3RL)"
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:9
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:18
 msgid "Tinted glass (070)"
-msgstr "Lunas tintadas (070)"
+msgstr "Lunas tintadas"
 
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:10
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:19
 msgid "Front/rear floor mats with 500 logo (396)"
-msgstr "Alfombrillas delanteras/traseras con el logotipo 500 (396)"
+msgstr "Alfombrillas delanteras/traseras con el logotipo 500"
 
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:11
 msgid "Kick plate-door sill plate (018)"
-msgstr "Protector-embellecedor de paso de puerta (018)"
+msgstr "Protector-embellecedor de paso de puerta"
 
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:16
 msgid "STYLE PACK CABRIO (opt 3RM)"
@@ -1564,15 +1564,15 @@ msgstr "PACK MAGIC EYE (OPC. 3RK)"
 
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:32
 msgid "LED Headlamps (5EM)"
-msgstr "Faros LED (5EM)"
+msgstr "Faros LED"
 
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:33
 msgid "Auto High/Low Beam (1H2)"
-msgstr "Control automático de luces largas (1H2)"
+msgstr "Control automático de luces largas"
 
 #: ../storage/framework/messages/725f2cbf06c29ed3f58e5fb1ba5020c2a1a7419f.php.php:34
 msgid "Electrochromic internal rearview mirror (410)"
-msgstr "Retrovisor interior electrocrómico (410)"
+msgstr "Retrovisor interior electrocrómico"
 
 #: ../storage/framework/messages/912dd498141ffe76eb6df0cacfe9d4b27a935268.php.php:5
 msgid "LITTLE DETAILS"
@@ -1660,7 +1660,7 @@ msgstr ""
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:57
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:74
 msgid "Electrical side mirrors with defrost (041)"
-msgstr ""
+msgstr "Retrovisores exteriores calefactables"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:20
 msgid "WINTER PACK (opt 6R7)"
@@ -1677,13 +1677,11 @@ msgstr "PACK ASIENTOS (OPC. 3RJ)"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:36
 msgid "1st Row Adjustable Seats 6 ways (JTM) • Center Armrest (132)"
-msgstr ""
-"Asientos delanteros regulables en 6 posiciones (JTM) •Reposabrazos central "
-"(132)"
+msgstr "Asientos delanteros regulables en 6 posiciones •Reposabrazos central"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:37
 msgid "Close central console (467)"
-msgstr "Consola central cerrada (467)"
+msgstr "Consola central cerrada"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:50
 msgid "CONVENIENCE PACK HB (opt 3RN)"
@@ -1692,17 +1690,17 @@ msgstr "PACK CONFORT (OPC. 3RN)"
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:52
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:61
 msgid "Automatic climate control (140)"
-msgstr "Climatizador automático (140)"
+msgstr "Climatizador automático"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:53
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:62
 msgid "All Power windows up/down, open/close via remote control (038)"
-msgstr "Elevalunas eléctricos, apertura/cierre con mando a distancia (038)"
+msgstr "Elevalunas eléctricos, apertura/cierre con mando a distancia"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:54
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:63
 msgid "Passive Entry + Wearable key (9Z0)"
-msgstr "Apertura pasiva + Llave inteligente en forma de guijarro (9Z0)"
+msgstr "Apertura pasiva + Llave inteligente en forma de guijarro"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:59
 msgid "CONVENIENCE PACK CABRIO (opt 3RO)"
@@ -1710,7 +1708,7 @@ msgstr "PACK CONFORT CABRIO (OPC. 3RO)"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:64
 msgid "Roof open/close via remote control (GWB)"
-msgstr "Apertura/cierre de techo con mando a distancia (GWB)"
+msgstr "Apertura/cierre de techo con mando a distancia"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:68
 msgid "AVAILABLE ON: PASSION"
@@ -1755,23 +1753,23 @@ msgstr "PACK RADIO (OPC. 3RD)"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:9
 msgid "Radio 7” (07W)"
-msgstr "Radio con pantalla de 18 cm (7’’) (07W)"
+msgstr "Radio con pantalla de 18 cm (7’’)"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:10
 msgid "CarPlay/Android Auto™ (8EW)"
-msgstr "CarPlay/Android Auto™ (8EW)"
+msgstr "CarPlay/Android Auto™"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:14
 msgid "Uconnect™ Services (RTK)"
-msgstr "Uconnect™ Services™ (RTK)"
+msgstr "Uconnect™ Services™"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:15
 msgid "DAB (RS9)"
-msgstr "DAB (RS9)"
+msgstr "DAB"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:16
 msgid "1° rowfull functioning with USB (0SU)"
-msgstr "Conexión USB en la consola central (0SU)"
+msgstr "Conexión USB en la consola central"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:21
 msgid "AVAILABLE ON: ACTION"
@@ -1785,24 +1783,24 @@ msgstr "PACK PARKING (OPC. 3RI)"
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:49
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:69
 msgid "360° Drone View (XAH)"
-msgstr "Vista de Drone 360° (XAH)"
+msgstr "Vista de Drone 360°"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:31
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:50
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:70
 msgid "Urban Blind Spot (XAN)"
-msgstr "Control de ángulos muertos (XAN)"
+msgstr "Control de ángulos muertos"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:32
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:51
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:71
 msgid "Rearview Parking Camera (9YN)"
-msgstr "Cámara de visión trasera (9YN)"
+msgstr "Cámara de visión trasera"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:34
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:72
 msgid "6 speakers (RCG)"
-msgstr "6 altavoces (RCG)"
+msgstr "6 altavoces"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:46
 msgid "FIAT CO-DRIVER PACK Passion (opt 2N5)"
@@ -1811,19 +1809,19 @@ msgstr "PACK FIAT CO-DRIVER PASSION (OPC. 3RG)"
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:48
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:68
 msgid "Fiat Co-Driver (Autonomous Driving L2) (NH1)"
-msgstr "Fiat Co-Driver (conducción autónoma de Nivel 2) (NH1)"
+msgstr "Fiat Co-Driver (conducción autónoma de Nivel 2)"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:55
 msgid "Traffic sign information (0XR)"
-msgstr "Información de señales de tráfico (0XR)"
+msgstr "Información de señales de tráfico"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:56
 msgid "Radio 10,25” NAV (9YT) + 6 speakers (RCG)"
-msgstr "Radionavegador de 26 cm (10,25’’) (9YT) + 6 altavoces (RCG)"
+msgstr "Radionavegador de 26 cm (10,25’’) + 6 altavoces"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:58
 msgid "Steering wheel soft touch (318)"
-msgstr "Volante de tacto suave (318)"
+msgstr "Volante de tacto suave"
 
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:66
 msgid "FIAT CO-DRIVER PACK Icon (opt 2N6)"
