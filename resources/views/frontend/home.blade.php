@@ -895,7 +895,7 @@
                             <li>{!! _i("Fast charge 85 kW") !!}</li>
                             <li>{!! _i("Mode 3 cable (11 kW)") !!}</li>
                             <li>{!! _i("320 km (WLTP)") !!}</li>
-                            @if (LaravelGettext::getLocale() !== 'it_IT' && LaravelGettext::getLocale() !== 'en_ES')
+                            @if (LaravelGettext::getLocale() !== 'it_IT' && LaravelGettext::getLocale() !== 'es_ES')
                             <li>{!! _i("Second side door (3+1 version only)") !!}</li>
                             @endif
                         </ul>
