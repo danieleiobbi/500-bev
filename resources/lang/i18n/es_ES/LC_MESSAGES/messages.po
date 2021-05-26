@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MultilanguageLaravelApplication\n"
 "POT-Creation-Date: 2021-04-21 10:00+0200\n"
-"PO-Revision-Date: 2021-05-21 17:00+0200\n"
+"PO-Revision-Date: 2021-05-26 09:52+0200\n"
 "Last-Translator: James Translator <james@translations.colm>\n"
 "Language-Team: James Translator <james@translations.colm>\n"
 "Language: es_ES\n"
@@ -1635,7 +1635,7 @@ msgstr ""
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:10
 #: ../storage/framework/messages/ce6dcd099bbb170d5110358dd5922bdbc9ff41d2.php.php:12
 msgid "Wireless Mobile Charger (RFX)"
-msgstr ""
+msgstr "Cargador inalámbrico smartphone compatibles"
 
 #: ../storage/framework/messages/abcb2ce6f42d753e118e78326ebc800bf006085f.php.php:11
 msgid "Telematic Box Module (RTK), DAB (RS9)"
