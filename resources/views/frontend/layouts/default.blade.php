@@ -29,9 +29,8 @@
         @yield('content')
 
         <!-- Footer area -->
-        @if (session()->get('source') !== request()->get('source_iLinkEco'))
-            @include('frontend.layouts.partials.footer')
-        @endif
+        
+        @include('frontend.layouts.partials.footer')
         @include('frontend.layouts.partials.foot')
     </main>
 </body>

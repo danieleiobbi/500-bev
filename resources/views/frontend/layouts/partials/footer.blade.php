@@ -1,3 +1,4 @@
+@if (session()->get('source') !== request()->get('source_iLinkEco'))
 <footer>
     <div class="container">
         <div class="row">
@@ -44,3 +45,28 @@
         </div>
     </div>
 </footer>
+@else
+    {{-- iLinkEco --}}
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-12 pb-lg-0 pb-5">
+                    <img src="{{ asset('images/logos/fiat-logo.png') }}" alt="">
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                    <ul>
+                        <!-- Begin CLP plugin -->
+                        @if(App::environment('production') && request()->get('cookie_code'))
+                            <li>
+                                <a onclick="javascript:getCookieOpenModal()" style="cursor: pointer" target="_blank">Cookies</a>
+                            </li>
+                        @endif
+                    </ul>
+                    <div class="footer-text">
+                        {!! _i("FCA Italy S.p.A. Corso G. Agnelli 200, 10135 Turin, Italy<br>Turin Companies Register / Tax code no. 07973780013 Company capital 800.000.000 Euros, fully paid up A single shareholder company.")!!}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+@endif
